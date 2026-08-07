@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "source": "CHDF body-work theorem plus normalized symmetric-qubit Uhlmann carrier",
+  "convention": "x_Q=2(1-root_fidelity), so 0<=x_Q<=2",
+  "realization_law": "r(x)^2=x-x^2/4",
+  "realization_grid": [
+    {
+      "x_A": 0.0,
+      "bloch_radius": 0.0,
+      "x_Q": 0.0,
+      "error": 0.0
+    },
+    {
+      "x_A": 0.25,
+      "bloch_radius": 0.4841229182759271,
+      "x_Q": 0.25,
+      "error": 0.0
+    },
+    {
+      "x_A": 0.5,
+      "bloch_radius": 0.6614378277661477,
+      "x_Q": 0.5,
+      "error": 0.0
+    },
+    {
+      "x_A": 1.0,
+      "bloch_radius": 0.8660254037844386,
+      "x_Q": 0.9999999999999998,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "x_A": 1.5,
+      "bloch_radius": 0.9682458365518543,
+      "x_Q": 1.5000000000000004,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "x_A": 1.75,
+      "bloch_radius": 0.9921567416492215,
+      "x_Q": 1.7500000000000009,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "x_A": 2.0,
+      "bloch_radius": 1.0,
+      "x_Q": 2.0,
+      "error": 0.0
+    }
+  ],
+  "depolarizing_counterfamily_at_x_A_1": [
+    {
+      "gamma": 0.0,
+      "x_Q": 0.0
+    },
+    {
+      "gamma": 0.25,
+      "x_Q": 0.047437581023336506
+    },
+    {
+      "gamma": 0.5,
+      "x_Q": 0.19722436226800544
+    },
+    {
+      "gamma": 0.75,
+      "x_Q": 0.47930936742544517
+    },
+    {
+      "gamma": 1.0,
+      "x_Q": 0.9999999999999998
+    }
+  ],
+  "out_of_range_control": {
+    "x_A": 2.25,
+    "formal_radius": 0.9921567416492215,
+    "actual_x_Q": 1.7500000000000009
+  },
+  "checks": {
+    "exact_realization_on_closed_range": true,
+    "normalized_uhlmann_chord_is_bounded_by_two": true,
+    "formal_continuation_above_two_uses_wrong_branch": true,
+    "cptp_depolarization_does_not_select_unique_chord": true,
+    "identity_endpoint_recovers_A8b_at_control": true
+  },
+  "theorem_status": {
+    "existence": "proved for the occupied sector 0 <= x_A <= 2",
+    "global_identity": "impossible for an unbounded CHDF action and normalized Uhlmann chord",
+    "physical_selection": "not implied by positivity, normalization, or CPTP descent",
+    "remaining_source_law": "select V_phys=V_r(x), or derive a bounded replacement for x_A"
+  },
+  "verdict": "BOUNDED_A8B_REALIZATION_EXISTS_BUT_PHYSICAL_CONNECTOR_SELECTION_REMAINS_OPEN"
+}

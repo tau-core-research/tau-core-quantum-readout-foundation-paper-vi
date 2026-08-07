@@ -1,0 +1,24 @@
+{
+  "schema": "tau_core_hypergraph_isolation_quantum_protection_audit_v01",
+  "checks": {
+    "disconnected_local_action_is_block_diagonal": true,
+    "isolated_hessian_is_positive": true,
+    "crossing_hyperedge_creates_mixed_hessian": true,
+    "isolated_descent_recovers_every_test_state": true,
+    "isolated_complement_is_state_independent": true,
+    "crossing_interaction_exports_information": true,
+    "crossing_interaction_dephases_coherence": true,
+    "interaction_control_preserves_total_trace": true,
+    "interaction_control_preserves_global_purity": true
+  },
+  "metrics": {
+    "isolated_mixed_hessian_norm": 0.0,
+    "interacting_mixed_hessian_norm": 0.4242640687119285,
+    "isolated_recovery_error": 0.0,
+    "interaction_coherence_loss": 0.7071067811865474
+  },
+  "theorem": "Disjoint action valuation forces action additivity and a zero mixed Hessian. If the source load, global generator and occupied state also factor across the same components, the inaccessible complement is logical-state independent and observer descent has an exact CPTP left inverse. The latter factors are additional global premises, not consequences of the Hessian calculation alone.",
+  "interaction_law": "A source-owned hyperedge crossing the partition creates the mixed Hessian and permits logical information to enter the complement. Local decoherence is then allowed while the complete joint state remains normalized and pure/unitary.",
+  "verdict": "FULL_SOURCE_HYPERGRAPH_FACTORIZATION_IMPLIES_QUANTUM_PROTECTION;_ACTION_VALUATION_ALONE_IMPLIES_ONLY_ZERO_MIXED_HESSIAN",
+  "claim_boundary": "This verifies the full-factorization-to-recovery implication and the weaker valuation-to-Hessian implication separately. It does not derive global factorization from a local Hessian, prove exact isolation for every real apparatus, rule out weak residual couplings, derive a decoherence rate, measurement outcome or absolute hbar."
+}

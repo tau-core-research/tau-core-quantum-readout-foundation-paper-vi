@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "candidate_count": 8,
+  "full_pass_count": 0,
+  "ranked": [
+    {
+      "id": "ness2021_single_atom_qsl",
+      "gate_score": 4,
+      "full_finite_tau_test": false,
+      "verdict": "strongest public QOR control: overlap, time, mean energy and variance; no independent morphological action"
+    },
+    {
+      "id": "kim2025_black_phosphorus",
+      "gate_score": 3,
+      "full_finite_tau_test": false,
+      "verdict": "best spectral-response candidate; xA map is not frozen and QGT shares the ARPES/pseudospin pipeline"
+    },
+    {
+      "id": "kit2024_readout_mitigated_tomography",
+      "gate_score": 3,
+      "full_finite_tau_test": false,
+      "verdict": "useful recovery certification; no action axis"
+    },
+    {
+      "id": "pires2024_nmr_open_qsl",
+      "gate_score": 3,
+      "full_finite_tau_test": false,
+      "verdict": "QSL/recovery control; QFI and WY are reconstructed from the same Bloch observables"
+    },
+    {
+      "id": "tan2019_superconducting_qgt",
+      "gate_score": 3,
+      "full_finite_tau_test": false,
+      "verdict": "local connector proxy; periodic drive and quench are both QGT estimators"
+    },
+    {
+      "id": "zheng2022_nonabelian_qgt",
+      "gate_score": 3,
+      "full_finite_tau_test": false,
+      "verdict": "drive/Rabi response is the QGT extraction itself, not an independent action ledger"
+    },
+    {
+      "id": "yu2019_nv_qgt",
+      "gate_score": 2,
+      "full_finite_tau_test": false,
+      "verdict": "metric/Berry identity control; both axes are quantum-geometric"
+    },
+    {
+      "id": "zenodo2026_photonic_similarity",
+      "gate_score": 2,
+      "full_finite_tau_test": false,
+      "verdict": "direct overlap/xQ candidate; no action axis"
+    }
+  ],
+  "strongest_QOR_control": "ness2021_single_atom_qsl",
+  "strongest_spectral_xA_candidate": "kim2025_black_phosphorus",
+  "decision": "No surveyed public dataset currently identifies x_A independently. Use Ness 2021 only as a QOR standard control and freeze a separate spectral-response map before any Kim 2025 endpoint calculation."
+}

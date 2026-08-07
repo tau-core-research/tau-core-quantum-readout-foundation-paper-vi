@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "construction": "N_O=A_j'=I_2 on j tensor M_4 on the complement; A_ROOT,O=N_O'=A_j",
+  "rows": [
+    {
+      "observer_context": 0,
+      "noise_algebra_dimension": 16,
+      "noise_commutant_dimension": 4,
+      "logical_algebra_dimension": 4,
+      "logical_commutant_dimension": 16
+    },
+    {
+      "observer_context": 1,
+      "noise_algebra_dimension": 16,
+      "noise_commutant_dimension": 4,
+      "logical_algebra_dimension": 4,
+      "logical_commutant_dimension": 16
+    },
+    {
+      "observer_context": 2,
+      "noise_algebra_dimension": 16,
+      "noise_commutant_dimension": 4,
+      "logical_algebra_dimension": 4,
+      "logical_commutant_dimension": 16
+    }
+  ],
+  "checks": {
+    "each_maximal_noise_algebra_has_M2_commutant": true,
+    "each_selected_M2_has_M4_commutant": true,
+    "three_contexts_form_one_S3_orbit": true
+  },
+  "status": {
+    "designation": "the observer-source complementary/noise algebra designates the logical factor by its commutant",
+    "body": "the common unordered three-factor body is unchanged",
+    "observer_consistency": "different observers may select permuted factors covariantly",
+    "physical_occupation": "open: the base-seed-body law has not been shown to realize a maximal factor-complement noise algebra",
+    "chirality": "independent open discrete selection"
+  },
+  "verdict": "MAXIMAL_COMPLEMENTARY_OBSERVER_ALGEBRA_DESIGNATES_A_UNIQUE_LOGICAL_FACTOR_BY_COMMUTANT"
+}

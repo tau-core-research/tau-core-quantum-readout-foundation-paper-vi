@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "candidate_count": 6,
+  "full_pass_count": 0,
+  "ranked": [
+    {
+      "id": "cottet2017_maxwell_demon",
+      "strict_gate_score": 3,
+      "full_same_carrier_pass": false,
+      "missing_gates": [
+        "closed_loop_phase_or_holonomy",
+        "independent_action_to_body_mapping",
+        "public_numerical_data"
+      ],
+      "verdict": "Strongest work-plus-tomography capability; no closed phase transport and no morphological action bridge."
+    },
+    {
+      "id": "viyuela2018_superconducting_uhlmann",
+      "strict_gate_score": 3,
+      "full_same_carrier_pass": false,
+      "missing_gates": [
+        "direct_action_or_work_record",
+        "independent_action_to_body_mapping",
+        "public_numerical_data"
+      ],
+      "verdict": "Strongest Uhlmann/holonomy leg; no independently measured action-side observable."
+    },
+    {
+      "id": "zhao2020_xmon_geometric_gate",
+      "strict_gate_score": 3,
+      "full_same_carrier_pass": false,
+      "missing_gates": [
+        "direct_action_or_work_record",
+        "independent_action_to_body_mapping",
+        "public_numerical_data"
+      ],
+      "verdict": "Best phase-plus-process-tomography architecture; pulse area is imposed control, not an independent body-action estimator."
+    },
+    {
+      "id": "batalhao2014_nmr_work",
+      "strict_gate_score": 2,
+      "full_same_carrier_pass": false,
+      "missing_gates": [
+        "endpoint_state_geometry",
+        "closed_loop_phase_or_holonomy",
+        "independent_action_to_body_mapping",
+        "public_numerical_data"
+      ],
+      "verdict": "Strongest direct-work leg; no closed connector witness and thermodynamic work is not yet morphological action."
+    },
+    {
+      "id": "ghosh2006_nmr_mixed_phase",
+      "strict_gate_score": 2,
+      "full_same_carrier_pass": false,
+      "missing_gates": [
+        "direct_action_or_work_record",
+        "endpoint_state_geometry",
+        "independent_action_to_body_mapping",
+        "public_numerical_data"
+      ],
+      "verdict": "Mixed-state interferometric phase leg; no independent work/action record."
+    },
+    {
+      "id": "naghiloo2020_quantum_trajectories",
+      "strict_gate_score": 2,
+      "full_same_carrier_pass": false,
+      "missing_gates": [
+        "direct_action_or_work_record",
+        "closed_loop_phase_or_holonomy",
+        "independent_action_to_body_mapping",
+        "public_numerical_data"
+      ],
+      "verdict": "Best trajectory-resolved work/state candidate, but work is reconstructed from rho(t) and H(t), no closed holonomy is reported, and no independent body-action bridge is present."
+    }
+  ],
+  "strongest_work_tomography_leg": "cottet2017_maxwell_demon",
+  "strongest_holonomy_leg": "viyuela2018_superconducting_uhlmann",
+  "strongest_integrated_architecture": "zhao2020_xmon_geometric_gate",
+  "strongest_trajectory_resolved_candidate": "naghiloo2020_quantum_trajectories",
+  "decision": "Alternative experimental source legs exist, but no located public experiment provides the complete source-frozen same-carrier action/state/holonomy packet. The finite reopening architecture is work interferometry plus endpoint tomography plus a closed Bargmann/Uhlmann loop on one carrier; thermodynamic work or imposed control-pulse area must not be renamed morphological action without an independent bridge."
+}

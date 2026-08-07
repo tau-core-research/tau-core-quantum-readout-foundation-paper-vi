@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "status": "BOUNDED_MORPHOLOGICAL_FUTURE_BODY",
+  "definition": "E_plus(x,Lambda)=F_plus intersect C_plus intersect D_M intersect {v:<v,g_plus v><=Lambda}",
+  "sufficient_conditions": [
+    "finite-dimensional future fibre",
+    "positive-definite restricted body Hessian",
+    "finite morphology/action cutoff",
+    "closed causal and morphology-admissibility constraints"
+  ],
+  "finite_certificate": {
+    "future_fibre_dimension": 4,
+    "hessian_eigenvalues": [
+      1.0,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "finite_cutoff": 2.0,
+    "ellipsoid_axes": [
+      1.4142135623730951,
+      1.1547005383792515,
+      1.0,
+      0.816496580927726
+    ],
+    "ellipsoid_volume": 6.579736267392905,
+    "observer_resolution": 0.1,
+    "finite_resolved_cell_upper_bound": 283500
+  },
+  "claim_boundary": {
+    "proved": "under the stated local conditions the future possibility body is compact, finite-volume and has finitely many observer-resolved cells",
+    "not_proved": "global compactness across singular/topology-changing parent regions, a universal cutoff, or the numerical capacity of the physical observer"
+  },
+  "verdict": "FUTURE_FLUIDITY_IS_RELATIVE_AND_BODY_BOUNDED_NOT_INFINITE"
+}

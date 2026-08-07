@@ -1,0 +1,55 @@
+{
+  "schema": "tau-core-paper-vi-tensor-factorization-audit-v0.1",
+  "canonical_factor_dimensions": [
+    4,
+    4,
+    4
+  ],
+  "joint_generated_complex_rank": 64,
+  "commutant_complex_dimensions_after_1_2_3_factors": [
+    16,
+    4,
+    1
+  ],
+  "pointer_projectors_fixed_by_entangling_unitary": true,
+  "first_factor_moved_outside_original_span": true,
+  "moved_joint_generated_complex_rank": 64,
+  "unoriented_pairing_choices_before_source_typing": 105,
+  "oriented_clifford_flag_constructs_three_commuting_factors": true,
+  "seventh_gamma_equals_product_of_three_flag_parities_on_selected_block": true,
+  "tetrahedral_pair_sum_rank": 4,
+  "tetrahedral_W2_complement_rank": 2,
+  "rank4_plus_positive_W2_fluctuation_completes_edge_carrier": true,
+  "current_CHDF_pair_common_dimension": 1,
+  "current_CHDF_pair_difference_dimension": 3,
+  "current_CHDF_pair_common_W2_dimension": 0,
+  "current_rooted_mixed_Gram_max_rank": 1,
+  "current_CHDF_Hessian_can_own_nondegenerate_rooted_mixed_Gram": false,
+  "source_root_involution_maps_pair_differences_to_pair_commons": true,
+  "source_root_involution_commutes_with_root_stabilizer_S3": true,
+  "TC_CVP1_quadratic_germ_rooted_mixed_Gram_rank": 3,
+  "TC_CVP1_quadratic_germ_has_nonzero_scalar_and_W2_coefficients": true,
+  "TC_CVP1_rooted_polarization_is_Nature_selected": false,
+  "S4_invariant_symmetric_W2_hessian_dimension": 1,
+  "single_tetrahedral_STF_orbit_rank": 3,
+  "aligned_two_occurrence_STF_rank": 3,
+  "two_frame_occurrence_STF_rank": 5,
+  "base_occurrence_transport_can_generate_missing_W2_without_new_seed_data": true,
+  "MBC_root_and_typed_TC_CVP1_alone_force_occurrence_rank_five": false,
+  "natural_tetrahedral_opposite_edge_planes_are_mutually_orthogonal": false,
+  "natural_tetrahedral_edge_gram_eigenvalues": [
+    0.5,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    2.0
+  ],
+  "same_rank4_equilibrium_allows_zero_and_positive_W2_stiffness": true,
+  "same_six_gamma_factorization_allows_both_central_chiralities": true,
+  "verdict": {
+    "one_record_or_one_M2_factor_selects_three_factorization": false,
+    "two_commuting_M2_factors_select_third_as_commutant": true,
+    "full_factor_ledger_is_selected_by_current_parent": false
+  }
+}

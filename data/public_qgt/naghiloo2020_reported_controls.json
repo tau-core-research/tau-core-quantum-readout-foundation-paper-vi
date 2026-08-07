@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "source": "https://arxiv.org/abs/1703.05885",
+  "doi": "10.1103/PhysRevLett.124.110604",
+  "values_are": "reported publication-level controls, not raw-data reanalysis",
+  "time_resolution_ns": 20.0,
+  "trajectory_count_per_reported_ensemble": 10000,
+  "measurement_efficiency": 0.35,
+  "heat_feedback_correlation": -0.68,
+  "feedback_vs_unitary_work_slope": 0.437,
+  "open_vs_unitary_work_slope": 0.006,
+  "same_carrier_state_path": true,
+  "terminal_projective_check": true,
+  "trajectory_heat_work": true,
+  "closed_bargmann_or_uhlmann_loop": false,
+  "raw_trajectory_archive_located": false,
+  "work_independent_of_rho_and_H": false,
+  "body_action_map_frozen": false
+}

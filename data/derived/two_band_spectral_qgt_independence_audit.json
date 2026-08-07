@@ -1,0 +1,42 @@
+{
+  "family": "H(q)=r(q)n(q).sigma with r=1+bq^2 and n=(sin(aq),0,cos(aq))",
+  "identity": "g_qq(0)=a^2/4 while E_+''(0)=2b",
+  "same_QGT_different_spectral_curvature": [
+    {
+      "angular_rate_a": 1.0,
+      "radial_quadratic_b": 1.0,
+      "ground_state_quantum_metric_g_qq": 0.25,
+      "positive_energy_second_derivative": 2.0,
+      "gap_at_q0": 2.0
+    },
+    {
+      "angular_rate_a": 1.0,
+      "radial_quadratic_b": 3.0,
+      "ground_state_quantum_metric_g_qq": 0.25,
+      "positive_energy_second_derivative": 6.0,
+      "gap_at_q0": 2.0
+    }
+  ],
+  "same_spectral_curvature_different_QGT": [
+    {
+      "angular_rate_a": 1.0,
+      "radial_quadratic_b": 1.0,
+      "ground_state_quantum_metric_g_qq": 0.25,
+      "positive_energy_second_derivative": 2.0,
+      "gap_at_q0": 2.0
+    },
+    {
+      "angular_rate_a": 2.0,
+      "radial_quadratic_b": 1.0,
+      "ground_state_quantum_metric_g_qq": 1.0,
+      "positive_energy_second_derivative": 2.0,
+      "gap_at_q0": 2.0
+    }
+  ],
+  "conclusions": {
+    "spectrum_determines_QGT_in_generic_two_band_family": false,
+    "QGT_determines_spectral_curvature_in_generic_two_band_family": false,
+    "spectral_curvature_can_be_relabelled_as_independent_x_A_without_extra_source_law": false
+  },
+  "claim_boundary": "A source-owned relation tying radial and angular Bloch data could evade this countermodel, but that relation must be derived independently."
+}

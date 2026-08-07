@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "symmetry": "root stabilizer S3 acting transitively on the three Clifford factor labels",
+  "factor_orbit_size": 3,
+  "invariant_label_space_dimension": 1,
+  "fixed_individual_factor_flags": [
+    false,
+    false,
+    false
+  ],
+  "checks": {
+    "S3_action_is_transitive_on_three_factors": true,
+    "no_individual_factor_is_S3_fixed": true,
+    "only_scalar_label_direction_is_invariant": true,
+    "symmetric_access_weights_cannot_have_unique_factor_maximum": true
+  },
+  "theorem_status": {
+    "oriented_factor_set": "selected conditionally by OHC-P1 plus rooted TC-CVP1",
+    "distinguished_ROOT_M2": "not selected by the S3-symmetric rooted packet",
+    "minimal_reopening": "a source-owned S3-breaking typed access functional or observer-source context",
+    "chirality": "independent discrete selection remains open"
+  },
+  "verdict": "ROOTED_PACKET_SELECTS_AN_UNORDERED_FACTOR_TRIPLE_NOT_ONE_DISTINGUISHED_ROOT_FACTOR"
+}

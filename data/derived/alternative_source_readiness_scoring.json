@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "rubric_frozen_before_scoring": true,
+  "score_is_tau_signal": false,
+  "hard_gate_overrides_total": true,
+  "ranking": [
+    {
+      "id": "zhao2020_xmon_geometric_gate",
+      "score": 8,
+      "maximum": 13,
+      "components": {
+        "same_carrier": 2,
+        "direct_work": 1,
+        "endpoint_geometry": 2,
+        "loop_holonomy": 2,
+        "independent_body_action_bridge": 0,
+        "public_reusable_data": 0,
+        "errors_and_recovery": 1
+      },
+      "hard_tau_ready": false,
+      "interpretation": "capability readiness only"
+    },
+    {
+      "id": "cottet2017_maxwell_demon",
+      "score": 7,
+      "maximum": 13,
+      "components": {
+        "same_carrier": 2,
+        "direct_work": 2,
+        "endpoint_geometry": 2,
+        "loop_holonomy": 0,
+        "independent_body_action_bridge": 0,
+        "public_reusable_data": 0,
+        "errors_and_recovery": 1
+      },
+      "hard_tau_ready": false,
+      "interpretation": "capability readiness only"
+    },
+    {
+      "id": "viyuela2018_superconducting_uhlmann",
+      "score": 7,
+      "maximum": 13,
+      "components": {
+        "same_carrier": 2,
+        "direct_work": 0,
+        "endpoint_geometry": 2,
+        "loop_holonomy": 2,
+        "independent_body_action_bridge": 0,
+        "public_reusable_data": 0,
+        "errors_and_recovery": 1
+      },
+      "hard_tau_ready": false,
+      "interpretation": "capability readiness only"
+    },
+    {
+      "id": "batalhao2014_nmr_work",
+      "score": 6,
+      "maximum": 13,
+      "components": {
+        "same_carrier": 2,
+        "direct_work": 2,
+        "endpoint_geometry": 1,
+        "loop_holonomy": 0,
+        "independent_body_action_bridge": 0,
+        "public_reusable_data": 0,
+        "errors_and_recovery": 1
+      },
+      "hard_tau_ready": false,
+      "interpretation": "capability readiness only"
+    },
+    {
+      "id": "ghosh2006_nmr_mixed_phase",
+      "score": 6,
+      "maximum": 13,
+      "components": {
+        "same_carrier": 2,
+        "direct_work": 0,
+        "endpoint_geometry": 1,
+        "loop_holonomy": 2,
+        "independent_body_action_bridge": 0,
+        "public_reusable_data": 0,
+        "errors_and_recovery": 1
+      },
+      "hard_tau_ready": false,
+      "interpretation": "capability readiness only"
+    },
+    {
+      "id": "naghiloo2020_quantum_trajectories",
+      "score": 6,
+      "maximum": 13,
+      "components": {
+        "same_carrier": 2,
+        "direct_work": 1,
+        "endpoint_geometry": 2,
+        "loop_holonomy": 0,
+        "independent_body_action_bridge": 0,
+        "public_reusable_data": 0,
+        "errors_and_recovery": 1
+      },
+      "hard_tau_ready": false,
+      "interpretation": "capability readiness only"
+    }
+  ],
+  "tau_ready_count": 0,
+  "decision": "Zhao 2020 is the strongest integrated protocol architecture; Cottet 2017 and Viyuela 2018 are complementary work/tomography and holonomy legs. No candidate is eligible for Tau residual scoring because all lack the independent CHDF body-action bridge, and none supplies a complete reusable public packet."
+}

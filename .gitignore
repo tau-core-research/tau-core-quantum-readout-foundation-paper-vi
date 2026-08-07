@@ -1,0 +1,11 @@
+.DS_Store
+.pytest_cache/
+__pycache__/
+*.pyc
+tmp/
+paperVI_submission_source/*.aux
+paperVI_submission_source/*.bbl
+paperVI_submission_source/*.blg
+paperVI_submission_source/*.log
+paperVI_submission_source/*.out
+paperVI_submission_source/*.pdf

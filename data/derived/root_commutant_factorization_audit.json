@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "occupied_block": "M8(C)=M2(C) tensor M4(C)",
+  "logical_ROOT_algebra_dimension": 4,
+  "realization_commutant_dimension": 16,
+  "logical_commutant_dimension_in_M8": 16,
+  "joint_generated_dimension": 64,
+  "checks": {
+    "logical_and_realization_algebras_commute": true,
+    "realization_algebra_is_full_logical_commutant": true,
+    "logical_and_commutant_generate_full_occupied_block": true,
+    "logical_factor_has_M2_dimension": true,
+    "realization_factor_has_M4_dimension": true
+  },
+  "theorem_status": {
+    "factorization": "a selected ROOT M2 factor canonically determines its M4 realization commutant",
+    "recovery_split": "tracing the commutant can lose realization data while preserving the ROOT factor",
+    "physical_selection": "the current parent still must select and occupy the ROOT M2 factor/Clifford flag"
+  },
+  "verdict": "SELECTED_ROOT_FACTOR_CANONICALLY_DETERMINES_THE_PROTECTED_LOGICAL_REALIZATION_SPLIT"
+}

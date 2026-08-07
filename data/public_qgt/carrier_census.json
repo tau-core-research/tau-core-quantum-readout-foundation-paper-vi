@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-08-06",
+  "gate_order": [
+    "same_carrier",
+    "state_distance_xQ",
+    "action_like_observable",
+    "independent_once_counted_xA",
+    "errors_and_recovery"
+  ],
+  "candidates": [
+    {
+      "id": "tan2019_superconducting_qgt",
+      "source": "https://arxiv.org/abs/1906.01462",
+      "public_data": "vector arXiv figures frozen in this repository",
+      "same_carrier": true,
+      "state_distance_xQ": true,
+      "action_like_observable": true,
+      "independent_once_counted_xA": false,
+      "errors_and_recovery": "partial",
+      "verdict": "local connector proxy; periodic drive and quench are both QGT estimators"
+    },
+    {
+      "id": "yu2019_nv_qgt",
+      "source": "https://arxiv.org/abs/1811.12840",
+      "public_data": "vector arXiv figures frozen in this repository",
+      "same_carrier": true,
+      "state_distance_xQ": true,
+      "action_like_observable": false,
+      "independent_once_counted_xA": false,
+      "errors_and_recovery": "partial",
+      "verdict": "metric/Berry identity control; both axes are quantum-geometric"
+    },
+    {
+      "id": "kim2025_black_phosphorus",
+      "source": "https://doi.org/10.5061/dryad.jwstqjqmq",
+      "public_data": "raw ARPES, band, QGT and reproduction files",
+      "same_carrier": true,
+      "state_distance_xQ": true,
+      "action_like_observable": true,
+      "independent_once_counted_xA": false,
+      "errors_and_recovery": "partial",
+      "verdict": "best spectral-response candidate; xA map is not frozen and QGT shares the ARPES/pseudospin pipeline"
+    },
+    {
+      "id": "zheng2022_nonabelian_qgt",
+      "source": "https://arxiv.org/abs/2209.12359",
+      "public_data": "public article and arXiv source figures",
+      "same_carrier": true,
+      "state_distance_xQ": true,
+      "action_like_observable": true,
+      "independent_once_counted_xA": false,
+      "errors_and_recovery": "partial",
+      "verdict": "drive/Rabi response is the QGT extraction itself, not an independent action ledger"
+    },
+    {
+      "id": "pires2024_nmr_open_qsl",
+      "source": "https://arxiv.org/abs/2307.06558",
+      "public_data": "public article/source figures and declared Hamiltonian",
+      "same_carrier": true,
+      "state_distance_xQ": true,
+      "action_like_observable": true,
+      "independent_once_counted_xA": false,
+      "errors_and_recovery": "partial",
+      "verdict": "QSL/recovery control; QFI and WY are reconstructed from the same Bloch observables"
+    },
+    {
+      "id": "ness2021_single_atom_qsl",
+      "source": "https://doi.org/10.1126/sciadv.abj9119",
+      "public_data": "open associated Data S1 archive",
+      "same_carrier": true,
+      "state_distance_xQ": true,
+      "action_like_observable": true,
+      "independent_once_counted_xA": false,
+      "errors_and_recovery": "yes",
+      "verdict": "strongest public QOR control: overlap, time, mean energy and variance; no independent morphological action"
+    },
+    {
+      "id": "kit2024_readout_mitigated_tomography",
+      "source": "https://doi.org/10.1038/s42005-024-01790-8",
+      "public_data": "KIT repository subset and public code",
+      "same_carrier": true,
+      "state_distance_xQ": true,
+      "action_like_observable": false,
+      "independent_once_counted_xA": false,
+      "errors_and_recovery": "yes",
+      "verdict": "useful recovery certification; no action axis"
+    },
+    {
+      "id": "zenodo2026_photonic_similarity",
+      "source": "https://doi.org/10.5281/zenodo.19314666",
+      "public_data": "raw and processed photonic overlap data",
+      "same_carrier": true,
+      "state_distance_xQ": true,
+      "action_like_observable": false,
+      "independent_once_counted_xA": false,
+      "errors_and_recovery": "partial",
+      "verdict": "direct overlap/xQ candidate; no action axis"
+    }
+  ],
+  "selection_rule": "A finite Tau test requires all five gates and forbids deriving xA from the state/QGT data used for xQ."
+}

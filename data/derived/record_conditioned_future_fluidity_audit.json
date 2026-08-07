@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "status": "RECORD_CONDITIONED_FUTURE_FIBRE_THEOREM",
+  "formal_packet": {
+    "past_restriction": "R_minus=(R_plus,R_record)",
+    "past_kernel_embeds_in_future_kernel": true,
+    "dimension_identity": "dim F_plus - dim F_minus = rank(R_record restricted to F_plus)",
+    "strictness_condition": "R_record restricted to F_plus is nonzero"
+  },
+  "finite_certificate": {
+    "ambient_dimension": 12,
+    "future_fibre_dimension": 10,
+    "past_fibre_dimension": 3,
+    "record_rank_on_future_fibre": 7,
+    "dimension_gap": 7,
+    "epsilon_resolution": 0.1,
+    "resolved_cell_count_ratio_future_to_past": 10000000.0
+  },
+  "controls": {
+    "no_stable_record_constraints_implies_equal_dimensions": true,
+    "orientation_or_stiffness_alone_is_insufficient": true,
+    "parent_memory_or_stored_history_used": false,
+    "actual_future_outcome_access_used": false
+  },
+  "claim_boundary": {
+    "proved": "at one observer cut, adding independent stable record-agreement constraints only to backward-compatible extensions makes the past fibre a subspace of the future fibre with an exact rank gap",
+    "not_proved": "the physical record rank of our universe, a universal quantitative fluidity ratio, or that every future alternative remains quantum coherent"
+  },
+  "verdict": "STABLE_RECORD_CONSTRAINTS_MAKE_THE_OBSERVER_FUTURE_FIBRE_STRICTLY_LARGER_WHEN_THEIR_RESTRICTED_RANK_IS_NONZERO"
+}

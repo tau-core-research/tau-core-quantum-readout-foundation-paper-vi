@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "capability_score": 7,
+  "capability_maximum": 13,
+  "components": {
+    "same_carrier": 2,
+    "direct_output_work": 2,
+    "endpoint_state_geometry": 2,
+    "closed_holonomy": 0,
+    "independent_body_action": 0,
+    "reusable_raw_data": 0,
+    "errors_and_tomographic_control": 1
+  },
+  "reported_control_metrics": {
+    "informed_vs_ignorant_memory_photons": [
+      9.0,
+      0.0
+    ],
+    "residual_qubit_excitation": 0.027,
+    "memory_entropy_difference": 0.19999999999999996,
+    "memory_entropy_difference_sigma": 1.7888543819998313
+  },
+  "independent_measurement_instrument": true,
+  "conditional_descriptor_novelty_at_mean_level": false,
+  "independent_terminal_energy_axis": false,
+  "independent_tau_body_action_axis": false,
+  "eligible_scores": [
+    "direct output work versus independent qubit-energy change",
+    "informed versus ignorant demon control",
+    "coherent-superposition versus mixed-state memory control"
+  ],
+  "forbidden_scores": [
+    "x_A equals x_Q",
+    "finite A8b Tau residual",
+    "closed-holonomy consistency",
+    "QOR timing discriminator"
+  ],
+  "tau_primary_score_eligible": false,
+  "reason": "Direct power is measured by an instrument independent of qubit tomography. However, the input-output law makes its conditional mean a function of the qubit state and frozen drive/coupling controls, so it adds no descriptor rank at mean level. No source-frozen map identifies it with the once-counted Tau body action; no closed holonomy or reusable raw archive is present.",
+  "decision": "Primary independently instrumented energy-control candidate, not an information-novel Tau action axis; retain Naghiloo as trajectory control and do not combine carriers into a Tau certificate."
+}

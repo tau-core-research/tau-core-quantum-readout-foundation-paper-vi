@@ -1,0 +1,29 @@
+{
+  "embeddings": {
+    "straight": "W_0(q)=(q,0)",
+    "curved": "W_k(q)=(sin(kq)/k,(1-cos(kq))/k)"
+  },
+  "shared_local_metric": "|dW/dq|^2=1 for every k",
+  "delta_q": 1.0,
+  "straight_chord": 1.0,
+  "curved_chords": [
+    {
+      "curvature": 0.5,
+      "chord": 0.9896158370180917
+    },
+    {
+      "curvature": 1.0,
+      "chord": 0.958851077208406
+    },
+    {
+      "curvature": 1.5,
+      "chord": 0.9088516800311122
+    }
+  ],
+  "conclusions": {
+    "local_stiffness_alone_fixes_finite_chord": false,
+    "connector_or_extrinsic_transport_required": true,
+    "blind_endpoint_prediction_requires_global_rigidity_audit": true
+  },
+  "claim_boundary": "The countermodel does not reject a connector-based certificate; it proves that intrinsic local stiffness alone is insufficient."
+}

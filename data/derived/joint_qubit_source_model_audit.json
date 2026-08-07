@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "model": {
+    "H_q": "Delta0(1+m cos q) n(q).sigma/2",
+    "n_q": "(sin(theta) cos q, sin(theta) sin q, cos(theta))",
+    "rho_q": "exp(-beta H(q))/Tr exp(-beta H(q))",
+    "beta": 1.3,
+    "delta0": 1.0,
+    "modulation": 0.35,
+    "theta": 1.0,
+    "path_points": 65
+  },
+  "same_path_readouts": {
+    "work_characteristic_real_imag": [
+      [
+        0.0,
+        1.0,
+        4.227734777572876e-18
+      ],
+      [
+        0.4,
+        0.999757662748475,
+        0.0008550066355284746
+      ],
+      [
+        0.8,
+        0.999099515878581,
+        0.0015344341585477508
+      ],
+      [
+        1.2,
+        0.9982125801556392,
+        0.001912609377384824
+      ]
+    ],
+    "first_step_mean_quench_work": 0.002215103789666746,
+    "mean_step_xQ": 0.0006001290689513598,
+    "max_step_xQ": 0.0008473837947149399,
+    "min_relative_entropy_to_xQ_ratio": 2.1171003782047793,
+    "max_relative_entropy_to_xQ_ratio": 2.4881661442234497,
+    "relative_entropy_to_xQ_ratio_spread": 0.3710657660186705,
+    "loop_uhlmann_overlap_real_imag": [
+      0.9198652601087091,
+      0.1242549931437934
+    ],
+    "loop_uhlmann_phase": 0.13426686155086248,
+    "loop_unitary_defect": 7.978045137306038e-16
+  },
+  "checks": {
+    "closed_state_loop": true,
+    "nontrivial_work_characteristic": true,
+    "nonzero_state_distance": true,
+    "nonzero_uhlmann_phase": true,
+    "unitary_transport": true,
+    "work_is_independent_body_action": false,
+    "one_constant_converts_dissipated_work_to_xQ": false
+  },
+  "verdict": "One closed qubit Hamiltonian family consistently supports work-characteristic, endpoint-state and Uhlmann-loop readouts. This proves protocol compatibility, not x_A=x_Q: the quench work remains a terminal thermodynamic observable until an independent source/body action map and common unit are derived."
+}

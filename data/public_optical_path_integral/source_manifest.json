@@ -1,0 +1,23 @@
+{
+  "title": "Direct experimental test of Feynman's path integral postulates with single photons",
+  "repository": "Dryad",
+  "doi": "10.5061/dryad.x0k6djj14",
+  "published": "2026-06-30",
+  "license": "CC0-1.0",
+  "downloaded": "2026-08-06",
+  "files_used": {
+    "Fig4A.csv": "path length versus reported path probability amplitude",
+    "Fig4B.csv": "classical action versus reported path probability amplitude",
+    "Fig4C.csv": "classical action versus measured and theoretical phase",
+    "FigS2B.xlsx": "independent aggregate radial phase control: 17 experimental points and 200-point theory curve",
+    "FigS2C.xlsx": "published normalized-amplitude histograms for 17 radial propagator classes",
+    "FigS2D.xlsx": "published normalized-amplitude means and standard deviations for 17 radial propagator classes",
+    "raw_propagator/FigS1B-Plus.xlsx": "raw diagonal-plus polarization camera matrix",
+    "raw_propagator/FigS1B-Minus.xlsx": "raw diagonal-minus polarization camera matrix",
+    "raw_propagator/FigS1B-R.xlsx": "raw right-circular polarization camera matrix",
+    "raw_propagator/FigS1B-L.xlsx": "raw left-circular polarization camera matrix",
+    "raw_propagator/FigS1B-PSI.xlsx": "raw probability-distribution camera matrix",
+    "raw_propagator/FigS1C.xlsx": "published sample propagator used as an independent reconstruction check"
+  },
+  "claim_boundary": "The aggregate tables test the standard action-phase and equal-amplitude controls. The raw matrices permit a diagnostic reconstruction of the shared radial step kernel and 17^5 algebraic paths. The paths are not independent measurements, the raw-image amplitude reduction fails the FigS1C validation, and the standard optical action is not an independent Tau morphological-body action."
+}

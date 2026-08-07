@@ -1,0 +1,14 @@
+{
+  "title": "Observing quantum-classical correspondence through optical path integrals",
+  "repository": "Dryad",
+  "doi": "10.5061/dryad.02v6wwqjg",
+  "version_date": "2026-05-21",
+  "downloaded": "2026-08-06",
+  "public_content": {
+    "path_action_and_gradient": "10000 rows per reported boundary condition",
+    "selected_path_geometries": "seven time slices for reported stationary-action candidates",
+    "raw_polarization_images": "four intensity projections for incremental-action reconstruction",
+    "complex_path_amplitudes": false
+  },
+  "claim_boundary": "The packet directly supports pathwise action and action-gradient analysis, but it does not publish a common identifier joining every path geometry to a complex path amplitude."
+}

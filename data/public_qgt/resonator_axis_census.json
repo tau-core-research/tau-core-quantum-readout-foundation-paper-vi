@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-08-06",
+  "question": "Does a resonator or generalized-force record supply an action ordinate independent of the reconstructed quantum state?",
+  "independence_rule": "A candidate fails whenever its response factors through the reconstructed state and frozen standard controls. Passing requires a separately calibrated source-port response that adds conditional rank beyond state tomography and is mapped to the once-counted body action before endpoint inspection.",
+  "candidates": [
+    {
+      "id": "zhao2020_xmon_readout_resonator",
+      "source": "https://arxiv.org/abs/1909.09970",
+      "response": "dispersive resonator readout used for process tomography",
+      "state_tomography": true,
+      "closed_geometric_phase": true,
+      "independent_source_port_calibration": false,
+      "body_action_map_frozen": false,
+      "factors_through_quantum_state": true,
+      "reusable_raw_data": false,
+      "verdict": "The resonator is the state-readout instrument, not an independent body-action ordinate."
+    },
+    {
+      "id": "filipp2009_joint_dispersive_readout",
+      "source": "https://arxiv.org/abs/0812.2485",
+      "response": "qubit-state-dependent cavity-frequency shift",
+      "state_tomography": true,
+      "closed_geometric_phase": false,
+      "independent_source_port_calibration": false,
+      "body_action_map_frozen": false,
+      "factors_through_quantum_state": true,
+      "reusable_raw_data": false,
+      "verdict": "The cavity response implements tomography and carries no separately identified action variable."
+    },
+    {
+      "id": "tan2019_qgt_superconducting_qubit",
+      "source": "https://arxiv.org/abs/1906.01462",
+      "response": "quench probability and periodic-drive excitation rate",
+      "state_tomography": true,
+      "closed_geometric_phase": false,
+      "independent_source_port_calibration": false,
+      "body_action_map_frozen": false,
+      "factors_through_quantum_state": true,
+      "reusable_raw_data": "digitized points in the Paper-VI package",
+      "verdict": "The response reconstructs standard quantum geometry and is circular for an independent action-versus-Uhlmann test."
+    },
+    {
+      "id": "yu2019_nv_qgt",
+      "source": "https://arxiv.org/abs/1811.12840",
+      "response": "parametric-modulation Rabi response",
+      "state_tomography": "QGT reconstruction",
+      "closed_geometric_phase": false,
+      "independent_source_port_calibration": false,
+      "body_action_map_frozen": false,
+      "factors_through_quantum_state": true,
+      "reusable_raw_data": "digitized points in the Paper-VI package",
+      "verdict": "A strong quantum-geometry measurement, but not a state-independent body-action axis."
+    },
+    {
+      "id": "hatridge2013_variable_strength_backaction",
+      "source": "https://arxiv.org/abs/1903.11732",
+      "response": "measurement-conditioned stochastic qubit backaction",
+      "state_tomography": true,
+      "closed_geometric_phase": false,
+      "independent_source_port_calibration": false,
+      "body_action_map_frozen": false,
+      "factors_through_quantum_state": true,
+      "reusable_raw_data": false,
+      "verdict": "Backaction is experimentally resolved but belongs to the calibrated quantum instrument; it is not an independent source-action ordinate."
+    },
+    {
+      "id": "rudinger2021_qilgst_backaction",
+      "source": "https://arxiv.org/abs/2103.03008",
+      "response": "tomographic reconstruction of a dispersive measurement instrument and residual-cavity backaction",
+      "state_tomography": true,
+      "closed_geometric_phase": false,
+      "independent_source_port_calibration": false,
+      "body_action_map_frozen": false,
+      "factors_through_quantum_state": true,
+      "reusable_raw_data": false,
+      "verdict": "The extra record characterizes the standard measurement instrument, not a predeclared body action."
+    },
+    {
+      "id": "pekola2013_calorimetric_work",
+      "source": "https://arxiv.org/abs/1212.5808",
+      "response": "calorimetric energy-exchange record for a driven superconducting two-level system",
+      "state_tomography": false,
+      "closed_geometric_phase": false,
+      "independent_source_port_calibration": true,
+      "body_action_map_frozen": false,
+      "factors_through_quantum_state": false,
+      "reusable_raw_data": false,
+      "verdict": "Calorimetry is a genuinely independent energy-record architecture, but the cited work is a proposal/model and ordinary energy exchange is not a frozen map to the Tau body action."
+    }
+  ]
+}

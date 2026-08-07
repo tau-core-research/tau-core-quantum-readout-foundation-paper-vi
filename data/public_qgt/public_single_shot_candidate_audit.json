@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "selection_rule": "Audit public direct download, same-carrier single-shot/time records, labels or tomography, frozen process controls, and a second nonfactorizing readout separately.",
+  "candidates": [
+    {
+      "id": "wang2025_longitudinal_readout",
+      "source": "https://doi.org/10.5281/zenodo.15957274",
+      "public_direct_download": true,
+      "single_shot_records": true,
+      "time_resolved_records": false,
+      "independent_endpoint_labels": true,
+      "frozen_process_model": false,
+      "second_nonfactorizing_readout": false,
+      "files": {"fig4c.mat": "3553dca193e7c3d9ad378b1c609d99341759bf48c66f3efb0649117b84c534bf", "fig4d.mat": "be22b112eec976a9bf56aec9f1c61f0c9738e3bd43702569bd5bba31ab2a89db", "fig4e.mat": "8fb5bbf6fe6237f4c9ca96d502db56576b120e042ca8915de112be1eabfd8f06"},
+      "sample_counts_per_class": [29460, 29400, 29416],
+      "d_prime": [7.3240889623, 6.3365983261, 8.6338614089],
+      "midpoint_accuracy": [0.9951120163, 0.9955782313, 0.9980282839]
+    },
+    {
+      "id": "murch2022_thermal_readout",
+      "source": "https://murch.physics.wustl.edu/docs/Thermal_readout_data_and_script.zip",
+      "public_direct_download": true,
+      "single_shot_records": false,
+      "time_resolved_records": false,
+      "independent_endpoint_labels": true,
+      "frozen_process_model": false,
+      "second_nonfactorizing_readout": false,
+      "archive_sha256": "087abd71bc638aa6c216746f5cc0d2a8d86091aa2470053710438d134016224a",
+      "note": "Probabilities and histograms accumulated from repeated measurements, not reusable individual trajectories."
+    },
+    {
+      "id": "ficheux2018_joint_monitoring",
+      "source": "https://doi.org/10.1038/s41467-018-04372-9",
+      "public_direct_download": false,
+      "single_shot_records": true,
+      "time_resolved_records": true,
+      "independent_endpoint_labels": true,
+      "frozen_process_model": true,
+      "second_nonfactorizing_readout": true,
+      "note": "The 1.5 million-record architecture and independent terminal tomography are reported, but raw records are request-only; downloadable movies are not a numerical archive."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "capability_score": 6,
+  "capability_maximum": 13,
+  "components": {
+    "same_carrier_state_path": 2,
+    "trajectory_energy_leg": 1,
+    "independent_endpoint_check": 2,
+    "closed_holonomy": 0,
+    "independent_body_action": 0,
+    "reusable_raw_data": 0,
+    "errors_and_feedback_control": 1
+  },
+  "reported_control_metrics": {
+    "time_resolution_ns": 20.0,
+    "trajectory_count": 10000,
+    "measurement_efficiency": 0.35,
+    "heat_feedback_correlation": -0.68,
+    "feedback_to_open_slope_ratio": 72.83333333333333
+  },
+  "eligible_scores": [
+    "first-law closure control",
+    "feedback-versus-open-loop control",
+    "trajectory-versus-projective endpoint consistency"
+  ],
+  "forbidden_scores": [
+    "x_A equals x_Q",
+    "finite A8b Tau residual",
+    "closed-holonomy consistency",
+    "QOR timing discriminator"
+  ],
+  "tau_primary_score_eligible": false,
+  "reason": "The energetic quantities are reconstructed from rho(t) and H(t), and the packet contains neither an independent body-action calibration nor a closed holonomy or reusable raw trajectories.",
+  "decision": "Promote as a standard-physics control candidate, not as a Tau-signal endpoint."
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-08-05",
+  "claim_boundary": "Public local connector proxy only; not finite A8b or a Tau carrier validation.",
+  "sources": [
+    {
+      "name": "Yu et al. NV-center quantum geometric tensor",
+      "arxiv": "1811.12840",
+      "source_url": "https://export.arxiv.org/e-print/1811.12840",
+      "sha256": "debb266d5178a9715f396a12363ebcbfd67e7533640854e8e3d20821ccac8105",
+      "role": "same-carrier metric-determinant versus Berry-curvature cross-readout replication"
+    },
+    {
+      "id": "tan2019_qgt_superconducting_qubit",
+      "citation": "X. Tan et al., Physical Review Letters 122, 210401 (2019)",
+      "doi": "10.1103/PhysRevLett.122.210401",
+      "arxiv": "1906.01462",
+      "source_url": "https://export.arxiv.org/e-print/1906.01462",
+      "source_sha256": "017468a37139618cb9a79cc27d62160bcf554d6efd65b43055094f555bd7271b",
+      "used_members": ["Fig2.pdf", "Fig3.pdf"],
+      "role": "same-carrier sudden-quench versus periodic-drive local quantum-metric proxy"
+    },
+    {
+      "id": "kim2025_black_phosphorus_qgt",
+      "citation": "S. Kim et al., Direct measurement of the quantum metric tensor in solids (2025)",
+      "doi": "10.5061/dryad.jwstqjqmq",
+      "dataset_api": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.jwstqjqmq",
+      "archive_name": "FigureData.zip",
+      "archive_size": 296309618,
+      "archive_sha256": "7ad83a4488cb96b1c322d5237c7c0aafd195b6ab9fd58b1b1f976c6722010aa1",
+      "role": "secondary open-raw-data spectral-response control; not used by the primary audit"
+    },
+    {
+      "id": "ness2021_single_atom_qsl",
+      "citation": "D. Ness et al., Science Advances 7, eabj9119 (2021)",
+      "doi": "10.1126/sciadv.abj9119",
+      "pmcid": "PMC8694601",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8694601/supplementaryFiles",
+      "archive_member": "sciadv.abj9119_data_s1.zip/Figure_2",
+      "role": "public standard quantum-speed-limit control; no independent morphological x_A"
+    }
+  ]
+}

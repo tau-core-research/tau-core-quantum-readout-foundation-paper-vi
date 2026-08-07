@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-08-06",
+  "question": "Does one public experiment provide a source-frozen same-carrier action/state/holonomy packet?",
+  "required_gates": [
+    "physical_same_carrier",
+    "direct_action_or_work_record",
+    "endpoint_state_geometry",
+    "closed_loop_phase_or_holonomy",
+    "independent_action_to_body_mapping",
+    "public_numerical_data"
+  ],
+  "candidates": [
+    {
+      "id": "batalhao2014_nmr_work",
+      "source": "https://arxiv.org/abs/1308.3241",
+      "physical_same_carrier": true,
+      "direct_action_or_work_record": true,
+      "endpoint_state_geometry": "partial",
+      "closed_loop_phase_or_holonomy": false,
+      "independent_action_to_body_mapping": false,
+      "public_numerical_data": "figure-level",
+      "errors_and_recovery": "partial",
+      "verdict": "Strongest direct-work leg; no closed connector witness and thermodynamic work is not yet morphological action."
+    },
+    {
+      "id": "ghosh2006_nmr_mixed_phase",
+      "source": "https://arxiv.org/abs/quant-ph/0509139",
+      "physical_same_carrier": true,
+      "direct_action_or_work_record": false,
+      "endpoint_state_geometry": "partial",
+      "closed_loop_phase_or_holonomy": true,
+      "independent_action_to_body_mapping": false,
+      "public_numerical_data": "figure-level",
+      "errors_and_recovery": "partial",
+      "verdict": "Mixed-state interferometric phase leg; no independent work/action record."
+    },
+    {
+      "id": "viyuela2018_superconducting_uhlmann",
+      "source": "https://arxiv.org/abs/1607.08778",
+      "physical_same_carrier": true,
+      "direct_action_or_work_record": false,
+      "endpoint_state_geometry": true,
+      "closed_loop_phase_or_holonomy": true,
+      "independent_action_to_body_mapping": false,
+      "public_numerical_data": "published 8192-shot phase points; no frozen raw archive located",
+      "errors_and_recovery": "partial",
+      "verdict": "Strongest Uhlmann/holonomy leg; no independently measured action-side observable."
+    },
+    {
+      "id": "zhao2020_xmon_geometric_gate",
+      "source": "https://arxiv.org/abs/1909.09970",
+      "physical_same_carrier": true,
+      "direct_action_or_work_record": "control-pulse action only",
+      "endpoint_state_geometry": true,
+      "closed_loop_phase_or_holonomy": true,
+      "independent_action_to_body_mapping": false,
+      "public_numerical_data": "figure-level",
+      "errors_and_recovery": "yes",
+      "verdict": "Best phase-plus-process-tomography architecture; pulse area is imposed control, not an independent body-action estimator."
+    },
+    {
+      "id": "cottet2017_maxwell_demon",
+      "source": "https://arxiv.org/abs/1702.05161",
+      "physical_same_carrier": true,
+      "direct_action_or_work_record": true,
+      "endpoint_state_geometry": true,
+      "closed_loop_phase_or_holonomy": false,
+      "independent_action_to_body_mapping": false,
+      "public_numerical_data": "figure-level",
+      "errors_and_recovery": "yes",
+      "verdict": "Strongest work-plus-tomography capability; no closed phase transport and no morphological action bridge."
+    },
+    {
+      "id": "naghiloo2020_quantum_trajectories",
+      "source": "https://arxiv.org/abs/1703.05885",
+      "physical_same_carrier": true,
+      "direct_action_or_work_record": "trajectory-derived work and heat",
+      "endpoint_state_geometry": true,
+      "closed_loop_phase_or_holonomy": false,
+      "independent_action_to_body_mapping": false,
+      "public_numerical_data": "figure-level; no reusable raw trajectory archive located",
+      "errors_and_recovery": "yes",
+      "verdict": "Best trajectory-resolved work/state candidate, but work is reconstructed from rho(t) and H(t), no closed holonomy is reported, and no independent body-action bridge is present."
+    }
+  ],
+  "selection_rule": "A full pass requires all six gates. Partial or control-pulse entries do not count as passes, and measurements from different physical carriers may not be stitched together.",
+  "preferred_reopening_architecture": "One programmable qubit-plus-ancilla carrier combining work-characteristic interferometry, endpoint tomography, and a Bargmann/Uhlmann loop under a source-frozen action calibration."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "status": "TYPE_SEPARATION_BRAC_DOES_NOT_ACTIVATE_BOUNDARY_BRIDGE",
+  "brac_bulk": {
+    "action": "(m/2 + 1/2)*(x**2 + y**2)",
+    "mixed_body_field_derivative": [
+      "x",
+      "y"
+    ],
+    "nonzero_on_occupied_nonzero_field": true,
+    "supports_existing_morphology_driven_quantum_mixing": true
+  },
+  "brac_boundary": {
+    "zeroth_order_potential_boundary_theta": "0",
+    "mixed_presymplectic_coefficient": "0",
+    "activates_beta_FQ": false
+  },
+  "minimal_positive_target": {
+    "boundary_one_form": "theta_candidate = z(m) p dq",
+    "mixed_coefficient": "p*exp(m)",
+    "nonzero_condition": "z'(m) p != 0 on the occupied source",
+    "current_parent_ownership": false
+  },
+  "claim_boundary": {
+    "proved": "the existing BRAC potential gives a nonzero bulk morphology-field Hessian but cannot by itself generate the mixed boundary phase block beta_FQ",
+    "still_open": "a source-owned body-dependent kinetic/boundary term, or an equivalent constraint-reduced symplectic incidence, in the actual parent action"
+  },
+  "verdict": "EXISTING_BRAC_COUPLING_IS_PHYSICAL_BUT_WRONG_TYPE_FOR_BETA_FQ; KINETIC_BOUNDARY_SOURCE_REMAINS_OPEN"
+}

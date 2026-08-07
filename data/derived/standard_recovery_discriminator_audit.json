@@ -1,0 +1,25 @@
+{
+  "schema": "tau-core-paper-vi-standard-recovery-discriminator-v0.1",
+  "standard_recovery": {
+    "positive_normalized_density_operator": true,
+    "normalized_Born_probabilities": true,
+    "unitary_preserves_state_space": true,
+    "singlet_CHSH_absolute_value": 2.8284271247461894,
+    "local_CPTP_preserves_remote_marginal": true,
+    "perturbative_interacting_QFT_requires_local_causal_factorization": true
+  },
+  "tau_discriminator": {
+    "epsilon_O": 0.61,
+    "x_A": 0.3721,
+    "x_Q": 0.3720999999999999,
+    "common_Gram_identity_holds": true,
+    "dimensionless_Bures_angle": 0.6198768585564909,
+    "qor_time_lower_bound_in_hbar_units": 1.3188869330989168,
+    "linear_time_lower_bound_in_hbar_units": 1.297872340425532,
+    "approximate_recovery_eta": 0.012,
+    "maximum_allowed_chord_loss": 0.21928860806252104,
+    "standard_QM_alone_entails_x_A_equals_x_Q": false,
+    "independent_standard_QM_control_x_A": 0.19
+  },
+  "verdict": "The physical MVP reproduces the tested finite-dimensional quantum kinematics conditionally. Its distinguishing claim is the independently testable morphology-action/Uhlmann identity x_A=x_Q; the quantum speed limit itself is standard and is only a downstream consistency test."
+}

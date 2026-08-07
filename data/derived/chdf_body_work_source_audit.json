@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "source": "WR-T21 CHDF minimum-action quotient theorem",
+  "radial_stiffness_exact": "59/64 - sqrt(3)/12",
+  "tangent_stiffness_exact": "sqrt(3)/24 + 1",
+  "action": "-sqrt(3)*y_r**2/24 + 59*y_r**2/128 + sqrt(3)*y_t1**2/48 + y_t1**2/2 + sqrt(3)*y_t2**2/48 + y_t2**2/2",
+  "body_work_form_components": [
+    "-sqrt(3)*y_r/12 + 59*y_r/64",
+    "sqrt(3)*y_t1/24 + y_t1",
+    "sqrt(3)*y_t2/24 + y_t2"
+  ],
+  "checks": {
+    "positive_radial_stiffness": true,
+    "positive_tangent_stiffness": true,
+    "hessian_equals_K_leaf": true,
+    "one_form_is_closed": true,
+    "straight_integral_equals_endpoint_action": true,
+    "piecewise_integral_equals_endpoint_action": true,
+    "path_integrals_agree": true
+  },
+  "proof_levels": {
+    "body_quotient": "derived from the existing CHDF minimum-action theorem",
+    "post_body_availability": "conditional on the adopted PRRC-P1/PJR-P1 constitutive continuation",
+    "quantum_connector_and_xA_equals_xQ": "not derived by this audit",
+    "nature_selection_and_empirical_measurement": "open"
+  },
+  "verdict": "CHDF_BODY_WORK_FORM_IS_EXACT_AND_SOURCE_OWNED_ON_THE_BODY_QUOTIENT_BUT_A8B_REMAINS_OPEN"
+}

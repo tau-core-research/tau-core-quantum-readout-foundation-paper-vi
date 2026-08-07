@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "question": "Does the current physical base-seed reduct entail occupation of the complete joint quantum packet?",
+  "verdict": "CURRENT_REDUCT_DOES_NOT_ENTAIL_COMPLETE_JOINT_QUANTUM_PACKET",
+  "exact_countermodel": {
+    "family": "C_gamma(rho)=gamma*rho+(1-gamma)I/2, 0<=gamma<=1",
+    "rows": [
+      {
+        "gamma": 1.0,
+        "positive_cptp": true,
+        "same_upstream_body_and_P3_packet": true,
+        "exact_full_code_recovery": true,
+        "joint_packet_closed": true
+      },
+      {
+        "gamma": 0.5,
+        "positive_cptp": true,
+        "same_upstream_body_and_P3_packet": true,
+        "exact_full_code_recovery": false,
+        "joint_packet_closed": false
+      }
+    ],
+    "reason": "Both members preserve the same upstream stabilized body, occupied P3 algebra, positive normalized states and CPTP descent. Only gamma=1 has exact full-code recovery and selects the finite A8b connector."
+  },
+  "independent_tensor_nonselection": {
+    "same_rank_four_equilibrium_allows_zero_and_positive_W2_stiffness": true,
+    "rooted_packet_selects_unordered_factor_triple": "not selected by the S3-symmetric rooted packet",
+    "current_parent_selects_full_factor_ledger": false
+  },
+  "already_derived_conditionally": {
+    "complex_structure_from_metric_symplectic_lock": true,
+    "single_system_packet_from_enriched_P3_handoff": true,
+    "Born_terminal": true,
+    "tensor_factors_from_two_commuting_factors": true,
+    "common_Gram_prediction": true
+  },
+  "minimal_corrected_theorem": {
+    "name": "source-faithful protected representation criterion",
+    "statement": "If one occupied once-counted parent representation is simultaneously action-isometric, metric-symplectic, separating, monoidal and exactly recoverable on the designated logical algebra, then the complete Paper-VI quantum packet follows without independent terminal gains.",
+    "status": "conditional characterization; existence is not entailed by the current reduct",
+    "remaining_atomic_physical_input": "physical occupation of that single source-faithful protected representation"
+  },
+  "claim_boundary": "This audit proves non-entailment from the current reduct and a sufficient joint-source criterion. It does not prove that Nature occupies the criterion."
+}

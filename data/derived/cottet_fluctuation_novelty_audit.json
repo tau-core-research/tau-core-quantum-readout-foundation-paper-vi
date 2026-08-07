@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "rows": [
+    {
+      "record": "mean_output_power",
+      "conditioning": "rho(t), input and coupling controls",
+      "novelty": false
+    },
+    {
+      "record": "multi_time_output_correlations",
+      "conditioning": "rho(t) only",
+      "novelty": true
+    },
+    {
+      "record": "multi_time_output_correlations",
+      "conditioning": "rho(0), frozen Liouvillian, couplings, controls and input state",
+      "novelty": false
+    },
+    {
+      "record": "model_residual_correlations",
+      "conditioning": "independently frozen full standard process model",
+      "novelty": true
+    }
+  ],
+  "cottet_publication_supports_fluctuation_score": false,
+  "raw_single_shot_archive_located": false,
+  "tau_body_action_identified": false,
+  "decision": "Mean power is descriptor-redundant. Correlations add process information relative to instantaneous tomography, but not relative to a frozen complete Markov input-output model. No reusable Cottet records support the residual test."
+}

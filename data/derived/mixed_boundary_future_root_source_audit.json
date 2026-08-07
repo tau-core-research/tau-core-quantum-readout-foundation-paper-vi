@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "status": "CONDITIONAL_MIXED_BOUNDARY_BRIDGE_SOURCE",
+  "source_construction": {
+    "parent_boundary_role": "the mixed future-fibre/ROOT block of the antisymmetrized boundary second variation",
+    "mixed_incidence_lambda": 0.5,
+    "joint_phase_antisymmetric": true,
+    "joint_phase_nondegenerate": true,
+    "bridge_rank": 4
+  },
+  "schur_transfer": {
+    "premise": "future and ROOT carriers are equivalent irreducible parent modules and the mixed boundary block is a nonzero equivariant intertwiner",
+    "kernel_and_image_are_invariant": true,
+    "nonzero_intertwiner_is_isomorphism": true,
+    "separate_bijectivity_assumption_needed": false
+  },
+  "equal_reduct_counterpair": {
+    "same_diagonal_future_and_ROOT_phase_packets": true,
+    "zero_member_bridge_rank": 0,
+    "occupied_member_bridge_rank": 4,
+    "common_parent_action_alone_selects_nonzero_mixed_block": false
+  },
+  "claim_boundary": {
+    "proved_conditionally": "one nonzero equivariant mixed boundary incidence generates the full-rank future-to-ROOT bridge",
+    "not_proved": "the physical base-seed boundary action has a nonzero mixed incidence; the diagonal common-action packet permits lambda=0"
+  },
+  "verdict": "BRIDGE_REDUCED_TO_ONE_NONZERO_MIXED_BOUNDARY_INCIDENCE; CURRENT_DIAGONAL_PACKET_DOES_NOT_ACTIVATE_IT"
+}

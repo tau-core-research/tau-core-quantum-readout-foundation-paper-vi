@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "selector": "isolated logical non-leakage on the complete occupied operator system",
+  "finite_control": {
+    "pointer_pair_trace_distance_before": 1.0,
+    "pointer_pair_trace_distance_after_dephasing": 1.0,
+    "phase_pair_trace_distance_before": 0.9999999999999998,
+    "phase_pair_trace_distance_after_dephasing": 0.0,
+    "classical_repeatability_survives": true,
+    "full_coherent_distinguishability_survives": false
+  },
+  "theorem": {
+    "assumptions": [
+      "C is CPTP on the complete occupied logical matrix algebra",
+      "the complementary output is independent of every logical input",
+      "the terminal has the same minimal logical dimension"
+    ],
+    "conclusion": "C is reversible on the complete logical algebra; at equal minimal dimension it is unitary conjugation and has a CPTP inverse",
+    "proof_route": "constant complementary output implies correctability by the information-disturbance theorem; equal-dimensional reversible matrix-algebra channels are unitary"
+  },
+  "physical_interpretation": {
+    "what_forces_recovery": "an isolated parent relation must not export logical-state information into the observer-inaccessible realization complement",
+    "what_does_not_force_recovery": "stable observer existence, pointer repeatability, finite capacity or CPTP descent alone",
+    "source_status": "required by the observed isolated-system unitary quantum limit, but not yet derived from the current base-seed action alone"
+  },
+  "verdict": "ISOLATED_FULL_LOGICAL_NONLEAKAGE_SELECTS_EXACT_RECOVERY"
+}

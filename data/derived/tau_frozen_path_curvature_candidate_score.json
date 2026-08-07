@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "source_doi": "10.5061/dryad.x0k6djj14",
+  "status": "TAU_CONDITIONAL_DESCRIPTOR_DIAGNOSTIC_NOT_ENDPOINT",
+  "frozen_candidate": {
+    "name": "increment_roughness",
+    "formula": "sum_k (Delta x[k+1] - Delta x[k])^2",
+    "theory_status": "Dirichlet energy of the increment field; Tau body theory selects a primitive Dirichlet form, but a body-derived typed increment carrier is not yet proved.",
+    "sign_prediction": "not fixed without a proved body-to-amplitude connector"
+  },
+  "paths": 1419857,
+  "shared_kernel_classes": 17,
+  "single_descriptor_scores": {
+    "path_length": {
+      "action_only_r2": 0.007152304055080383,
+      "action_plus_candidate_r2": 0.48978738072160843,
+      "delta_r2": 0.48263507666652805,
+      "candidate_coefficient": -0.003341994677754104,
+      "standardized_candidate_coefficient": -2.473924053982577
+    },
+    "increment_roughness": {
+      "action_only_r2": 0.007152304055080383,
+      "action_plus_candidate_r2": 0.007557556770008356,
+      "delta_r2": 0.00040525271492797277,
+      "candidate_coefficient": -1.8457923592558064e-06,
+      "standardized_candidate_coefficient": -0.06301358341427574
+    },
+    "turn_count": {
+      "action_only_r2": 0.007152304055080383,
+      "action_plus_candidate_r2": 0.07868896634221434,
+      "delta_r2": 0.07153666228713396,
+      "candidate_coefficient": -0.0035409623323681776,
+      "standardized_candidate_coefficient": -0.2693541535173362
+    },
+    "max_excursion": {
+      "action_only_r2": 0.007152304055080383,
+      "action_plus_candidate_r2": 0.009956647089420456,
+      "delta_r2": 0.0028043430343400733,
+      "candidate_coefficient": -0.0006418440828308689,
+      "standardized_candidate_coefficient": -0.060165927274809385
+    },
+    "occupied_step_classes": {
+      "action_only_r2": 0.007152304055080383,
+      "action_plus_candidate_r2": 0.00721500563192512,
+      "delta_r2": 6.270157684473698e-05,
+      "candidate_coefficient": -0.00014420821076248234,
+      "standardized_candidate_coefficient": -0.008204208232806928
+    }
+  },
+  "wrong_family_ranking": [
+    "path_length",
+    "turn_count",
+    "max_excursion",
+    "increment_roughness",
+    "occupied_step_classes"
+  ],
+  "candidate_rank_of_five": 4,
+  "shared_kernel_permutation": {
+    "permutation_unit": "17 shared radial kernel classes",
+    "sampled_paths": 100000,
+    "permutations": 999,
+    "full_path_observed_delta_r2": 0.00040525271492797277,
+    "sample_observed_delta_r2": 0.0002472978587065855,
+    "null_mean_delta_r2": 0.0005341626454263422,
+    "null_95_percentile_delta_r2": 0.0018954164477844367,
+    "p_value": 0.543
+  },
+  "verdict": "A significant partial score would establish only that the conditional curvature descriptor tracks published optical-kernel structure beyond total action. Tau-specific interpretation additionally requires a sourced edge carrier and connector."
+}

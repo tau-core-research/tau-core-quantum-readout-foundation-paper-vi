@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "error_convention": "||R C-id||_diamond <= eta",
+  "proof": [
+    "orthogonal logical states begin at trace distance one",
+    "diamond error eta puts each recovered state within trace distance eta/2 of its target",
+    "the recovered pair therefore has trace distance at least 1-eta",
+    "CPTP contractivity bounds that distance above by the pre-recovery distance",
+    "for weighted access the pre-recovery distance is w_j"
+  ],
+  "bound": "w_j >= 1-eta and sum_k!=j w_k <= eta",
+  "rows": [
+    {
+      "diamond_error_eta": 0.0,
+      "minimum_selected_weight": 1.0,
+      "maximum_total_off_factor_weight": 0.0
+    },
+    {
+      "diamond_error_eta": 0.01,
+      "minimum_selected_weight": 0.99,
+      "maximum_total_off_factor_weight": 0.01
+    },
+    {
+      "diamond_error_eta": 0.05,
+      "minimum_selected_weight": 0.95,
+      "maximum_total_off_factor_weight": 0.05
+    },
+    {
+      "diamond_error_eta": 0.1,
+      "minimum_selected_weight": 0.9,
+      "maximum_total_off_factor_weight": 0.1
+    },
+    {
+      "diamond_error_eta": 0.25,
+      "minimum_selected_weight": 0.75,
+      "maximum_total_off_factor_weight": 0.25
+    }
+  ],
+  "checks": {
+    "exact_limit_recovers_vertex": true,
+    "bounds_are_monotone": true,
+    "off_factor_budget_equals_error": true,
+    "five_percent_recovery_error_forces_95_percent_factor_weight": true
+  },
+  "status": {
+    "approximate_selection": "proved in the weighted observer-access family",
+    "exact_recovery": "the eta=0 endpoint, not a universal requirement on every physical interaction",
+    "empirical_role": "measured recovery error supplies a predeclared tolerance for factor-axis purity",
+    "general_channel_scope": "outside the weighted family the theorem bounds distinguishability contraction, not a unique factor weight",
+    "chirality": "independent open discrete selection"
+  },
+  "verdict": "APPROXIMATE_RECOVERY_FORCES_OBSERVER_INCIDENCE_WITHIN_ETA_OF_ONE_FACTOR_VERTEX"
+}

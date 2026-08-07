@@ -1,0 +1,42 @@
+{
+  "definitions": {
+    "chi_E": "2 sum_n>0 |<n|V|0>|^2 / Delta_n",
+    "chi_F": "sum_n>0 |<n|V|0>|^2 / Delta_n^2"
+  },
+  "two_level_models": [
+    {
+      "gap": 0.5,
+      "matrix_element_squared": 1.0,
+      "energy_susceptibility": 4.0,
+      "fidelity_susceptibility": 4.0,
+      "ratio_chi_E_over_chi_F": 1.0
+    },
+    {
+      "gap": 1.0,
+      "matrix_element_squared": 1.0,
+      "energy_susceptibility": 2.0,
+      "fidelity_susceptibility": 1.0,
+      "ratio_chi_E_over_chi_F": 2.0
+    },
+    {
+      "gap": 2.0,
+      "matrix_element_squared": 1.0,
+      "energy_susceptibility": 1.0,
+      "fidelity_susceptibility": 0.25,
+      "ratio_chi_E_over_chi_F": 4.0
+    },
+    {
+      "gap": 4.0,
+      "matrix_element_squared": 1.0,
+      "energy_susceptibility": 0.5,
+      "fidelity_susceptibility": 0.0625,
+      "ratio_chi_E_over_chi_F": 8.0
+    }
+  ],
+  "conclusions": {
+    "universal_parameter_independent_proportionality": false,
+    "energy_susceptibility_is_independent_morphological_x_A": false,
+    "additional_source_owned_gap_weighting_required": true
+  },
+  "claim_boundary": "The no-go excludes an automatic identification. A physical source law may still define a calibrated transform using independently measured gaps and weights."
+}

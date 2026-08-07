@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "weight_law": "w_j=||P_j j_OS_evt||^2 / sum_k ||P_k j_OS_evt||^2",
+  "rows": [
+    {
+      "event": "null_event",
+      "regular": false,
+      "weights": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "support": [],
+      "exact_recovery_eligible": false,
+      "selected_factor": null
+    },
+    {
+      "event": "mixed_regular_event",
+      "regular": true,
+      "weights": [
+        0.16666666666666666,
+        0.6666666666666666,
+        0.16666666666666666
+      ],
+      "support": [
+        0,
+        1,
+        2
+      ],
+      "exact_recovery_eligible": false,
+      "selected_factor": null
+    },
+    {
+      "event": "axis_event_0",
+      "regular": true,
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "support": [
+        0
+      ],
+      "exact_recovery_eligible": true,
+      "selected_factor": 0
+    },
+    {
+      "event": "axis_event_1",
+      "regular": true,
+      "weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "support": [
+        1
+      ],
+      "exact_recovery_eligible": true,
+      "selected_factor": 1
+    },
+    {
+      "event": "axis_event_2",
+      "regular": true,
+      "weights": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "support": [
+        2
+      ],
+      "exact_recovery_eligible": true,
+      "selected_factor": 2
+    }
+  ],
+  "checks": {
+    "null_event_selects_no_factor": true,
+    "mixed_regular_event_fails_exact_recovery": true,
+    "each_axis_event_selects_one_factor": true,
+    "regular_exact_recovery_events_have_vertex_weights": true
+  },
+  "status": {
+    "incidence_source": "SHR-QOBSEVENT1 supplies a nonzero compact incidence for a regular finite event on adopted E1/EREM",
+    "factor_selection": "exact recovery restricts the normalized incidence to one factor axis, whose support designates the M2 embedding",
+    "mixed_control": "a regular mixed-factor event is allowed as incidence but cannot be promoted to an exact full-qubit A8b terminal",
+    "minimal_parent": "does not force E1/EREM occupation or exact recovery",
+    "chirality": "independent open discrete selection"
+  },
+  "verdict": "REGULAR_EVENT_INCIDENCE_PLUS_EXACT_RECOVERY_DESIGNATES_ONE_FACTOR_WITHOUT_A_NEW_LABEL"
+}

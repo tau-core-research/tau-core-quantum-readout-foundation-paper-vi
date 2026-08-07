@@ -1,0 +1,993 @@
+\subsection{Finite public-carrier census}
+
+To prevent repeated searches in non-identifying datasets, we froze eight
+public candidates and applied five gates: same carrier, an $x_Q$-capable state
+distance, an action-like observable, an independently once-counted $x_A$, and
+errors plus recovery information.  Table~\ref{tab:public-census} summarizes
+the result.  ``Partial'' means that the required observable exists only as a
+model-dependent or same-pipeline proxy.
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Public-carrier census. No candidate passes the independent-$x_A$ gate.}
+\label{tab:public-census}
+\begin{tabularx}{\textwidth}{@{}Xccccc@{}}
+\toprule
+Carrier/data & same & $x_Q$ & action-like & independent $x_A$ & errors/recovery\\
+\midrule
+Tan superconducting qubit & yes & yes & yes & no & partial\\
+Yu NV centre & yes & yes & no & no & partial\\
+Kim black phosphorus & yes & yes & yes & no & partial\\
+Zheng non-Abelian circuit & yes & yes & yes & no & partial\\
+Pires NMR open QSL & yes & yes & yes & no & partial\\
+Ness trapped atom QSL & yes & yes & yes & no & yes\\
+KIT mitigated tomography & yes & yes & no & no & yes\\
+Photonic overlap data & yes & yes & no & no & partial\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The strongest standard-QOR control is the trapped-atom dataset of Ness et
+al.\ \citep{Ness2021QSL}: it publishes two-time overlaps together with mean
+energy, energy variance, timing and an associated data archive.  It can test
+the ordinary speed-limit side, but energy moments are not an independently
+defined morphological action separation.  We audited all 53 published
+Figure~2 overlap points against the larger of the interpolated
+Mandelstam--Tamm and Margolus--Levitin lower limits.  Pointwise central values
+occasionally fall below the fitted limit, but after combining the measured
+lower and bound upper uncertainties in quadrature the largest one-sided
+deviation is only $1.4465\sigma$; no point exceeds $1.96\sigma$.  Thus the
+public control is consistent with the standard QSL and supplies no anomalous
+Tau residual.
+
+The strongest spectral-response
+candidate is the public black-phosphorus package of Kim et al.\
+\citep{Kim2025QGTData}, which contains ARPES dispersion and QGT products.  Its
+$x_A$ map is not source-frozen, and the QGT and candidate spectral response
+share ARPES/pseudospin processing.  The non-Abelian superconducting-circuit
+\citep{Zheng2022QGT} and open-NMR QSL \citep{Pires2024QSL} candidates fail for
+the analogous same-pipeline reason.
+
+There is also a structural obstruction to simply declaring spectral
+curvature to be $x_A$.  For the generic two-band family
+\begin{equation}
+ H(q)=r(q)\,\mathbf n(q)\!\cdot\!\boldsymbol\sigma,
+ \qquad
+ r(q)=1+bq^2,
+ \qquad
+ \mathbf n(q)=(\sin aq,0,\cos aq),
+\end{equation}
+the ground-state quantum metric and positive-band curvature at $q=0$ are
+\begin{equation}
+ g_{qq}(0)=\frac{a^2}{4},
+ \qquad
+ E_+''(0)=2b.
+\end{equation}
+Holding $a$ fixed while varying $b$ gives the same QGT and different spectral
+curvature; holding $b$ fixed while varying $a$ gives the same spectrum and
+different QGT.  Hence neither quantity determines the other without an
+additional source-owned law tying radial spectral data to angular state data.
+This countermodel rules out relabelling an ARPES band curvature as an
+independent morphological action record.
+
+The same obstruction survives when a public calculation supplies separate
+energy- and fidelity-susceptibility estimators, as in the open PMR-QMC packet
+of Ezzell et al.\ \citep{Ezzell2024Susceptibility}.  For a nondegenerate
+ground state of $H(\lambda)=H_0+\lambda V$, standard perturbation theory gives
+\begin{equation}
+ \chi_E=-\partial_\lambda^2E_0
+ =2\sum_{n>0}\frac{|V_{n0}|^2}{\Delta_n},
+ \qquad
+ \chi_F=\sum_{n>0}\frac{|V_{n0}|^2}{\Delta_n^2}.
+ \label{eq:susceptibility-moment-nogo}
+\end{equation}
+They are different spectral moments.  Already for one excited level,
+$\chi_E/\chi_F=2\Delta$, so no parameter-independent universal scale converts
+one into the other.  Independent estimation is therefore necessary but not
+sufficient: identifying an action-side $x_A$ requires a source-owned rule that
+fixes the gap weighting and normalization without using the fidelity data.
+The public PMR-QMC package is useful as a computational control of the two
+moments, not as an occupied physical carrier or a test of
+Eq.~\eqref{eq:tau-discriminator}.
+
+Consequently the census has zero full passes.  Ness 2021 is retained only as
+a standard QOR/recovery control.  Kim 2025 may be reopened only after an
+action/work/response-curvature map is defined without using the state or QGT
+data that produce $x_Q$.  This is the stopping verdict for the present public
+inventory; adding another tomography, metric or Berry estimator cannot
+reduce the finite discriminator blocker.  The complete Ness tables, provenance,
+uncertainty audit and two-band countermodel are included in the reproducibility
+package.
+
+\subsection{Operational boundary for the action-side observable}
+
+The preceding audits permit a finite exhaustion statement for the standard
+public-observable routes.  Let $\mathfrak O_Q$ be the algebra generated by
+state tomography, Hamiltonian spectroscopy, quantum-geometric response and
+QOR timing on the selected carrier.  Terminally equivalent completions can
+agree on all of $\mathfrak O_Q$ while assigning
+\begin{equation}
+ x_A^{(0)}=x_Q,
+ \qquad
+ x_A^{(\lambda)}=x_Q+\lambda x_Q^2,
+ \qquad \lambda>0.
+ \label{eq:terminal-equivalent-actions}
+\end{equation}
+Therefore no statistic measurable only in $\mathfrak O_Q$ identifies finite
+A8b.  The concrete candidate reductions fail for complementary reasons:
+\begin{enumerate}[label=(O\arabic*)]
+\item QGT, fidelity and tomography are functions of $\mathfrak O_Q$ and are
+  circular as action-side estimators;
+\item reversible quasistatic work vanishes for a fixed-gap rotating ground
+  state although its endpoint Uhlmann chord is nonzero;
+\item band curvature is independent of the eigenstate QGT in the two-band
+  countermodel above;
+\item energy susceptibility and fidelity susceptibility are inequivalent
+  spectral moments by Eq.~\eqref{eq:susceptibility-moment-nogo}.
+\end{enumerate}
+
+\paragraph{Operational $x_A$ no-go.}
+Within the frozen public inventory and the observable algebra
+$\mathfrak O_Q$, there is no operationally identified independent estimator
+of $x_A=\mathcal A_X^{PC}/A_*$.  The common-Gram equality remains a conditional
+cross-domain prediction, not an executable public-data test.
+
+This no-go does not make the prediction unfalsifiable in principle.  It fixes
+the minimum admissible reopening packet.  One must independently measure a
+source/body-side local stiffness $K_A(q)$, freeze its action unit and
+continuation law before examining withheld quantum endpoints, and then test
+the blind predictions
+\begin{equation}
+ \widehat x_A(q_i,q_j)
+ \stackrel{\rm blind}{=}
+ 2\bigl(1-\sqrt{F(\rho_i,\rho_j)}\bigr)
+ \label{eq:blind-action-prediction}
+\end{equation}
+on non-collinear pairs and closed triangles.  Triangle inconsistency would
+detect unmodelled holonomy or finite-response corrections.  Relative
+distance ratios can reject nonlinear laws before $A_*$ is known, but full
+A8b additionally requires the common absolute action unit.  No located public
+dataset contains this independent stiffness-plus-withheld-endpoint packet.
+
+Local stiffness alone is still insufficient.  Consider two amplitude-plane
+embeddings
+\begin{equation}
+ W_0(q)=(q,0),
+ \qquad
+ W_\kappa(q)=\frac{1}{\kappa}
+ \bigl(\sin\kappa q,1-\cos\kappa q\bigr).
+ \label{eq:isometric-curve-countermodel}
+\end{equation}
+Both have the identical local pullback metric
+$\|\partial_qW\|^2=1$, but for an endpoint interval $\Delta q$ their chords
+are
+\begin{equation}
+ d_0=|\Delta q|,
+ \qquad
+ d_\kappa=\frac{2}{|\kappa|}
+ \left|\sin\frac{\kappa\Delta q}{2}\right|,
+\end{equation}
+which differ at finite separation.  Thus $K_A$ determines only intrinsic
+infinitesimal length.  A blind finite certificate must additionally freeze
+the connector's extrinsic continuation, or an equivalent amplitude lift and
+connection, and test its holonomy.  The minimal reopening packet is therefore
+\begin{equation}
+ \boxed{\{K_A,\ C_q,\ \nabla^C,\ A_*,\ \text{withheld endpoints and loops}\}}.
+ \label{eq:minimal-blind-packet}
+\end{equation}
+On a simply connected tested domain, flat right-unitary-basic transport makes
+the integrated lift path independent and permits
+Eq.~\eqref{eq:blind-action-prediction}.  Nontrivial descriptor-visible
+holonomy must be retained as physical path data rather than quotiented away.
+
+Even all pairwise endpoint distances do not determine that loop datum.  For
+the three pure qubit states
+\begin{equation}
+ |\psi_0\rangle=(1,0),\quad
+ |\psi_1\rangle=(\cos\theta,\sin\theta),\quad
+ |\psi_2^{\pm}\rangle=(\cos\theta,e^{\pm i\phi}\sin\theta),
+\end{equation}
+the $+$ and $-$ packets have identical three pairwise fidelities.  Their
+gauge-invariant Bargmann products
+\begin{equation}
+ \mathcal B_\pm=
+ \langle\psi_0|\psi_1\rangle
+ \langle\psi_1|\psi_2^\pm\rangle
+ \langle\psi_2^\pm|\psi_0\rangle
+\end{equation}
+are complex conjugates and carry opposite nonzero phases.  Pairwise chords
+therefore cannot certify the connector's phase transport.  At least one
+closed triangular loop witness is mandatory in addition to non-collinear
+endpoint tests.  For mixed states the corresponding object is the declared
+Uhlmann transport/holonomy, not an arbitrary purification phase.
+
+\subsection{Alternative physical sources}
+
+The operational no-go above excludes reconstruction of $x_A$ from the frozen
+standard quantum-observable algebra; it does not exclude a different physical
+measurement source. We therefore performed a finite same-carrier audit of
+six experiments that realize complementary parts of the blind packet.
+Batalh\~ao et al. directly reconstructed a quantum work distribution in an
+NMR spin system \citep{Batalhao2014Work}. Cottet et al. combined microwave
+work extraction with full state tomography in a superconducting quantum
+Maxwell-demon experiment \citep{Cottet2017Demon}. Mixed-state geometric phase
+was measured interferometrically in NMR \citep{Ghosh2006MixedPhase}, and an
+Uhlmann phase was implemented with superconducting qubits
+\citep{Viyuela2018Uhlmann}. Finally, an Xmon experiment combined a closed
+geometric gate with process tomography \citep{Zhao2020GeometricGate}.
+Naghiloo et al. additionally tracked individual transmon trajectories and
+assigned heat and work along the same reconstructed state path
+\citep{Naghiloo2020Trajectories}.
+
+These results establish the separate experimental availability of all three
+measurement legs,
+\begin{equation}
+ \text{work/action response},\qquad
+ \text{endpoint state geometry},\qquad
+ \text{closed-loop phase or holonomy}.
+ \label{eq:alternative-source-legs}
+\end{equation}
+They do not yet form one source-frozen certificate. No audited publication
+simultaneously supplies all three legs on the same physical carrier, an
+independent map from the measured work-like observable to the body action,
+and a reusable numerical archive sufficient for the full test. In
+particular, thermodynamic work and imposed control-pulse area are standard
+terminal observables; neither may be renamed
+$\mathcal A_X^{PC}$ without a source-owned calibration theorem.
+The Naghiloo packet is the strongest trajectory-resolved candidate, but its
+work is computed from monitored $\rho(t)$ and known $H(t)$; it therefore adds
+no independent action coordinate, reports no closed Bargmann/Uhlmann witness,
+and has no located reusable raw-trajectory archive.
+Its frozen publication-level readiness score is therefore $6/13$. The reported
+$20\,$ns sampling, approximately $10^4$ trajectories, measurement efficiency
+$0.35$, heat--feedback correlation $-0.68$, and feedback/open-loop regression
+slopes $0.437/0.006$ support strong first-law and feedback controls. They do
+not license the finite A8b, holonomy or QOR scores.
+
+The Cottet packet plays a complementary and stronger instrumental role.
+Extracted work is measured directly as an input--output microwave-power
+difference and checked against an independent qubit-energy measurement and
+full cavity-memory tomography. Its readiness score is $7/13$. This is an
+independent measurement instrument, not yet an information-independent
+terminal coordinate. Reported controls include informed/ignorant memory
+occupations $\bar n=9/0$, residual qubit excitation $0.027\pm0.010$, and memory
+entropies $1.0\pm0.05$ versus $1.2\pm0.1$. It still does not supply a
+source-frozen map from this terminal work to $\mathcal A_X^{PC}/A_*$ or a
+closed holonomy. It is therefore the primary directly measured energy control,
+while the Naghiloo packet remains the trajectory control; their records may
+not be stitched into one Tau certificate.
+
+The distinction follows directly from input--output theory. With frozen input
+field and coupling controls $c$, the measured output satisfies
+\begin{equation}
+ b_{\rm out}=b_{\rm in}-\sqrt{\gamma_b}\,\sigma_- ,
+ \qquad
+ \overline P_{\rm out}=F(\rho_S,c).
+ \label{eq:cottet-factorization}
+\end{equation}
+Consequently
+$D\overline P_{\rm out}=D_\rho F\,D\rho_S$ and stacking mean output power with
+complete qubit tomography does not increase the conditional descriptor rank.
+The power detector is physically independent and provides an excellent
+cross-check, but its mean record is not information-novel once $(\rho_S,c)$ is
+known.
+
+There is a precise qualification for fluctuations. Multi-time output moments
+need not factor through an instantaneous $\rho_S(t)$ alone: they also depend
+on the dynamical generator $\mathcal L$, coupling operators, input-field state
+and controls. Under a frozen Markov input--output model, however, quantum
+regression gives schematically
+\begin{equation}
+ \langle O_n(t_n)\cdots O_1(t_1)\rangle
+ =\mathcal F_n(\rho_S(0),\mathcal L,L_b,\rho_{\rm in},c).
+ \label{eq:cottet-correlation-factorization}
+\end{equation}
+Correlations may therefore be novel relative to endpoint or instantaneous
+tomography while remaining redundant relative to independently frozen process
+tomography. A residual surviving the latter test diagnoses an incomplete
+standard process model, not automatically the Tau body action. The Cottet
+publication-level packet reports averaged power and no reusable single-shot
+archive sufficient for this residual test, so no fluctuation score is licensed.
+
+We therefore performed a finite direct-public-data audit. The Wang
+longitudinal-readout Zenodo packet contains three pairs of prepared-state
+single-shot IQ arrays with approximately $2.94\times10^4$ records per class.
+Projection onto the frozen class-centroid axis and classification at its
+midpoint gives accuracies $0.9951$, $0.9956$ and $0.9980$, with pooled $d'$
+values $7.32$, $6.34$ and $8.63$. These are reproducible standard readout
+controls. They are integrated endpoint samples, not time-resolved trajectories,
+and supply neither a process residual, holonomy nor body action. The public
+Murch thermal-readout packet contains accumulated probabilities and histograms
+rather than individual trajectories. Ficheux reports the strongest
+architecture: time-resolved records, a frozen stochastic master equation and
+independent terminal tomography on one carrier. Its raw records are available
+only on request; public movies are not a reusable numerical archive. Under the
+declared direct-public rule, zero located packets pass the six-part
+process-residual gate. This closes the current public-data search at the
+Tau-scoring level while retaining Wang as a pipeline control and Ficheux as the
+leading acquisition target.
+
+A separate public optical packet provides a useful same-experiment control
+without repairing this identifiability failure. Wen et al. reconstructed
+single-photon amplitudes over more than $1.4$ million paths and released the
+figure tables under CC0 \citep{Wen2026PathData}. Across the 100 published
+action bins, a weighted linear fit of path amplitude against classical action
+gives slope $-0.0287\pm0.0417$, consistent with the equal-magnitude postulate.
+The measured phase follows the reported action prediction with RMS residual
+$0.0218$ in units of $\pi$. These are strong standard path-integral controls.
+They are not a Tau score: path length and action are supplied as separate
+aggregate tables, not as joint path-level $(M,S,A,\theta)$ records. Hence a
+conditional novelty test such as $I(A;M\mid S)>0$ is not identifiable, and the
+optical action cannot be renamed as $\mathcal A_X^{PC}$.
+
+The raw camera matrices nevertheless allow one bounded follow-up diagnostic.
+Using the published polarization differences, probability normalization and
+the quadratic vertex of the independent Fig.~S1C sample, we reconstruct 17
+radial step-kernel classes and enumerate the full $17^5=1{,}419{,}857$ path
+family.  The phase reduction reproduces the Fig.~S1C sample to RMS
+$0.0120\pi$ after one common phase offset.  Relative to scalar total standard
+action, five frozen path descriptors add $\Delta R^2=0.1758$ to the phase
+residual regression.  The generated paths, however, share the same 17 measured
+kernel classes.  A permutation test at that kernel level gives $p=0.144$;
+there is therefore no resolved morphology increment on the validated phase
+leg.  The image-level amplitude reduction gives a larger apparent increment
+but fails the independent Fig.~S1C amplitude check and is excluded.  This is a
+standard factorized-kernel diagnostic, not evidence for an independent Tau
+body action or a Tau-specific quantum signal.
+
+The released Figs.~S2C--S2D permit a corrected amplitude-side reconstruction
+without the failed image-level normalization. Their 17 normalized radial
+means have only $0.863\%$ coefficient of variation, yet the corresponding path
+products retain $\Delta R^2=0.4962$ beyond scalar total action. A permutation
+of the 17 shared measured kernel classes gives $p=0.004$. Propagating the
+histogram-derived standard errors through 9,999 draws under a constant-
+amplitude null gives $p=0.0009$, and replacing any single radial class by its
+action-trend prediction leaves $\Delta R^2\geq0.2936$. Thus the amplitude
+structure is reproducible from the authors' published reduction and is not a
+single-class artifact. It remains a standard optical-kernel morphology signal,
+not a Tau endpoint: all paths reuse the same 17 measurements and the standard
+optical action is not an independently reconstructed $\mathcal A_X^{PC}$.
+
+To avoid interpreting this five-descriptor fit after the fact, we next freeze
+one theory-motivated candidate before comparison with the controls. The
+candidate is the Dirichlet energy of the path-increment field,
+\begin{equation}
+ M_{\rm curv}(\gamma)
+ =\sum_k\left(\Delta x_{k+1}-\Delta x_k\right)^2.
+ \label{eq:wen-curvature-candidate}
+\end{equation}
+This is only a conditional Tau descriptor: the body program selects a
+primitive Dirichlet form, whereas applying it to the increment field requires
+a separately typed, body-derived edge carrier that is not proved here. With
+scalar total action retained as the baseline,
+Eq.~\eqref{eq:wen-curvature-candidate} adds only
+$\Delta R^2=0.000405$. A permutation of the 17 shared radial kernel classes
+gives $p=0.543$, and the candidate ranks fourth among the five single-
+descriptor additions. Ordinary path length alone gives
+$\Delta R^2=0.4826$. Thus the robust published-amplitude result is dominated
+by a standard accumulated-step descriptor; the frozen curvature candidate is
+not detected. This negative result narrows the admissible Tau morphology
+family and prevents the broad five-variable signal from being promoted to a
+Tau-specific effect.
+
+An independent aggregate check is supplied by the released Fig.~S2B table.
+It contains 17 measured radial phase points with standard deviations and a
+200-point theoretical curve. Linear interpolation of the theory onto the
+measurement grid gives an RMS residual of $0.01233\pi$; all points lie within
+one reported standard deviation, with maximum absolute standardized residual
+$0.4873$. This strengthens the standard phase reconstruction but not the Tau
+identifiability claim: Fig.~S2B contains no same-index complex amplitude,
+recovery-process record or independently reconstructed body action. It
+therefore remains ineligible for the primary Tau score.
+
+This gives a positive but conditional reopening architecture. On one
+programmable qubit--ancilla carrier, reconstruct the characteristic function
+of work by Ramsey interferometry, independently tomograph withheld endpoints,
+and close at least one Bargmann or Uhlmann loop. Freeze the action map and
+$A_*$ before reading the endpoint and loop data. The resulting packet would
+test both the finite magnitude identity and connector transport without
+cross-platform stitching. The audit therefore replaces an open-ended source
+search by one finite design target; it is a feasibility result, not evidence
+that Nature realizes finite A8b.
+
+The three legs are also mathematically compatible on one explicit carrier.
+Consider the closed qubit family
+\begin{equation}
+ H(q)=\frac{\Delta_0(1+m\cos q)}{2}\,
+ \mathbf n(q)\!\cdot\!\boldsymbol\sigma,
+ \qquad
+ \mathbf n(q)=(\sin\theta\cos q,\sin\theta\sin q,\cos\theta),
+ \label{eq:joint-qubit-source}
+\end{equation}
+with Gibbs records
+$\rho(q)=e^{-\beta H(q)}/\Tr e^{-\beta H(q)}$.  On this same path, a sudden
+step has the standard work characteristic function
+\begin{equation}
+ G_{q\to q'}(u)=
+ \Tr\!\left[e^{iuH(q')}e^{-iuH(q)}\rho(q)\right],
+ \label{eq:joint-work-characteristic}
+\end{equation}
+tomography gives the Uhlmann chord
+$x_Q=2(1-\sqrt{F(\rho(q),\rho(q'))})$, and discrete Uhlmann parallel transport
+around $q\in[0,2\pi]$ gives a closed-loop phase.  For the frozen control
+$(\beta,\Delta_0,m,\theta)=(1.3,1,0.35,1)$ on 65 points, the audit finds a
+nonconstant $G(u)$, nonzero step chords and loop phase
+$\Phi_U=0.13427$ radians; the final transport-unitarity defect is below
+$8\times10^{-16}$.
+
+\paragraph{Joint-carrier compatibility result.}
+Work-characteristic interferometry, endpoint state geometry and Uhlmann loop
+transport can therefore be defined consistently on one Hamiltonian family
+without combining different carriers.  The construction does not prove
+$x_A=x_Q$: Eq.~\eqref{eq:joint-work-characteristic} is a terminal
+thermodynamic work statistic, and the independent map from this statistic to
+$\mathcal A_X^{PC}/A_*$ remains absent.  Its role is to remove protocol
+incompatibility as a blocker and isolate the remaining source-law question.
+
+There is, however, a finite obstruction to using ordinary dissipated work as
+that missing source law. For a sudden step between Gibbs states, direct
+substitution of $\log\rho(q)=-\beta H(q)-\log Z(q)$ gives
+\begin{equation}
+ \beta\bigl(\langle W\rangle-\Delta F\bigr)
+ =D\!\left(\rho(q)\Vert\rho(q')\right).
+ \label{eq:dissipated-work-relative-entropy}
+\end{equation}
+Thus dissipated work induces relative-entropy/Bogoliubov--Kubo--Mori
+geometry, whereas the finite A8b target uses the Uhlmann/Bures chord. These
+geometries are not related by one universal constant. On the frozen loop
+above, the stepwise ratio
+$D(\rho(q)\Vert\rho(q'))/x_Q(q,q')$ ranges from $2.1171$ to $2.4882$.
+
+\paragraph{Ordinary-work bridge no-go.}
+Even on the joint carrier, no path-independent common gain converts ordinary
+dissipated work into the finite Uhlmann chord. Work interferometry remains a
+valuable independent control and may constrain a richer source map, but the
+identification $\beta W_{\rm diss}=x_A=x_Q$ is rejected. A successful bridge
+must instead descend the already defined once-counted body action, or derive
+a nontrivial state-dependent transformation before endpoint data are read.
+
+The inherited body construction suggests a different, noncircular work
+observable. Let $z$ be a source-side occupied defect coordinate and let its
+once-counted positive body action be
+\begin{equation}
+ \mathcal A_X^{PC}(z)
+ =\frac12\langle z,K_A(z)z\rangle,
+ \qquad K_A(z)>0.
+ \label{eq:body-action-potential}
+\end{equation}
+Its conjugate body-work one-form is not the terminal qubit energy change but
+\begin{equation}
+ \alpha_B:=d\mathcal A_X^{PC},
+ \qquad
+ x_A(z)=\frac{1}{A_*}\int_{0}^{z}\alpha_B
+       =\frac{\mathcal A_X^{PC}(z)}{A_*},
+ \label{eq:body-work-transgression}
+\end{equation}
+where the zero-defect reference, physical path family and $A_*$ are frozen
+before state tomography. Exactness makes the integral path independent on the
+tested simply connected body chart; failure of closure is itself a rejection
+of this minimal bridge and must not be repaired by endpoint fitting.
+
+\paragraph{Conditional body-work bridge.}
+An independent generalized-force reconstruction of $\alpha_B$, including its
+closure and normalization ledger, supplies the missing action ordinate without
+using $\rho$, fidelity or QGT. Equation~\eqref{eq:tau-discriminator} can then
+be tested blindly against withheld endpoint tomography and loop holonomy. This
+is an operational realization of the inherited once-only body-energy
+transgression, not a proof that a presently published qubit experiment has
+measured it.
+
+\paragraph{Resonator-factorization no-go.}
+A readout resonator is not automatically a second physical axis. Let $c$
+denote frozen controls and suppose its reported response satisfies
+\begin{equation}
+ R_{\rm res}=F(\rho,c).
+ \label{eq:resonator-factorization}
+\end{equation}
+Then $D R_{\rm res}=D_\rho F\,D\rho$, so
+$\ker D\rho\subseteq\ker D(\rho,R_{\rm res})$ and stacking the resonator
+record with state tomography cannot increase rank beyond the state map.
+Equivalently, the response contains no conditional information about a hidden
+action coordinate once $(\rho,c)$ is known. Thus dispersive cavity shifts used
+to reconstruct the qubit state, and dynamical responses designed to reconstruct
+the QGT, cannot also serve as an independent $x_A$ ordinate.
+
+A finite seven-candidate audit separates two questions. Dispersive readout,
+measurement-instrument backaction and QGT-response protocols do not supply an
+independent action axis
+\citep{Filipp2009DispersiveReadout,Hatridge2013Backaction,Rudinger2021QILGST,
+Tan2019QGT,Yu2019QGT,Zhao2020GeometricGate}. Calorimetric work measurement is
+the one audited architecture that can add an independent energy-exchange
+record \citep{Pekola2013Calorimetry}, but the cited construction does not
+provide a public same-carrier endpoint/holonomy packet or a frozen map from
+ordinary energy exchange to $\mathcal A_X^{PC}/A_*$. Thus independent
+measurement rank is necessary but not sufficient for an independent $x_A$.
+The positive requirement is a separately calibrated source-port force,
+impedance, admittance or calorimetric backaction whose response does not factor
+through $\rho$ or the QGT, followed by a body-action map frozen before
+tomography.
+
+\paragraph{Generalized-force factorization no-go.}
+The phrase ``generalized force'' does not by itself meet this requirement. For
+a standard controlled Hamiltonian family $H(\lambda)$, the measured force is
+\begin{equation}
+ \mathcal M_\mu=-\operatorname{Tr}\!\left(\rho\,\partial_\mu H\right).
+ \label{eq:standard-generalized-force}
+\end{equation}
+Once $\rho$, $H$ and the control calibration are frozen,
+$\mathcal M_\mu=F_\mu(\rho,H,\partial H)$ and its Jacobian row lies in the span
+of those inputs.  Slow-drive corrections can expose Berry curvature and other
+quantum-geometric response coefficients; this makes generalized-force
+experiments valuable independent \emph{instrumental} checks of quantum
+geometry, but not an information-independent ordinate for $x_A$.  Using the
+same response both to reconstruct the QGT and to test $x_A=x_Q$ would therefore
+be circular \citep{Kolodrubetz2017Geometry,Schroer2014TopologicalTransition}.
+
+The shortcut reopens only if a separately calibrated residual
+\begin{equation}
+ \xi_\mu:=\mathcal M_\mu+
+ \operatorname{Tr}\!\left(\rho\,\partial_\mu H\right)
+ \label{eq:source-port-force-residual}
+\end{equation}
+is reproducibly nonzero, survives conditioning on state, controls and
+instrument response, and is mapped to the once-counted body action with its
+unit frozen before endpoint tomography.  A nonzero $\xi_\mu$ would first
+diagnose an incomplete standard source-port model; it would become a Tau test
+only after that independent body-action bridge is established.  Thus the
+standard generalized-force/QGT route is closed, while calorimetric or
+mechanical source-port architectures remain conditionally open.
+
+\paragraph{Bounded public source-port verdict.}
+We finally audited the strongest public thermal and mechanical alternatives
+rather than extending the candidate census indefinitely.  Gunyh\'o et al.
+publish a large single-shot thermal-detector archive, but the bolometer absorbs
+the state-dependent resonator readout power; it is a physically distinct
+detector, not a conditionally independent source/body ordinate
+\citep{Gunyho2024ThermalReadout}.  Pulsed optomechanical tomography reconstructs
+mechanical phase space with calibrated optical pulses, while collective
+backaction-evading measurements establish mechanical tomography and
+force-sensing capability \citep{Vanner2013MechanicalTomography,
+OckeloenKorppi2016BAE}.  Neither publication supplies a joint applied-force
+record surviving conditioning on the reconstructed state, a finite
+Uhlmann/QGT endpoint and a frozen map to $\mathcal A_X^{PC}/A_*$.  The finite
+public-source-port audit therefore has zero eligible packets.  This closes the
+present public-data-only acquisition class; Eq.~\eqref{eq:body-work-transgression}
+remains a future protocol or an internal source-law target, not an observed Tau
+signal.
+
+\paragraph{Inherited CHDF body-work theorem.}
+The internal source side is stronger than the public-data status. Let
+$L:X_B\rightarrow E_S$ be the established visible body map and let $H_B>0$ be
+the frozen CHDF body Hessian. Exact constrained elimination gives
+\begin{equation}
+ \mathcal A_Q(y)=\inf_{Lb=y}\frac12\langle b,H_Bb\rangle
+ =\frac12\langle y,K_{\rm leaf}y\rangle,
+ \qquad K_{\rm leaf}=(LH_B^{-1}L^*)^{-1}>0.
+ \label{eq:chdf-quotient-action}
+\end{equation}
+Consequently the body-work form is not an additional ansatz:
+\begin{equation}
+ \alpha_B=d\mathcal A_Q
+ =\langle K_{\rm leaf}y,dy\rangle,
+ \qquad d\alpha_B=0,
+ \qquad \int_{0}^{y}\alpha_B=\mathcal A_Q(y).
+ \label{eq:chdf-exact-body-work}
+\end{equation}
+It inherits the same parent action unit and is path independent on every
+simply connected quotient chart. The symbolic replay uses
+$k_R=59/64-\sqrt3/12$ and $k_T=1+\sqrt3/24$ and verifies positivity, closure
+and equality of straight and piecewise path integrals exactly.
+
+This closes only the existence and normalization of the body-side one-form.
+Under the adopted PRRC-P1/PJR-P1 constitutive continuation, the protected
+body-relative role is carried into the post-body packet once, with no duplicate
+action or free relative scale. That working-completion statement is not a
+theorem that Nature selects PRRC-P1. More importantly, neither
+Eq.~\eqref{eq:chdf-quotient-action} nor PRRC-P1 constructs the observer
+amplitude connector required by finite A8b. The implication
+$\alpha_B\Rightarrow x_A=x_Q$ therefore remains forbidden: the former is now
+an inherited body theorem, while the latter is still the common-source
+connector claim to be proved or tested.
+
+\paragraph{Finite-range realization and non-selection theorem.}
+The body action above is quadratic and therefore unbounded, whereas the
+normalized Uhlmann chord
+\begin{equation}
+ x_Q=2\bigl(1-\sqrt{F(\rho_+,\rho_-)}\bigr)
+ \label{eq:uhlmannchordbound}
+\end{equation}
+satisfies $0\leq x_Q\leq2$. Consequently a raw global identity $x_A=x_Q$
+is impossible on the complete CHDF body. It can hold only on an occupied
+bounded sector, or after a separately derived bounded reparametrization of
+the action coordinate.
+
+That bounded sector is nonempty and admits an exact construction. For
+$0\leq x\leq2$, define
+\begin{equation}
+ \rho_\pm(x)=\frac12\left(I\pm r(x)\sigma_z\right),\qquad
+ r(x)^2=x-\frac{x^2}{4}.
+ \label{eq:a8bmixedrealization}
+\end{equation}
+The states are positive and normalized, their root fidelity is
+$\sqrt{F}=\sqrt{1-r^2}=1-x/2$, and Eq.~\eqref{eq:uhlmannchordbound} gives
+$x_Q=x$. Thus the CHDF action coordinate has an exact finite A8b realization
+on $0\leq x_A\leq2$.
+
+Existence is not physical selection. Composing the construction with a
+depolarizing channel replaces $r(x)$ by $\gamma r(x)$ for any
+$0\leq\gamma\leq1$. Every member is CPTP and preserves normalization, but
+\begin{equation}
+ x_Q^{(\gamma)}=2\left(1-\sqrt{1-\gamma^2r(x)^2}\right)
+ \label{eq:a8bdepolarizingfamily}
+\end{equation}
+varies with $\gamma$. Positivity, normalization and CP descent therefore do
+not force the A8b member $\gamma=1$. The complete-edge result of Paper III is
+a sufficient internal realization theorem once the corresponding edge is
+occupied; it does not prove that the physical base--seed parent selects that
+edge. The remaining source statement is precisely the occupation law
+$V_{\rm phys}=V_{r(x)}$, or an independently derived bounded replacement for
+$x_A$. The range and counterfamily checks are reproduced by
+\texttt{audit\_chdf\_uhlmann\_range\_and\_selection.py}.
+
+\paragraph{Exact-recovery selector.}
+The recovery branch removes the remaining freedom inside the depolarizing
+counterfamily if it is imposed on the full occupied qubit operator system.
+Let
+\begin{equation}
+ \mathcal C_\gamma(\rho)=\gamma\rho+(1-\gamma)I/2,
+ \qquad 0\leq\gamma\leq1.
+ \label{eq:depolarizingselector}
+\end{equation}
+For the two orthogonal eigenstates of $\sigma_z$, trace distance contracts
+from one to $\gamma$. If a CPTP map $\mathcal R$ satisfied
+$\mathcal R\mathcal C_\gamma=\mathrm{id}$ on the full qubit code, trace-distance
+contractivity under $\mathcal R$ would imply
+\begin{equation}
+ 1\leq D(\mathcal C_\gamma\rho_0,\mathcal C_\gamma\rho_1)=\gamma.
+\end{equation}
+Hence $\gamma=1$; conversely, $\gamma=1$ has identity recovery. Exact
+full-code CPTP recoverability is therefore necessary and sufficient for the
+A8b member within this family. This is a genuine selector theorem, but not yet
+a Nature-selection theorem: the physical base--seed law has not been shown to
+require exact recovery on the full occupied operator system. Restricted state
+families and correctable subalgebras must not be silently promoted to that
+premise. The finite check is reproduced by
+\texttt{audit\_depolarizing\_recovery\_selector.py}.
+
+\paragraph{Protected logical recovery versus global loss.}
+The phrase ``full code'' in the selector theorem refers to the full occupied
+logical ROOT operator system, not to every morphological-body realization
+degree of freedom. This distinction is required by the Tau architecture,
+whose observer descent is generically noninjective. Let
+\begin{equation}
+ \mathcal H_B=\mathcal H_L\otimes\mathcal H_G,\qquad
+ \mathcal E_O=\operatorname{Tr}_G,qquad
+ \iota(\rho_L)=\rho_L\otimes\tau_G,
+ \label{eq:protectedfactor}
+\end{equation}
+where $L$ is the protected logical ROOT factor and $G$ contains sourced
+realization multiplicity. Then
+\begin{equation}
+ \mathcal R(\sigma_L)=\sigma_L\otimes\tau_G,qquad
+ \mathcal R\mathcal E_O\iota=\iota,
+ \label{eq:protectedrecovery}
+\end{equation}
+although $\mathcal E_O$ is globally noninjective: states
+$\rho_L\otimes g_0$ and $\rho_L\otimes g_1$ with $g_0\neq g_1$ have the same
+observer output. Thus exact recovery of the logical algebra is compatible
+with genuine observer-relative information loss in the body realization
+factor.
+
+More generally, for an isometric body--observer--complement realization,
+exact recovery of the protected code is equivalent to the complementary
+output carrying no information about the logical state. This is the precise
+condition needed here: loss may retain realization or gauge information, but
+must be blind to the ROOT coordinate used by A8b. The construction proves
+compatibility and fixes the selector's scope. It does not prove that the
+physical base--seed law places all ROOT information in the protected factor.
+That source-factorization statement is now the remaining physical premise.
+The finite logical/realization split is reproduced by
+\texttt{audit\_protected\_logical\_recovery\_split.py}.
+
+\paragraph{ROOT--commutant factorization.}
+The logical/realization split need not be introduced as an additional tensor
+postulate once one factor of the earlier Clifford packet has been physically
+designated as the logical ROOT factor on the occupied $M_8(\mathbb C)$ block. Let
+\begin{equation}
+ \mathcal A_L=M_2(\mathbb C)\otimes I_4.
+\end{equation}
+Its commutant in $M_8(\mathbb C)$ is
+\begin{equation}
+ \mathcal A_G=\mathcal A_L'=I_2\otimes M_4(\mathbb C).
+ \label{eq:rootcommutant}
+\end{equation}
+The algebras commute, have complex dimensions four and sixteen, and their
+products span all $64$ complex dimensions of $M_8$. Hence a selected ROOT
+$M_2$ factor canonically determines the realization factor and the
+factorization $\mathcal H_B\simeq\mathcal H_L\otimes\mathcal H_G$ on this
+block. Equation~\eqref{eq:protectedfactor} is therefore an internal
+consequence of the selected tensor packet rather than a further arbitrary
+enrichment.
+
+This result does not remove the known tensor-selection boundary. Pointer
+records alone admit entangling conjugacies, and the current narrow parent does
+not select the required oriented Clifford flag. The remaining physical
+premise is now sharply the selection and occupation of the ROOT factor/flag;
+once supplied, its realization complement and protected-recovery split follow
+automatically. The finite commutant and spanning checks are reproduced by
+\texttt{audit\_root\_commutant\_}\allowbreak
+\texttt{factorization.py}.
+
+\paragraph{Factor-designation no-go.}
+The rooted tensor packet does not itself perform that designation. Its root
+stabilizer $S_3$ permutes the three opposite-edge pairs, and therefore the
+three constructed $M_2$ factors, transitively. No individual factor projector
+is fixed by this action; the invariant subspace of the three-dimensional
+label representation is only the scalar line $(1,1,1)$. Thus OHC-P1 and the
+rooted TC-CVP1 germ conditionally select an oriented but unordered factor
+triple, not one distinguished logical ROOT factor.
+
+Selecting one factor requires a typed $S_3$-breaking datum. The weakest
+admissible form is a source-owned or irreducible observer--source access
+functional whose three factor weights are not all equal and whose unique
+extremum is frozen before terminal scoring. This datum may designate a
+logical access context without changing the body or adding a fourth factor.
+Its physical existence is not proved at this stage. Central chirality belongs
+to a separate odd extension and is later shown to be invisible to the current
+terminal. The permutation no-go is reproduced by
+\texttt{audit\_root\_factor\_designation\_}\allowbreak
+\texttt{no\_go.py}.
+
+\paragraph{Extremal observer-access selector.}
+The preceding no-go can be sharpened without adding a terminal fit. After the
+three factor outputs have been source-typed into one common qubit codomain,
+consider the convex access family
+\begin{equation}
+ \mathcal C_w=\sum_{k=1}^{3}w_k\operatorname{Tr}_{\widehat{k}},
+ \qquad w_k\geq0,\qquad \sum_{k=1}^{3}w_k=1,
+ \label{eq:weightedfactoraccess}
+\end{equation}
+where $\operatorname{Tr}_{\widehat{k}}$ retains factor $k$ and traces out the
+other two. Encode a logical qubit in factor $j$ while placing the other
+factors in the maximally mixed state,
+\begin{equation}
+ \iota_j(\rho)=\rho_j\otimes I/2\otimes I/2.
+\end{equation}
+Direct substitution gives
+\begin{equation}
+ \mathcal C_w\iota_j(\rho)
+ =w_j\rho+(1-w_j)I/2.
+ \label{eq:accessdepolarizing}
+\end{equation}
+Thus the effective depolarizing parameter on the $j$th logical factor is
+$\gamma_j=w_j$. By the exact-recovery selector above, a CPTP left inverse on
+the full logical qubit algebra exists if and only if $w_j=1$. Within
+Eq.~\eqref{eq:weightedfactoraccess}, exact A8b recovery therefore selects an
+extremal simplex vertex $w=e_j$, not merely a unique largest weight.
+
+This result supplies two useful controls. Symmetric access
+$w=(1/3,1/3,1/3)$ exactly designates no factor, while an interior vector with
+a unique maximum still cannot support exact full-algebra recovery. Under an
+$S_3$ relabeling, both $e_j$ and the retained factor transform together, so
+different source-typed observer contexts may designate different factors
+without contradiction or alteration of the common body. The result is a
+conditional selector theorem, not by itself a derivation that Nature occupies
+a vertex. Qubit-terminal minimality and regular-event incidence below derive
+the corresponding on-code purity and contextual designation. The finite controls and
+permutation-covariance check are reproduced by
+\texttt{audit\_extremal\_observer\_access\_}\allowbreak
+\texttt{selector.py}.
+
+\paragraph{Qubit-terminal minimality theorem.}
+The vertex condition is not peculiar to the weighted family once the terminal
+type and recovery scope are fixed. Let the observer terminal be one full
+$M_2(\mathbb C)$ algebra, and let the restriction of a CPTP access map
+$\mathcal C$ to one occupied logical qubit code admit a CPTP left inverse
+$\mathcal R$. Contractivity under both maps gives, for every pair of code
+states,
+\begin{equation}
+ D(\rho,\sigma)
+ =D(\mathcal R\mathcal C\rho,\mathcal R\mathcal C\sigma)
+ \leq D(\mathcal C\rho,\mathcal C\sigma)
+ \leq D(\rho,\sigma).
+\end{equation}
+Hence the restriction is a trace-distance isometry. A reversible CPTP map
+between equal-dimensional full matrix algebras is unitary conjugation, so on
+the occupied code
+\begin{equation}
+ \mathcal C(\rho)=U\rho U^\dagger.
+ \label{eq:qubitterminalunitary}
+\end{equation}
+It follows that exact full-code recovery through a minimal qubit terminal
+forces factor-pure access on that code; convex averaging or depolarization is
+excluded. Moreover, preserving two complete qubit factors jointly would
+require a four-dimensional code and cannot be reversibly represented in one
+two-dimensional terminal.
+
+This removes factor purity as an independent premise after exact recovery and
+minimal terminal type have been adopted. It does not by itself select which
+member of the unordered factor triple is occupied, prove that the physical
+parent realizes exact recovery, or constrain off-code body information. Thus
+the remaining continuous datum at this stage is factor \emph{designation},
+not an additional gain or purity law. The dimension and scope audit is
+reproduced by
+\texttt{audit\_qubit\_terminal\_minimality\_}\allowbreak
+\texttt{selector.py}.
+
+\paragraph{Observer--source commutant designation.}
+The remaining factor label can be supplied relationally rather than by a
+preferred label in the common body. Let $\mathcal N_O$ be the algebra carried
+by the complementary observer output, equivalently the realization/noise
+algebra that is allowed to vary while the logical terminal is exactly
+recoverable. If this algebra is maximal on the realization complement of
+factor $j$, then
+\begin{equation}
+ \mathcal N_O=I_2\otimes M_4(\mathbb C),\qquad
+ \mathcal A_{\mathrm{ROOT},O}=\mathcal N_O'=M_2(\mathbb C)\otimes I_4.
+ \label{eq:observercommutantselector}
+\end{equation}
+The double-commutant relation returns $\mathcal N_O$ and makes the designation
+unique for that typed context. Repeating the construction for each of the
+three factors gives three contexts in one $S_3$ orbit. Thus observers may
+designate different members of the same unordered body factorization while
+their descriptions remain related by the body's permutation symmetry.
+
+Equation~\eqref{eq:observercommutantselector} identifies what performs the
+designation: the observer--source complementary algebra, not a new body
+factor, fitted gain or globally preferred factor name. It is a conditional
+source theorem. Exact recovery implies complementary blindness to logical
+information, but this commutant theorem alone does not force the
+\emph{maximal} factor-complement algebra assumed here. A smaller
+noise algebra would have a larger commutant and would not uniquely select one
+qubit factor. The finite commutant dimensions and the three-context orbit are
+reproduced by
+\texttt{audit\_observer\_noise\_commutant\_}\allowbreak
+\texttt{selector.py}.
+
+\paragraph{Canonical-expectation completion.}
+Maximal complement occupation is not an additional free choice once a typed
+factor embedding, complete body occupation and the normalized trace are
+fixed. For
+\begin{equation}
+ M_8(\mathbb C)=M_2(\mathbb C)\otimes M_4(\mathbb C),
+\end{equation}
+the normalized-trace-preserving conditional expectation that is bimodular
+over the designated logical algebra is uniquely
+\begin{equation}
+ \mathbb E_L=\operatorname{id}_2\otimes\tau_4,
+ \label{eq:canonicalexpectation}
+\end{equation}
+where $\tau_4$ is the normalized trace on the realization factor. Equivalently,
+the terminal channel is partial trace over that factor, up to the conventional
+normalization and identification of the logical output. Its minimal Kraus
+rank is four, so the complementary Hilbert space is four-dimensional and its
+full observable algebra is $M_4(\mathbb C)$.
+
+Thus the maximal complement in
+Eq.~\eqref{eq:observercommutantselector} follows
+from the already declared complete-body, trace-preserving and bimodular
+descent conditions after the logical embedding has been designated. The
+continuous source gap is reduced again: it is the typed observer--source
+incidence selecting the $M_2$ embedding itself. Non-bimodular, nontracial or
+incomplete-body maps lie outside this theorem and can have different
+complements. The dimension ledger is reproduced by
+\texttt{audit\_canonical\_expectation\_}\allowbreak
+\texttt{complement.py}.
+
+\paragraph{Regular-event incidence closes the factor label conditionally.}
+The required typed incidence is not absent from the existing Tau completion.
+On the adopted $E_1/\mathrm{EREM}$ observer branch, the earlier regular-event
+theorem supplies a nonzero compact event cochain $j_{OS}^{\rm evt}$ for every
+regular finite interaction. Resolve that cochain over the three factor
+sectors of the occupied tensor packet and define
+\begin{equation}
+ w_k=
+ \frac{\|P_kj_{OS}^{\rm evt}\|^2}
+ {\sum_{\ell=1}^{3}\|P_\ell j_{OS}^{\rm evt}\|^2}.
+ \label{eq:eventfactorweights}
+\end{equation}
+Regularity makes the denominator nonzero. The extremal-access and
+qubit-minimality theorems then imply that an exact full-qubit A8b terminal is
+possible only when $w=e_k$ for one unique $k$. That nonzero support identifies
+the typed $M_2$ embedding, after which the canonical expectation fixes the
+full complement.
+
+No extra factor label or terminal fit has been introduced. A null event
+selects no factor. A regular event with support on several factor sectors is
+a valid observer interaction, but it cannot be promoted to an exact
+full-qubit A8b terminal; it belongs to a noisy, approximate or richer-terminal
+branch. Consequently the designation chain is closed conditionally on the
+adopted $E_1/\mathrm{EREM}$ event completion and exact quantum recovery. The
+minimal parent still does not force either physical occupation premise. The
+odd chirality extension is outside this even-terminal selection. The null,
+mixed and three axis controls are
+reproduced by
+\texttt{audit\_regular\_event\_factor\_}\allowbreak
+\texttt{selection.py}.
+
+\paragraph{Approximate-recovery stability.}
+Exact recovery is the zero-error endpoint, not a requirement on every
+physical interaction. Adopt the explicit convention
+\begin{equation}
+ \|\mathcal R\mathcal C-\operatorname{id}\|_\diamond\leq\eta.
+ \label{eq:recoverydiamonderror}
+\end{equation}
+For two orthogonal logical states, each recovered state is then within trace
+distance $\eta/2$ of its target. The triangle inequality gives recovered-pair
+distance at least $1-\eta$, while contractivity under $\mathcal R$ bounds it
+above by the pre-recovery distance. In the weighted access family that
+distance is $w_j$, hence
+\begin{equation}
+ \boxed{
+ w_j\geq1-\eta,
+ \qquad
+ \sum_{k\neq j}w_k\leq\eta.}
+ \label{eq:approxfactorbound}
+\end{equation}
+Thus an experimentally bounded recovery error supplies a predeclared bound
+on off-factor incidence. At five-percent diamond error, for example, the
+selected factor carries at least $95\%$ of the normalized access weight.
+Outside the weighted family the same argument bounds distinguishability
+contraction but does not by itself define unique factor weights. The finite
+error ledger is reproduced by
+\texttt{audit\_approximate\_factor\_selection\_}\allowbreak
+\texttt{bound.py}.
+
+\paragraph{Central-chirality blindness of the present terminal.}
+The central $\mathrm{Cl}_7$ sign must be separated from the quantum terminal
+actually constructed here. Keep the six flag generators
+$\gamma_1,\ldots,\gamma_6$ fixed and choose
+$\gamma_7=\pm z_1z_2z_3$. The two extensions have opposite central Clifford
+volume, but the first six generators already generate all of
+$M_8(\mathbb C)$. Therefore the three factor algebras, their states and
+effects, Born pairing, unitary transport, recovery maps and A8b geometry are
+identical as objects of the common $M_8$ terminal algebra.
+
+Consequently central chirality is not a blocker for the even quantum-readout
+claim of Paper VI. It becomes physical only after a typed parity-odd,
+orientation-sensitive or Weyl terminal couples to the odd extension. Such a
+future terminal still requires a source-owned orientation lock, and the
+present blindness result neither selects its sign nor proves chirality to be
+gauge or absent. The two extensions and common rank-64 terminal algebra are
+reproduced by
+\texttt{audit\_central\_chirality\_terminal\_}\allowbreak
+\texttt{blindness.py}.
+
+\subsection{Predeclared readiness scoring}
+
+The alternative-source census can be ranked for protocol readiness without
+pretending to score a Tau signal. We froze a 13-point rubric before evaluating
+the candidates: same carrier (2), direct work/action-like response (2),
+endpoint geometry (2), loop holonomy (2), independent body-action bridge (3),
+reusable public numerical data (1), and errors/recovery (1). Partial
+capabilities receive one point only where the corresponding two-point item is
+physically present but incomplete. A hard gate overrides the total: eligibility
+for $\Delta_{AQ}$ scoring requires the same carrier, full endpoint and loop
+legs, and the independent three-point body-action bridge.
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Alternative-source readiness. Scores measure protocol completeness,
+not evidence for Tau Core.}
+\label{tab:alternative-readiness}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Candidate & Score / 13 & Hard Tau gate & Principal missing leg\\
+\midrule
+Zhao Xmon geometric gate & 8 & fail & body action, reusable data\\
+Cottet Maxwell demon & 7 & fail & holonomy, body action\\
+Viyuela Uhlmann qubits & 7 & fail & direct work, body action\\
+Batalh\~ao NMR work & 6 & fail & holonomy, body action\\
+Ghosh NMR mixed phase & 6 & fail & direct work, body action\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The ranking selects the Xmon experiment as the closest integrated protocol
+architecture, while the Cottet and Viyuela experiments provide the strongest
+complementary work/tomography and holonomy realizations. The Tau-ready count
+is nevertheless zero. The score may guide source acquisition; it may not be
+converted into $\Delta_{AQ}$, a significance, or a detection claim.
+

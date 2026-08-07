@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "access_law": "C_w=sum_j w_j Tr_not_j after source-typed output identification",
+  "encoded_factor_response": "C_w iota_j(rho)=w_j rho+(1-w_j)I/2, so gamma_j=w_j",
+  "rows": [
+    {
+      "access": "symmetric",
+      "logical_factor": 0,
+      "gamma": 0.3333333333333333,
+      "exact_full_logical_recovery": false
+    },
+    {
+      "access": "symmetric",
+      "logical_factor": 1,
+      "gamma": 0.3333333333333333,
+      "exact_full_logical_recovery": false
+    },
+    {
+      "access": "symmetric",
+      "logical_factor": 2,
+      "gamma": 0.3333333333333333,
+      "exact_full_logical_recovery": false
+    },
+    {
+      "access": "generic",
+      "logical_factor": 0,
+      "gamma": 0.2,
+      "exact_full_logical_recovery": false
+    },
+    {
+      "access": "generic",
+      "logical_factor": 1,
+      "gamma": 0.7,
+      "exact_full_logical_recovery": false
+    },
+    {
+      "access": "generic",
+      "logical_factor": 2,
+      "gamma": 0.1,
+      "exact_full_logical_recovery": false
+    },
+    {
+      "access": "extremal_factor_0",
+      "logical_factor": 0,
+      "gamma": 1.0,
+      "exact_full_logical_recovery": true
+    },
+    {
+      "access": "extremal_factor_0",
+      "logical_factor": 1,
+      "gamma": 0.0,
+      "exact_full_logical_recovery": false
+    },
+    {
+      "access": "extremal_factor_0",
+      "logical_factor": 2,
+      "gamma": 0.0,
+      "exact_full_logical_recovery": false
+    }
+  ],
+  "checks": {
+    "symmetric_access_has_gamma_one_third_on_every_factor": true,
+    "generic_dominant_but_nonextremal_access_is_not_exactly_recoverable": true,
+    "extremal_access_exactly_recovers_one_factor_only": true,
+    "factor_selection_is_covariant_under_S3_relabeling": true
+  },
+  "theorem_status": {
+    "selector": "exact A8b recovery selects a simplex vertex w=e_j, not merely a unique maximum",
+    "observer_dependence": "different source-typed extremal access maps may covariantly designate different factors",
+    "physical_selection": "the parent/body observer-access law has not yet been shown to occupy a simplex vertex",
+    "chirality": "unchanged independent discrete blocker"
+  },
+  "verdict": "EXACT_A8B_RECOVERY_EQUIVALENT_TO_EXTREMAL_FACTOR_ACCESS_WITHIN_THE_WEIGHTED_ACCESS_FAMILY"
+}

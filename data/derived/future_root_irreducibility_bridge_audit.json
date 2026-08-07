@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "CONDITIONAL_FUTURE_ROOT_IRREDUCIBILITY_TRANSFER",
+  "root_certificate": {
+    "real_carrier_dimension": 4,
+    "generator_count": 3,
+    "symmetric_commutant_dimension": 1
+  },
+  "bridge_certificate": {
+    "bridge_rank": 4,
+    "intertwining_residual": 0.0,
+    "irreducibility_transfers": true
+  },
+  "equal_reduct_nonselection": {
+    "zero_bridge_rank": 0,
+    "occupied_bridge_rank": 4,
+    "same_stabilized_body_and_internal_ROOT_packet": true,
+    "current_reduct_selects_bridge": false
+  },
+  "theorem_boundary": {
+    "derived_conditionally": "a source-owned bijective equivariant metric-phase bridge from the future fibre to the occupied logical ROOT C2 carrier transfers real irreducibility and hence the single polar scale",
+    "still_open": "physical source ownership and occupation of that bridge; current body and ROOT packets admit both zero and full-rank bridge completions"
+  },
+  "verdict": "ROOT_IRREDUCIBILITY_CLOSES_THE_LOCK_AFTER_A_SINGLE_TYPED_BRIDGE; CURRENT_REDUCT_DOES_NOT_SELECT_THE_BRIDGE"
+}

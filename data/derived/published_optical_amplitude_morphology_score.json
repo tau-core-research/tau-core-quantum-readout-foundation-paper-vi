@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "source_doi": "10.5061/dryad.x0k6djj14",
+  "status": "STANDARD_OPTICAL_KERNEL_SIGNAL_NOT_TAU_ENDPOINT",
+  "published_packet": {
+    "radial_classes": 17,
+    "histogram_counts": [
+      85,
+      160,
+      150,
+      140,
+      130,
+      120,
+      110,
+      100,
+      90,
+      80,
+      70,
+      60,
+      50,
+      40,
+      30,
+      20,
+      11
+    ],
+    "normalized_amplitude_means": [
+      1.0064,
+      1.01256,
+      1.00484,
+      1.00686,
+      0.99599,
+      0.99507,
+      0.99586,
+      0.99478,
+      0.99492,
+      0.99192,
+      0.99784,
+      1.00054,
+      0.99462,
+      0.99581,
+      0.99015,
+      1.00417,
+      0.97226
+    ],
+    "standard_errors_of_means": [
+      0.0058369880806810135,
+      0.004176845855909,
+      0.004129429268663151,
+      0.003793714183131902,
+      0.004826746377853249,
+      0.004410033704358291,
+      0.0048694201152707835,
+      0.004463353171465635,
+      0.0053825934859931335,
+      0.005349364075519675,
+      0.005732832948043623,
+      0.008132804202565642,
+      0.006664459366348806,
+      0.00909233523702795,
+      0.011216371748099785,
+      0.012096333337442651,
+      0.027772428494152436
+    ],
+    "mean_amplitude": 0.9973288235294118,
+    "coefficient_of_variation_across_class_means": 0.008629283293434077
+  },
+  "score": {
+    "action_only_r2": 0.007152304055080383,
+    "action_plus_morphology_r2": 0.5033627412204185,
+    "delta_r2": 0.4962104371653381,
+    "shared_kernel_permutation": {
+      "permutation_unit": "17 shared radial kernel classes",
+      "sampled_paths_for_computation": 100000,
+      "permutations": 499,
+      "full_path_observed_delta_r2": 0.4962104371653381,
+      "sample_observed_delta_r2": 0.4979520999669942,
+      "null_mean_delta_r2": 0.08572192581035722,
+      "null_95_percentile_delta_r2": 0.2559866995812473,
+      "kernel_permutation_p": 0.004
+    }
+  },
+  "constant_amplitude_uncertainty_null": {
+    "weighted_constant": 1.0000585031047373,
+    "draws": 9999,
+    "sample_observed_delta_r2": 0.49795209996700207,
+    "null_mean_delta_r2": 0.07281170621152479,
+    "null_95_percentile_delta_r2": 0.23260600818881585,
+    "uncertainty_null_p": 0.0009
+  },
+  "single_class_replacement": {
+    "minimum_delta_r2": 0.2935631738498315,
+    "rows": [
+      {
+        "replaced_radial_class": 0,
+        "sample_delta_r2": 0.41000255914956146
+      },
+      {
+        "replaced_radial_class": 1,
+        "sample_delta_r2": 0.2935631738498315
+      },
+      {
+        "replaced_radial_class": 2,
+        "sample_delta_r2": 0.4675942168769919
+      },
+      {
+        "replaced_radial_class": 3,
+        "sample_delta_r2": 0.5354324828537579
+      },
+      {
+        "replaced_radial_class": 4,
+        "sample_delta_r2": 0.48713824095804525
+      },
+      {
+        "replaced_radial_class": 5,
+        "sample_delta_r2": 0.43620368856538566
+      },
+      {
+        "replaced_radial_class": 6,
+        "sample_delta_r2": 0.4268841229609262
+      },
+      {
+        "replaced_radial_class": 7,
+        "sample_delta_r2": 0.42065152697154257
+      },
+      {
+        "replaced_radial_class": 8,
+        "sample_delta_r2": 0.4490040622652377
+      },
+      {
+        "replaced_radial_class": 9,
+        "sample_delta_r2": 0.4594373075647562
+      },
+      {
+        "replaced_radial_class": 10,
+        "sample_delta_r2": 0.5091399911548126
+      },
+      {
+        "replaced_radial_class": 11,
+        "sample_delta_r2": 0.5334136349629996
+      },
+      {
+        "replaced_radial_class": 12,
+        "sample_delta_r2": 0.4973880920467098
+      },
+      {
+        "replaced_radial_class": 13,
+        "sample_delta_r2": 0.4870075046914389
+      },
+      {
+        "replaced_radial_class": 14,
+        "sample_delta_r2": 0.49935584933001453
+      },
+      {
+        "replaced_radial_class": 15,
+        "sample_delta_r2": 0.4176246023167838
+      },
+      {
+        "replaced_radial_class": 16,
+        "sample_delta_r2": 0.5685457782452729
+      }
+    ]
+  },
+  "descriptors": [
+    "standard_action",
+    "path_length",
+    "increment_roughness",
+    "turn_count",
+    "max_excursion",
+    "occupied_step_classes"
+  ],
+  "interpretation": {
+    "detected": "published radial-amplitude kernel structure beyond scalar total standard action",
+    "not_detected": "independent Tau morphological-body action or Tau-specific quantum deviation",
+    "claim_boundary": "The same 17 published kernel classes generate all paths. The result is a standard optical-kernel diagnostic and may contain ordinary calibration, finite-sample or propagator structure. It is not a Nature-level Tau endpoint."
+  }
+}

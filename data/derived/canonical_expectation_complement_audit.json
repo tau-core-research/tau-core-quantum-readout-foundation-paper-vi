@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "factorization": "M_8(C)=M_2(C) tensor M_4(C)",
+  "canonical_expectation": "E_L=id_2 tensor tau_4, the normalized-trace-preserving A_L-bimodular conditional expectation",
+  "dimensions": {
+    "body_hilbert": 8,
+    "body_algebra": 64,
+    "logical_algebra": 4,
+    "expectation_kernel": 60,
+    "minimal_kraus_rank": 4,
+    "complement_hilbert": 4,
+    "complement_algebra": 16
+  },
+  "checks": {
+    "body_factor_dimensions_multiply": true,
+    "algebra_factor_dimensions_multiply": true,
+    "expectation_has_full_logical_range": true,
+    "minimal_partial_trace_dilation_has_four_dimensional_complement": true,
+    "complement_is_full_M4": true
+  },
+  "status": {
+    "maximal_complement": "derived after factor designation, complete M8 occupation, normalized-trace preservation and bimodularity",
+    "uniqueness": "the trace-preserving conditional expectation onto the designated factor is canonical",
+    "remaining_source": "the typed observer-source incidence selecting the M2 embedding is not derived from the minimal parent",
+    "off_assumption_cases": "non-bimodular, non-tracial or incomplete-body access can have a smaller or different complement",
+    "chirality": "independent open discrete selection"
+  },
+  "verdict": "CANONICAL_TRACE_EXPECTATION_FORCES_THE_FULL_M4_COMPLEMENT_AFTER_TYPED_FACTOR_DESIGNATION"
+}

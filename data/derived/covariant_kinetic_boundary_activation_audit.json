@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "status": "CONDITIONAL_KINETIC_BOUNDARY_ACTIVATION",
+  "covariant_source": {
+    "field_momentum": "pi_phi = Z_Phi sqrt(h) n^mu partial_mu Phi",
+    "finite_mode_momentum": "qdot*z0*exp(m)",
+    "mixed_boundary_coefficient": "qdot*z0*exp(m)",
+    "occupied_reference_value": "qdot*z0"
+  },
+  "activation_conditions": {
+    "body_future_mode_changes_densitized_normal_metric": true,
+    "EBRP_field_has_nonzero_canonical_momentum": true,
+    "mode_is_not_gauge_or_boundary_null": true,
+    "beta_FQ_nonzero": true
+  },
+  "derived_chain": [
+    "BRDC common body metric -> body-dependent kinetic momentum",
+    "nonneutral body + EBRP positive-frequency embedding -> occupied nonzero field momentum",
+    "non-null future metric mode -> nonzero mixed boundary variation",
+    "equivariance + equivalent irreducible ROOT/future modules -> full-rank bridge",
+    "irreducibility -> one relative polar scale"
+  ],
+  "claim_boundary": {
+    "proved_conditionally": "the selected JCSEL-BRDC-EBRP completion activates beta_FQ on every occupied non-null future mode that changes the densitized kinetic metric",
+    "not_proved": "Nature-level selection of JCSEL-BRDC-EBRP, nonneutral physical occupation, or that every future-fibre direction is metric-visible"
+  },
+  "verdict": "SELECTED_COVARIANT_KINETIC_COMPLETION_ACTIVATES_BETA_FQ_CONDITIONALLY; NATURE_SELECTION_REMAINS_OPEN"
+}

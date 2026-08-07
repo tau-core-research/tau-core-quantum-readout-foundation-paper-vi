@@ -1,0 +1,52 @@
+{
+  "source": "Ness et al. 2021, Science Advances 7, eabj9119, Figure 2 Data S1",
+  "test": "measured overlap is not significantly below max(MT, ML) lower bound",
+  "uncertainty_rule": "one-sided quadrature of measured lower interval and selected-bound upper interval",
+  "series": {
+    "a_0_04": {
+      "points": 19,
+      "central_below_bound": 4,
+      "max_one_sided_violation_z": 1.0139211430718722,
+      "violations_above_1_96_sigma": 0,
+      "violations_above_3_sigma": 0,
+      "minimum_central_margin": -0.029294245584848055,
+      "bound_selection": {
+        "MT_points": 7,
+        "ML_points": 12
+      }
+    },
+    "b_0_08": {
+      "points": 18,
+      "central_below_bound": 1,
+      "max_one_sided_violation_z": 1.407746816743538,
+      "violations_above_1_96_sigma": 0,
+      "violations_above_3_sigma": 0,
+      "minimum_central_margin": -0.032709597142658975,
+      "bound_selection": {
+        "MT_points": 13,
+        "ML_points": 5
+      }
+    },
+    "c_0_16": {
+      "points": 16,
+      "central_below_bound": 3,
+      "max_one_sided_violation_z": 1.4464646118404878,
+      "violations_above_1_96_sigma": 0,
+      "violations_above_3_sigma": 0,
+      "minimum_central_margin": -0.03562754673237034,
+      "bound_selection": {
+        "MT_points": 16,
+        "ML_points": 0
+      }
+    }
+  },
+  "total_points": 53,
+  "max_one_sided_violation_z": 1.4464646118404878,
+  "standard_QSL_consistent_at_1_96_sigma": true,
+  "tau_identifiability": {
+    "independent_x_Q_available": true,
+    "independent_x_A_available": false,
+    "tests_x_A_equals_x_Q": false
+  },
+  "claim_boundary": "Standard QSL control only; consistency cannot validate the Tau connector."
+}

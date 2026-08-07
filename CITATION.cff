@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Quantum Readout from Observer-Relative Lossy Descent"
+message: "Please cite this software and manuscript package using this metadata."
+type: software
+authors:
+  - family-names: Olcsak
+    given-names: Jozsef
+version: 0.1.0
+date-released: 2026-08-06
+license: MIT
+

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "source_doi": "10.5061/dryad.x0k6djj14",
+  "status": "DIAGNOSTIC_ONLY_NOT_TAU_ENDPOINT",
+  "reconstruction": {
+    "paths": 1419857,
+    "positions_per_slice": 17,
+    "variable_slices": 5,
+    "shared_radial_kernel_classes": 17,
+    "source_x_from_FigS1C_quadratic_vertex": 3.7647055893962658,
+    "FigS1C_theory_quadratic_fit_rms_rad": 9.56433012862111e-07,
+    "phase_action_intercept_rad": -1.1009727422663016,
+    "phase_action_slope_rad_per_delta_squared": -0.008800490234651312,
+    "phase_action_rms_residual_rad": 0.03315410738155978,
+    "radial_pixels": [
+      10,
+      100,
+      200,
+      299,
+      400,
+      501,
+      590,
+      699,
+      793,
+      890,
+      983,
+      1064,
+      1164,
+      1091,
+      972,
+      920,
+      914
+    ],
+    "radial_phase_concentration": [
+      0.981403871979435,
+      0.9398639006835058,
+      0.884217911546028,
+      0.8407419528842012,
+      0.7870968453279197,
+      0.7891542637608554,
+      0.7636543450145927,
+      0.7784315204700203,
+      0.7414388319139372,
+      0.7380993138803578,
+      0.7389233537245465,
+      0.7239293998931199,
+      0.7109695663674964,
+      0.7160820850256683,
+      0.6906991378175316,
+      0.7184760896108059,
+      0.7090584434003642
+    ],
+    "FigS1C_validation": {
+      "phase_rms_rad_after_common_offset": 0.03784587741586913,
+      "phase_rms_pi_units": 0.012046716932770997,
+      "phase_reconstruction_eligible": true,
+      "amplitude_correlation": 0.19440298670564715,
+      "published_amplitude_cv": 0.05215479707929068,
+      "reconstructed_amplitude_cv": 0.20430471292210875,
+      "amplitude_reconstruction_eligible": false
+    }
+  },
+  "descriptors": [
+    "standard_action",
+    "path_length",
+    "increment_roughness",
+    "turn_count",
+    "max_excursion",
+    "occupied_step_classes"
+  ],
+  "phase_residual_score": {
+    "action_only_r2": 0.19125563532468692,
+    "action_plus_morphology_r2": 0.3671012394748515,
+    "delta_r2": 0.1758456041501646,
+    "shared_kernel_null": {
+      "permutation_unit": "17 shared radial kernel classes",
+      "sampled_paths_for_computation": 100000,
+      "permutations": 499,
+      "full_path_observed_delta_r2": 0.1758456041501646,
+      "sample_observed_delta_r2": 0.1726965486122929,
+      "null_mean_delta_r2": 0.08789716779852055,
+      "null_95_percentile_delta_r2": 0.2891986088892447,
+      "kernel_permutation_p": 0.144
+    }
+  },
+  "log_amplitude_residual_score": {
+    "action_only_r2": 0.0383076500413323,
+    "action_plus_morphology_r2": 0.6446358486645583,
+    "delta_r2": 0.606328198623226,
+    "shared_kernel_null": {
+      "permutation_unit": "17 shared radial kernel classes",
+      "sampled_paths_for_computation": 100000,
+      "permutations": 499,
+      "full_path_observed_delta_r2": 0.606328198623226,
+      "sample_observed_delta_r2": 0.6066771546721909,
+      "null_mean_delta_r2": 0.07891082210662034,
+      "null_95_percentile_delta_r2": 0.2716281870258471,
+      "kernel_permutation_p": 0.002
+    },
+    "eligible_for_physical_interpretation": false,
+    "exclusion_reason": "The raw-image amplitude reduction fails the independent FigS1C amplitude validation; its apparent score is retained only as a pipeline diagnostic."
+  },
+  "interpretation": {
+    "what_is_tested": "Whether measured factorized step-kernel residuals carry path-descriptor information beyond scalar total standard action.",
+    "what_is_not_tested": "No independent Tau morphological-body action, carrier bridge or Nature-level Tau completion is measured.",
+    "independence_warning": "The generated paths are algebraic combinations of 17 shared measured kernel classes and are not independent observations.",
+    "positive_result_boundary": "A positive score is standard propagator-structure information beyond scalar total action, not a Tau-specific signal.",
+    "verdict": "The validated phase leg shows no kernel-level significant morphology increment. The larger apparent amplitude increment is excluded because the raw-image amplitude normalization fails FigS1C validation."
+  }
+}

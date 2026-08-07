@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "candidate_count": 7,
+  "independent_measurement_axis_count": 1,
+  "independent_xA_axis_count": 0,
+  "rows": [
+    {
+      "id": "zhao2020_xmon_readout_resonator",
+      "independent_measurement_axis": false,
+      "independent_xA_axis": false
+    },
+    {
+      "id": "filipp2009_joint_dispersive_readout",
+      "independent_measurement_axis": false,
+      "independent_xA_axis": false
+    },
+    {
+      "id": "tan2019_qgt_superconducting_qubit",
+      "independent_measurement_axis": false,
+      "independent_xA_axis": false
+    },
+    {
+      "id": "yu2019_nv_qgt",
+      "independent_measurement_axis": false,
+      "independent_xA_axis": false
+    },
+    {
+      "id": "hatridge2013_variable_strength_backaction",
+      "independent_measurement_axis": false,
+      "independent_xA_axis": false
+    },
+    {
+      "id": "rudinger2021_qilgst_backaction",
+      "independent_measurement_axis": false,
+      "independent_xA_axis": false
+    },
+    {
+      "id": "pekola2013_calorimetric_work",
+      "independent_measurement_axis": true,
+      "independent_xA_axis": false
+    }
+  ],
+  "factorization_no_go": "If R_res=F(rho,c) for frozen controls c, then R_res adds no conditional information or stacked-Jacobian rank beyond rho and cannot independently identify x_A.",
+  "positive_reopening_condition": "Measure a separately calibrated source-port force, admittance, impedance, or calorimetric backaction whose conditional response does not factor through rho/QGT, then freeze its map to the once-counted body action before tomography.",
+  "decision": "No audited resonator/generalized-force candidate supplies the missing independent body-action axis."
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "family": "C_gamma(rho)=gamma*rho+(1-gamma)I/2, 0<=gamma<=1",
+  "argument": "If R C_gamma=id on the full qubit code, trace-distance contractivity under R requires 1=D(rho0,rho1)<=D(C_gamma rho0,C_gamma rho1)=gamma. Together with gamma<=1 this forces gamma=1; gamma=1 has identity recovery.",
+  "rows": [
+    {
+      "gamma": 0.0,
+      "input_trace_distance": 1.0,
+      "output_trace_distance": 0.0,
+      "exact_full_code_CPTP_recovery_possible": false
+    },
+    {
+      "gamma": 0.25,
+      "input_trace_distance": 1.0,
+      "output_trace_distance": 0.25,
+      "exact_full_code_CPTP_recovery_possible": false
+    },
+    {
+      "gamma": 0.5,
+      "input_trace_distance": 1.0,
+      "output_trace_distance": 0.5,
+      "exact_full_code_CPTP_recovery_possible": false
+    },
+    {
+      "gamma": 0.75,
+      "input_trace_distance": 1.0,
+      "output_trace_distance": 0.75,
+      "exact_full_code_CPTP_recovery_possible": false
+    },
+    {
+      "gamma": 0.999,
+      "input_trace_distance": 1.0,
+      "output_trace_distance": 0.999,
+      "exact_full_code_CPTP_recovery_possible": false
+    },
+    {
+      "gamma": 1.0,
+      "input_trace_distance": 1.0,
+      "output_trace_distance": 1.0,
+      "exact_full_code_CPTP_recovery_possible": true
+    }
+  ],
+  "checks": {
+    "depolarizing_map_contracts_orthogonal_trace_distance_by_gamma": true,
+    "no_gamma_below_one_has_exact_full_code_CPTP_recovery": true,
+    "gamma_one_has_identity_recovery": true
+  },
+  "theorem_status": {
+    "within_depolarizing_family": "exact full-code CPTP recoverability iff gamma=1",
+    "A8b_connector_selection": "gamma=1 selects the previously constructed exact bounded A8b connector",
+    "physical_parent_selection": "still requires a source theorem imposing exact full-code recoverability"
+  },
+  "verdict": "EXACT_FULL_CODE_RECOVERY_UNIQUELY_SELECTS_THE_A8B_DEPOLARIZING_MEMBER"
+}

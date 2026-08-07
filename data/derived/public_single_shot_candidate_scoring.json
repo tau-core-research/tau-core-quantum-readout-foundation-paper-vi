@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "rows": [
+    {
+      "id": "wang2025_longitudinal_readout",
+      "score": 3,
+      "maximum": 6,
+      "process_residual_eligible": false
+    },
+    {
+      "id": "murch2022_thermal_readout",
+      "score": 2,
+      "maximum": 6,
+      "process_residual_eligible": false
+    },
+    {
+      "id": "ficheux2018_joint_monitoring",
+      "score": 5,
+      "maximum": 6,
+      "process_residual_eligible": false
+    }
+  ],
+  "eligible_count": 0,
+  "wang_readout_control": {
+    "minimum_midpoint_accuracy": 0.9951120163,
+    "maximum_midpoint_accuracy": 0.9980282839,
+    "minimum_d_prime": 6.3365983261
+  },
+  "tau_score_eligible": false,
+  "decision": "Zero directly public packets pass the process-residual gate. Wang is a strong single-shot readout control; Ficheux is the strongest architecture but lacks directly public raw records."
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "status": "CONDITIONAL_COMMON_ACTION_FUTURE_PHASE_SPACE",
+  "common_variational_source": {
+    "bulk_second_variation_role": "positive Jacobi/stiffness metric on compatible future extensions",
+    "boundary_second_variation_role": "antisymmetric presymplectic/phase form on the current cut",
+    "independent_phase_gain_required": false
+  },
+  "finite_certificate": {
+    "metric_positive": true,
+    "phase_antisymmetric": true,
+    "phase_nondegenerate": true,
+    "polar_complex_lock_residual": 0.0,
+    "complex_structure_metric_compatible": true,
+    "mode_scales": [
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "single_scalar_lock_holds": false
+  },
+  "theorem_boundary": {
+    "derived_conditionally": "one differentiable ordered parent action can source both future-fibre stiffness and boundary phase; nondegeneracy gives a canonical polar complex structure",
+    "still_open": "physical parent occupation, quotient descent, and equality of all polar mode scales needed for one universal action unit"
+  },
+  "verdict": "COMMON_VARIATIONAL_ACTION_REMOVES_INDEPENDENT_PHASE_SOURCE; UNIVERSAL_SCALAR_ACTION_LOCK_REMAINS_OPEN"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "assumptions": {
+    "terminal": "one M_2(C) qubit output",
+    "occupied_code": "the complete logical M_2(C) state algebra of one designated factor",
+    "recovery": "a CPTP left inverse exists on the complete occupied code"
+  },
+  "theorem_chain": [
+    "CPTP recovery plus trace-distance contractivity makes the code restriction a trace-distance isometry",
+    "a reversible CPTP map between equal-dimensional full matrix algebras is unitary conjugation",
+    "therefore the occupied qubit code reaches the terminal without depolarizing or convex factor mixing",
+    "two full qubit factors would require a four-dimensional joint code and cannot be reversibly stored in one qubit terminal"
+  ],
+  "checks": {
+    "one_qubit_code_fits_one_qubit_terminal": true,
+    "two_factor_joint_code_exceeds_terminal_dimension": true,
+    "weighted_family_corollary_is_extremal": true
+  },
+  "status": {
+    "factor_purity_on_occupied_code": "derived from exact full-code recovery and qubit-terminal minimality",
+    "factor_designation": "not derived; a typed observer-source context must still select which M_2 factor is occupied",
+    "exact_recovery_occupation": "standard-limit completion input, not a theorem of the minimal parent",
+    "off_code_behavior": "unconstrained and may remain lossy",
+    "chirality": "independent open discrete selection"
+  },
+  "verdict": "EXACT_RECOVERABLE_MINIMAL_QUBIT_TERMINAL_FORCES_FACTOR_PURE_ACCESS_ON_THE_OCCUPIED_CODE"
+}

@@ -1,0 +1,58 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2.35cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,bm}
+\usepackage{booktabs,tabularx,array}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[numbers,sort&compress]{natbib}
+\setlength{\emergencystretch}{2em}
+\usepackage{xr}
+\externaldocument{main}
+\hypersetup{colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black}
+
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{remark}{Remark}
+\newcommand{\cH}{\mathcal H}
+\newcommand{\cM}{\mathcal M}
+\newcommand{\cQ}{\mathcal Q}
+\newcommand{\cE}{\mathcal E}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Desc}{\operatorname{Desc}}
+
+\title{\textbf{Public-Data and Source-Port Audit for the Tau Core Quantum Terminal}\\
+\large Technical supplement to Paper VI}
+\author{Jozsef Olcsak}
+\date{August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This supplement preserves the full candidate census, negative controls,
+source-port audits, finite countermodels and readiness scoring underlying the
+compact public-data verdict in Paper VI.  It does not add a new Tau detection.
+Its central result is an identifiability no-go: no audited public carrier
+simultaneously supplies an independent once-counted action-side observable,
+an Uhlmann-capable endpoint record and the required recovery and holonomy
+ledger.  All scores are capability or eligibility scores, not signal
+significances.
+\end{abstract}
+
+\paragraph{Dependency.}
+Equation and theorem references prefixed by the main-paper numbering refer to
+Paper VI.  This supplement owns only the detailed audit ledger and its finite
+controls; it does not strengthen the main paper's conditional claims.
+
+\section{Detailed audit}
+\input{public_data_audit_body}
+
+\bibliographystyle{unsrtnat}
+\bibliography{refs}
+
+\end{document}

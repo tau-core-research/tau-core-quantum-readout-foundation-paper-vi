@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "audit_is_finite": true,
+  "candidate_count": 3,
+  "rows": [
+    {
+      "id": "gunyho2024_thermal_qubit_readout",
+      "same_carrier": true,
+      "public_raw_packet": true,
+      "source_port_record": "bolometer voltage from absorbed resonator readout power",
+      "independent_after_state_and_controls": false,
+      "endpoint_quantum_geometry": false,
+      "body_action_map": false,
+      "verdict": "thermal state-readout terminal, not independent body action"
+    },
+    {
+      "id": "vanner2013_pulsed_optomechanical_tomography",
+      "same_carrier": true,
+      "public_raw_packet": false,
+      "source_port_record": "calibrated pulsed position and radiation-pressure preparation",
+      "independent_after_state_and_controls": false,
+      "endpoint_quantum_geometry": false,
+      "body_action_map": false,
+      "verdict": "mechanical phase-space reconstruction without joint body-action/Uhlmann endpoint"
+    },
+    {
+      "id": "ockeloen_korppi2016_collective_mechanical_bae",
+      "same_carrier": true,
+      "public_raw_packet": false,
+      "source_port_record": "collective quadrature tomography and force-sensing capability",
+      "independent_after_state_and_controls": false,
+      "endpoint_quantum_geometry": false,
+      "body_action_map": false,
+      "verdict": "capability demonstration, not a joint applied-force/body-action record"
+    }
+  ],
+  "public_raw_packet_count": 1,
+  "independent_source_port_axis_count": 0,
+  "tau_endpoint_eligible_count": 0,
+  "decision": "No located public packet combines a conditionally independent calorimetric or mechanical source-port axis, same-carrier endpoint quantum geometry, and a frozen map to the once-counted body action. Public-data-only Tau scoring is therefore closed for the present candidate class.",
+  "next_action": "Do not broaden the candidate census. Retain QVI-BWORKT1 as a future experimental protocol, or derive the body-action bridge internally from the common source law.",
+  "status": "PUBLIC_SOURCE_PORT_CLASS_CLOSED_NO_ELIGIBLE_PACKET"
+}

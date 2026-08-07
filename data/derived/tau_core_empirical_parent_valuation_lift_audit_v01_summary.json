@@ -1,0 +1,15 @@
+{
+  "verdict": "JOINT_TWO_JET_FAITHFULNESS_LIFTS_ZERO_TERMINAL_MIXING_TO_ZERO_PARENT_MIXED_HESSIAN",
+  "checks": {
+    "both_parent_hessians_positive": true,
+    "valuation_parent_has_zero_cross_block": true,
+    "hidden_parent_violates_valuation": true,
+    "nonfaithful_readout_has_same_reduct": true,
+    "nonfaithful_readout_kernel_hides_defect": true,
+    "faithful_readout_detects_defect": true,
+    "full_rank_congruence_is_injective": true
+  },
+  "hidden_cross_norm": 0.5656854249492381,
+  "nonfaithful_visible_defect_norm": 0.0,
+  "claim_boundary": "The audit proves sufficiency of faithfulness for a typed local two-jet lift and an equal-reduct countermodel showing that faithfulness is required for universal identifiability over the admitted cross-form class. It does not derive finite action valuation, global state/dynamical factorization, exact recovery, physical joint faithfulness or Nature-level source selection."
+}

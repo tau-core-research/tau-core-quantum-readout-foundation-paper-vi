@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "source_doi": "10.5061/dryad.x0k6djj14",
+  "standard_controls": {
+    "length_amplitude": {
+      "points": 72,
+      "weighted_constant": 1.0040100149633582,
+      "chi_square": 2.079948634288076,
+      "reduced_chi_square": 0.029295051187156
+    },
+    "action_amplitude": {
+      "points": 100,
+      "weighted_constant": 1.0007896982224118,
+      "constant_chi_square": 1.1030789662170506,
+      "constant_reduced_chi_square": 0.011142211779970207,
+      "weighted_linear_intercept": 1.0271559066102003,
+      "weighted_linear_slope": -0.02871081843743503,
+      "slope_standard_error": 0.041743654729309645,
+      "slope_z": -0.6877888058343915,
+      "linear_chi_square": 0.6300255247859875
+    },
+    "action_phase": {
+      "points": 100,
+      "raw_rms_phase_pi_units": 0.02181479171230058,
+      "raw_chi_square": 11.248556677263903,
+      "raw_reduced_chi_square": 0.11248556677263903,
+      "affine_intercept": -0.03676953499450707,
+      "affine_slope": 1.0185753037666156,
+      "affine_intercept_standard_error": 0.012891241661004842,
+      "affine_slope_standard_error": 0.01174696822584642,
+      "affine_chi_square": 0.5291821607152227
+    }
+  },
+  "identifiability": {
+    "same_experiment_action_phase_control": true,
+    "same_experiment_action_amplitude_control": true,
+    "joint_path_level_morphology_action_amplitude_records": false,
+    "can_test_conditional_morphology_novelty": false,
+    "can_identify_tau_body_action": false,
+    "tau_primary_score_eligible": false
+  },
+  "decision": "The public optical packet supports the standard equal-amplitude and action-phase controls. Because morphology and action are published only as separate aggregate axes, it cannot test information beyond action or identify the Tau morphological action. Retain it as a same-experiment optical control."
+}

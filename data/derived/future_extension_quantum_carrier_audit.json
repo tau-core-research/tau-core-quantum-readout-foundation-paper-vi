@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "status": "CONDITIONAL_FUTURE_EXTENSION_QUANTUM_CARRIER",
+  "orientation_only_control": {
+    "body_stiffness_eigenvalues": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "forward_volume_factor": 0.20412414523193154,
+    "backward_volume_factor": 0.20412414523193154,
+    "future_is_larger_from_orientation_and_stiffness_alone": false
+  },
+  "boundary_conditioned_extension_fibers": {
+    "backward_restriction_rank": 4,
+    "backward_fiber_dimension": 0,
+    "forward_restriction_rank": 2,
+    "forward_fiber_dimension": 2,
+    "future_fiber_is_strictly_larger": true
+  },
+  "future_carrier": {
+    "metric": [
+      [
+        3.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.0
+      ]
+    ],
+    "metric_positive": true,
+    "hessian_alone_supplies_phase_form": false,
+    "source_owned_phase_form": [
+      [
+        0.0,
+        -3.4641016151377553
+      ],
+      [
+        3.4641016151377544,
+        0.0
+      ]
+    ],
+    "phase_form_antisymmetric": true,
+    "complex_lock_residual": 0.0
+  },
+  "theorem_boundary": {
+    "proved": "seed/current boundary asymmetry can make the compatible future-extension fiber strictly larger, and the restricted Hessian supplies its positive metric",
+    "not_proved": "the actual physical base-seed body has this rank asymmetry or sources the required phase curvature and coherent terminal composition"
+  },
+  "verdict": "FUTURE_FLEXIBILITY_REQUIRES_ORIENTED_BOUNDARY_FIBER; QUANTUM_STRUCTURE_ALSO_REQUIRES_SOURCE_OWNED_PHASE_LOCK"
+}

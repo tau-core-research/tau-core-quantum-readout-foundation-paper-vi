@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "source_doi": "10.5061/dryad.x0k6djj14",
+  "source_file": "data/public_optical_path_integral/FigS2B.xlsx",
+  "measurement": "aggregate radial phase control in units of pi",
+  "experimental_points": 17,
+  "theory_points": 200,
+  "comparison": {
+    "interpolation": "linear theory interpolation onto the experimental delta grid",
+    "phase_rmse_pi_units": 0.012330166631758446,
+    "reduced_chi_squared": 0.0592942076651917,
+    "mean_absolute_z": 0.19450749988069443,
+    "maximum_absolute_z": 0.48725928807625013,
+    "all_points_within_one_sigma": true
+  },
+  "eligibility": {
+    "independent_standard_phase_control": true,
+    "same_index_complex_amplitude": false,
+    "recovery_process_or_error": false,
+    "independent_tau_body_action": false,
+    "tau_primary_score_eligible": false
+  },
+  "verdict": "Fig. S2B independently supports the published radial phase law, but its aggregate phase-only structure does not supply the missing same-carrier action, amplitude and recovery legs required for a Tau score."
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "construction": "body H_L tensor H_G; observer descent Tr_G; protected embedding rho_L -> rho_L tensor I_G/2",
+  "checks": {
+    "logical_code_recovers_exactly": true,
+    "distinct_realizations_collapse_to_same_readout": true,
+    "body_realizations_are_distinct": true,
+    "descent_is_globally_noninjective": true,
+    "logical_coherence_is_retained": true
+  },
+  "theorem_status": {
+    "compatibility": "lossy body descent and exact recovery of a protected logical algebra are compatible",
+    "A8b_selector_scope": "full occupied logical ROOT operator system, not the complete body realization space",
+    "general_condition": "the complementary/environment output must be independent of the protected logical state",
+    "physical_selection": "requires the base-seed law to place ROOT information wholly in the protected logical factor"
+  },
+  "verdict": "EXACT_LOGICAL_RECOVERY_IS_COMPATIBLE_WITH_GLOBAL_OBSERVER_INFORMATION_LOSS"
+}

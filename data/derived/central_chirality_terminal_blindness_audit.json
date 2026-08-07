@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "construction": "hold gamma_1,...,gamma_6 fixed and extend by gamma_7=+/- Z tensor Z tensor Z",
+  "checks": {
+    "six_edge_algebra_is_full_M8": true,
+    "two_extensions_have_opposite_central_volume": true,
+    "six_edge_factor_packet_is_identical": true,
+    "current_M8_terminal_algebra_is_identical": true
+  },
+  "status": {
+    "paper_VI_quantum_terminal": "blind to central chirality because it is entirely represented in the common six-edge M8 algebra",
+    "chirality_role": "required only after a typed parity-odd or Weyl-sensitive terminal is introduced",
+    "selection": "not derived; one source-owned orientation lock would be needed for the odd extension",
+    "claim_boundary": "terminal blindness does not prove that physical chirality is gauge or absent"
+  },
+  "verdict": "CENTRAL_CL7_CHIRALITY_IS_NOT_A_BLOCKER_FOR_THE_CURRENT_EVEN_M8_QUANTUM_TERMINAL"
+}

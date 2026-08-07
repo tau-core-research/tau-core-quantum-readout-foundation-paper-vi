@@ -1,0 +1,30 @@
+{
+  "family": "psi0=(1,0), psi1=(cos theta,sin theta), psi2=(cos theta,e^{i phi}sin theta)",
+  "positive_phase_packet": {
+    "phi": 0.9,
+    "pairwise_fidelities": [
+      0.48540023884935557,
+      0.8109662940956143,
+      0.48540023884935557
+    ],
+    "bargmann_phase": 0.4641040418760058,
+    "bargmann_magnitude": 0.4371207147324132
+  },
+  "negative_phase_packet": {
+    "phi": -0.9,
+    "pairwise_fidelities": [
+      0.48540023884935557,
+      0.8109662940956143,
+      0.48540023884935557
+    ],
+    "bargmann_phase": -0.4641040418760058,
+    "bargmann_magnitude": 0.4371207147324132
+  },
+  "max_pairwise_fidelity_difference": 0.0,
+  "conclusions": {
+    "pairwise_endpoint_distances_fix_loop_holonomy": false,
+    "closed_loop_phase_witness_required": true,
+    "complex_conjugate_packets_are_distance_indistinguishable": true
+  },
+  "claim_boundary": "The example proves endpoint-distance incompleteness; it does not identify which holonomy Nature selects."
+}
