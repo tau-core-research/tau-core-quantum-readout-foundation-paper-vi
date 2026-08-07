@@ -3,11 +3,12 @@
 **Title:** Quantum Readout from Observer-Relative Lossy Descent  
 **Status:** first finite proof packet; conditional foundations result
 
-The current physical MVP conditionally recovers density/POVM kinematics,
+The current physical MVP conditionally embeds density/POVM kinematics,
 Born probabilities and interference, unitary evolution, singlet/Tsirelson
 correlations, local-CPTP no-signalling, and standard free-algebraic plus
-perturbative-causal QFT constructions under explicit field assumptions. Its
-proposed Tau discriminator is the
+perturbative-causal QFT constructions under explicit field assumptions. These
+are standard quantum structures recovered under the declared source packet,
+not Tau-specific predictions. The proposed Tau discriminator is the
 independently reconstructed same-carrier relation
 `x_A=A_X^PC/A_*=d_U,chord^2=x_Q`, with a certified approximate-recovery
 envelope inherited from Technical Paper III. The associated QOR timing bound

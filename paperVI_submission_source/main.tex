@@ -34,43 +34,37 @@
 \maketitle
 
 \begin{abstract}
-We ask when an observer-relative, information-losing descent from an
-atemporal morphological body becomes a genuine quantum terminal rather than
-ordinary classical coarse graining.  The first result is a no-go statement:
-finite resolution, non-injectivity and record quantization alone do not select
-complex amplitudes, interference, the Born rule or no-signalling.  We then
-state one finite frozen source packet sufficient for a quantum completion.  A
-positive body Hessian and a compatible nondegenerate phase curvature define a
-metric--symplectic lock; when its normalized endomorphism squares to minus the
-identity it constructs a complex Hilbert carrier.  A commuting self-adjoint
-generator gives unitary terminal transport.  Positive trace effects and
-coherent composition give Born probabilities and the interference cross term.
-Using the previously constructed enriched MVP/P3 handoff, we further show
-that the metric, phase form, complex structure, generator, effects and common
-action unit descend from one normalized complex matrix block rather than from
-independent terminal assumptions.
-The physical MVP closes the continuous tensor selector by requiring the
-source-frozen occurrence holonomy to act irreducibly on the five-dimensional
-anisotropic carrier; the nonzero seed orbit then spans the full carrier.
-With the resulting tensor composition, local completely positive trace-preserving
-operations preserve the remote marginal, while selective outcomes may update
-conditional states without enabling signalling.  We separate record
-quantization, decoherence, measurement, observer-loss entropy and the classical
-limit. Exact logical recovery through a minimal qubit terminal forces
-factor-pure access; a regular observer-event incidence designates the factor,
-while approximate recovery bounds off-factor mixing. The central odd
-Clifford sign is invisible to the resulting even $M_8$ quantum terminal. We
-also import explicitly delimited standard constructions for free algebraic QFT
-and perturbative causal QFT on a fixed body-derived background.  The proposed
-Tau-specific discriminator states that an independently reconstructed
-body-action separation must equal the Uhlmann chord of the same occupied
-record pair.  No audited public carrier currently makes both sides
-independently observable, so this is a conditional discriminator rather than
-an executed prediction.  The quantum speed limit itself remains standard and
-is used only as a downstream consistency test.
-We do not prove that Nature selects the joint packet, derive the SI value of
-the Planck constant, solve the outcome problem, obtain a nonperturbative QFT,
-or reproduce the Standard Model.
+We ask which additional structures are required for an observer-relative,
+information-losing descent from an atemporal morphological body to support a
+quantum terminal rather than ordinary classical coarse graining.  First, a
+finite countermodel proves that resolution loss, non-injectivity and stable
+record classes alone imply neither complex amplitudes nor interference, Born
+probabilities, entanglement or no-signalling.  We then state a finite
+conditional source packet.  A positive quotient metric and a compatible
+nondegenerate two-form construct a complex Hilbert carrier when the associated
+endomorphism has one common complex scale.  A commuting self-adjoint generator
+gives unitary transport; positive normalized effects give the trace Born rule;
+and an explicitly selected tensor product gives local-CPTP no-signalling.
+
+Inside an adopted enriched Tau completion, these structures are represented
+on one normalized complex matrix block with a common action unit.  We prove
+finite record-separation and tensor-factorization criteria, distinguish exact
+logical recovery from dephasing, and give an approximate-recovery bound.  The
+standard free algebraic-QFT and perturbative causal-QFT constructions are used
+only as conditional fixed-background limits.  None of these standard quantum
+results is presented as a Tau-specific deviation.
+
+The proposed discriminator instead compares two independently reconstructed
+quantities on the same occupied record pair: a normalized body-action
+separation and its Uhlmann chord.  The completion requires them to agree, with
+a certified recovery-error envelope.  A public-data audit finds no carrier on
+which the action-side quantity is independently observable, so the
+discriminator is not yet executable.  We also prove that the present narrow
+base--seed reduct does not select the full joint source packet.  Consequently
+the paper establishes a mathematically explicit conditional quantum terminal,
+not a quantum theory selected by Nature; it does not derive the SI value of
+$\hbar$, physical outcome selection, nonperturbative QFT, quantized geometry or
+the Standard Model.
 \end{abstract}
 
 \begin{center}
@@ -184,6 +178,30 @@ source-owned structure.  Dashed implications are conditional.}
 \label{fig:spine}
 \end{figure}
 
+\section{Relation to established structures and novelty boundary}
+
+The terminal mathematics used below is standard once its inputs are granted.
+Stinespring/Kraus theory supplies completely positive channels
+\citep{Stinespring1955,Kraus1971}; Lindblad dynamics supplies a standard
+decoherence limit \citep{Lindblad1976}; Uhlmann geometry supplies mixed-state
+purification distance \citep{Uhlmann1976}; Gleason-type results constrain
+noncontextual probability measures \citep{Gleason1957}; and quantum error
+correction supplies exact recoverability criteria
+\citep{KnillLaflamme1997,Petz1986}.  Quantum-geometric response and speed-limit
+relations are likewise established structures
+\citep{Kolodrubetz2017Geometry,AnandanAharonov1990}.  Paper VI does not claim
+these results as new consequences of information loss.
+
+The novelty claim is narrower and conditional.  Tau Core asks whether one
+body-derived, observer-relative source packet can own the metric, phase,
+action unit, effects, subsystem composition and recovery domain together,
+rather than importing them as unrelated terminal axioms.  The paper gives
+finite sufficient conditions, countermodels to weaker packets and one proposed
+cross-domain discriminator.  It does not prove that the physical base--seed
+system occupies the sufficient packet.  This distinction separates the
+paper's source-architecture proposal from its use of standard quantum and QFT
+theorems.
+
 \section{The common accessibility quotient}
 
 \begin{definition}[Stable observer quantizer]
@@ -216,15 +234,19 @@ entanglement or no-signalling.
 \end{proposition}
 
 \begin{proof}
-Take two stable classes $\{0,1\}$.  A classical completion is the probability
-simplex $\Delta_2$ with stochastic maps.  A quantum completion is the projective
-qubit carrier $\mathbb{CP}^1$ with a measurement that reports the same two
-classes.  Both realize the identical ordinary quotient and the same finite
-capacity.  The quantum completion additionally has a relative phase and
-interference; the classical completion does not.  Hence the common quotient
-data cannot select the quantum structure.  The same counterexample survives
-the addition of an order on the two reported classes.  Therefore none of the
-listed quantum properties follows from information loss alone.
+Take the reported state space to be the classical bit simplex $\Delta_2$.  One
+completion is $\Delta_2$ itself with stochastic maps.  A second completion is
+the qubit density-operator space followed by complete dephasing in a fixed
+basis,
+\begin{equation}
+ \mathcal D(\rho)=\operatorname{diag}(\rho)\in\Delta_2.
+\end{equation}
+Both have exactly the same resolved quotient, occupied probability states and
+finite outcome alphabet.  Before dephasing, the quantum completion also has
+off-diagonal phase and interference, whereas the classical completion does
+not.  Adding the same order to the two reported outcomes changes neither
+construction.  Hence the common loss/quotient data cannot select any of the
+listed quantum properties.
 \end{proof}
 
 This no-go protects the program from an otherwise tempting circularity.  It
@@ -298,26 +320,44 @@ $\tau_n=\Tr/n$.  On $\mathcal A_Q$ define
  \omega(X,Y)=g(JX,Y).
  \label{eq:matrixpacket}
 \end{equation}
+Because the matrix block is an affine vector space, the canonical linear
+potential
+\begin{equation}
+ \theta_X(Y)=\frac12\omega(X,Y)
+ \label{eq:matrix-phase-potential}
+\end{equation}
+satisfies $d\theta=\omega$.  Thus the construction supplies the one-form in
+(Q2), not only its curvature.
 
 \begin{theorem}[Existing-source single-system packet]
 \label{thm:existingsource}
 Within the adopted enriched MVP/P3 handoff,
-Eq.~\eqref{eq:matrixpacket} constructs (Q1)--(Q6) on each occupied simple
-block in one source action unit.  No independent metric, phase, generator or
-Born gain is required.
+Eqs.~\eqref{eq:matrixpacket}--\eqref{eq:matrix-phase-potential} construct
+(Q1)--(Q4) on each occupied simple block in one source action unit.  Every
+handoff-selected Hermitian generator and positive normalized effect family is
+then represented in the canonical forms required by (Q5)--(Q6).  No
+independent metric, phase or Born gain is required; the physical choice of
+generator and occupied effects remains source data.
 \end{theorem}
 
 \begin{proof}
 Faithfulness of $\tau_n$ makes $g$ positive.  Scalar multiplication gives
-$J^2=-I$ and preserves $g$.  Antisymmetry of $\omega$ follows from Hermitian
-symmetry, and nondegeneracy follows by choosing $Y=JX$:
+$J^2=-I$ and preserves $g$, so $A=g^{-1}\omega=J$ and (Q3) holds with
+$\kappa=1$.  Antisymmetry of $\omega$ follows from Hermitian symmetry,
+Eq.~\eqref{eq:matrix-phase-potential} supplies $d\theta=\omega$, and
+nondegeneracy follows by choosing $Y=JX$:
 $\omega(X,JX)=g(X,X)$.  For $H=H^\dagger$, left multiplication
 $K_H(X)=HX$ is self-adjoint for $h$ and commutes with $J$, so
-$\exp(tJK_H/\mathcal A_*)$ is unitary.  Positive matrices $\rho,E$ with
-$\tau_n(\rho)=1$ and $0\le E\le I$ give
-$p(E|\rho)=\tau_n(\rho E)$; positivity, normalization and coherent
-interference follow from the same Hermitian pairing.  All structures are
-restrictions of the trace-normalized handoff.
+$\exp(tJK_H/\mathcal A_*)$ is unitary.  Positive matrices $r,E$ with
+$\tau_n(r)=1$ and $0\le E\le I$ define the standard terminal density
+$\rho=r/n$, for which
+\begin{equation}
+ \Tr\rho=1,
+ \qquad
+ p(E|\rho)=\tau_n(rE)=\Tr(\rho E).
+\end{equation}
+Positivity, normalization and coherent interference follow from this same
+pairing.  All structures are restrictions of the trace-normalized handoff.
 \end{proof}
 
 This consolidates earlier results but has two sharp boundaries.  First, the
@@ -458,7 +498,7 @@ off-diagonal state direction. Thus redundant pointer copying and algebraic
 word generation do not imply complete spectral-record occupation. The
 remaining source law is finite and explicit:
 \begin{equation}
- W=W^\dagger,quad W^2=I,quad |A|\leq3
+ W=W^\dagger,\quad W^2=I,\quad |A|\leq3
  \quad\Longrightarrow\quad
  \{(I+W)/2,(I-W)/2\}\subset\mathcal E_{\rm rec}^{\rm occ}.
  \label{eq:spectralclosure}
@@ -1120,10 +1160,12 @@ recorded.  Assume that the body descent supplies a globally hyperbolic metric
 and a Green-hyperbolic free operator in the standard locally covariant
 framework \citep{BrunettiFredenhagenVerch2003}.  Its
 retarded-minus-advanced propagator has causal support, so spacelike-supported
-observables commute.  A positive
-static occupied operator selects a compatible complex structure and pure
-quasifree ground covariance; under the standard regularity hypotheses this is
-a Hadamard state \citep{Radzikowski1996}.  The existing graph-normal
+observables commute.  On a stationary globally hyperbolic background, assume
+a positive self-adjoint time-translation generator with no obstructing zero
+modes and the regularity conditions required by the ground-state construction.
+The resulting compatible pure quasifree covariance is then Hadamard
+\citep{Radzikowski1996}.  Positivity of a generic time-dependent occupied
+operator alone would not establish this conclusion.  The existing graph-normal
 field/occupation block can then add a smooth coherent excitation without
 changing the Hadamard singularity class.
 
@@ -1159,7 +1201,8 @@ frozen physical MVP, the following standard structures are recovered:
 \item the trace Born rule and coherent interference;
 \item self-adjoint unitary transport with action unit $U_A=\hbar$;
 \item tensor composition, singlet correlations and the Tsirelson value
-$|S_{\rm CHSH}|=2\sqrt2$ on the selected two-qubit packet;
+$|S_{\rm CHSH}|=2\sqrt2$ on the selected two-qubit packet
+\citep{Tsirelson1980};
 \item invariance of a remote marginal under local nonselective CPTP maps;
 \item free algebraic QFT and the perturbative causal construction under the
 field assumptions above.
