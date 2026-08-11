@@ -14,4 +14,4 @@
 
 ## Claim boundary
 
-The audit proves sufficiency of faithfulness for a typed local two-jet lift and an equal-reduct countermodel showing that faithfulness is required for universal identifiability over the admitted cross-form class. It does not derive finite action valuation, global state/dynamical factorization, exact recovery, physical joint faithfulness or Nature-level source selection.
+The audit proves sufficiency of faithfulness for a typed local two-jet lift and an equal-reduct countermodel showing that faithfulness is required for universal identifiability over the admitted cross-form class. It does not derive finite action valuation, global state/dynamical factorization, exact recovery, physical joint faithfulness or unrestricted source-law realization.

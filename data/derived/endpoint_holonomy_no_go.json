@@ -26,5 +26,5 @@
     "closed_loop_phase_witness_required": true,
     "complex_conjugate_packets_are_distance_indistinguishable": true
   },
-  "claim_boundary": "The example proves endpoint-distance incompleteness; it does not identify which holonomy Nature selects."
+  "claim_boundary": "The example proves endpoint-distance incompleteness; it does not identify which holonomy the unrestricted physical parent law realizes."
 }

@@ -77,7 +77,7 @@ def main() -> None:
             "faithfulness is required for universal identifiability over the "
             "admitted cross-form class. It does not derive finite action "
             "valuation, global state/dynamical factorization, exact recovery, "
-            "physical joint faithfulness or Nature-level source selection."
+            "physical joint faithfulness or unrestricted source-law realization."
         ),
     }
     (HERE / f"{STEM}_summary.json").write_text(

@@ -172,7 +172,7 @@ for perm_tail in itertools.permutations((1, 2, 3)):
 # restricted to the rooted common/difference pair, has a nondegenerate mixed
 # Hessian on all three directions.  In rooted irreducible coordinates this
 # gives equal nonzero scalar and W2 coefficients.  This is a conditional
-# completion statement, not current-CHDF or Nature-level ownership.
+# completion statement, not current-CHDF or unrestricted physical ownership.
 mu0 = 1.0
 h_cc = mu0 * np.eye(3)
 h_dd = mu0 * np.eye(3)

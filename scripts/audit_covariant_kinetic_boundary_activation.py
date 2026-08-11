@@ -50,11 +50,11 @@ def main() -> None:
                 "non-null future mode that changes the densitized kinetic metric"
             ),
             "not_proved": (
-                "Nature-level selection of JCSEL-BRDC-EBRP, nonneutral physical occupation, "
+                "Unrestricted physical realization of JCSEL-BRDC-EBRP, nonneutral physical occupation, "
                 "or that every future-fibre direction is metric-visible"
             ),
         },
-        "verdict": "SELECTED_COVARIANT_KINETIC_COMPLETION_ACTIVATES_BETA_FQ_CONDITIONALLY; NATURE_SELECTION_REMAINS_OPEN",
+        "verdict": "SELECTED_COVARIANT_KINETIC_COMPLETION_ACTIVATES_BETA_FQ_CONDITIONALLY; UNRESTRICTED_PARENT_LAW_REALIZATION_AND_OCCUPATION_REMAIN_OPEN",
     }
 
     assert sp.simplify(mixed_boundary - momentum) == 0

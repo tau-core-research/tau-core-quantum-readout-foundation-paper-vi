@@ -3,6 +3,25 @@
 **Title:** Quantum Readout from Observer-Relative Lossy Descent  
 **Status:** first finite proof packet; conditional foundations result
 
+## Atemporal Parent-Realization Terminology
+
+Because the Tau parent is atemporal, “Nature selects” does not mean an
+external agent or a later decision. It is legacy shorthand for the internal
+physical implication
+
+\[
+(B_\tau^{\mathrm{phys}},s_U,\mathcal L_{\mathrm{parent}})
+\Longrightarrow \mathfrak P,
+\]
+
+together with physical occupation of the support of \(\mathfrak P\). A theorem
+inside a declared completion proves only class-relative realization; it does
+not prove this unrestricted base–seed arrow. Agreement of finitely many
+terminal readouts also cannot establish ambient-source exhaustivity. The
+current terminology is therefore **parent-law realization** and **physical
+occupation**.
+
+
 The current physical MVP conditionally embeds density/POVM kinematics,
 Born probabilities and interference, unitary evolution, singlet/Tsirelson
 correlations, local-CPTP no-signalling, and standard free-algebraic plus
@@ -14,9 +33,14 @@ independently reconstructed same-carrier relation
 envelope inherited from Technical Paper III. The associated QOR timing bound
 is downstream of this identity and uses a standard quantum speed limit.
 No audited public carrier currently makes both axes independently observable.
-Physical carrier identification, Nature-level occupation, a universal effect
+Physical carrier identification, unrestricted physical occupation, a universal effect
 size, nonperturbative QFT, Standard Model content, outcome selection and
 quantum geometry remain open.
+
+The upstream finite-local support theorem adds one boundary: positive
+seed-unloaded split quantum candidates stabilize at zero, while stable loaded
+or cross-coupled candidates belong to generated body support. It does not
+supply the still-open physical source of the full quantum packet.
 
 The main paper contains a compact public-data verdict. The complete census,
 countermodels and source-port audits are preserved in
@@ -224,7 +248,8 @@ its exact work form `alpha_B=d A_Q`; symbolic replay verifies closure and path
 independence with the frozen radial and tangential stiffnesses. The adopted
 PRRC-P1/PJR-P1 working completion carries this body-relative role post-body
 without adding a second action or free scale. This does not derive the A8b
-connector to the Uhlmann carrier, prove `x_A=x_Q`, show that Nature selects
+connector to the Uhlmann carrier, prove `x_A=x_Q`, show that the unrestricted
+physical parent law realizes and occupies
 PRRC-P1, or replace the missing empirical source-port measurement.
 
 The finite connector audit sharpens this boundary. For the normalized
@@ -245,7 +270,7 @@ full-code recoverability uniquely selects the exact bounded A8b member. What
 remains open is not mathematical uniqueness inside this family, but why the
 physical base--seed parent imposes exact full-code recoverability.
 
-The parent-selection question is now closed at the current-axiom level by an
+The parent-realization question is now closed at the current-axiom level by an
 exact no-go. The `gamma=1` and `gamma=1/2` depolarizing descents preserve the
 same upstream stabilized body, occupied P3 algebra, positivity and CPTP
 structure, but only the first has exact full-code recovery and finite A8b.
@@ -286,14 +311,14 @@ After quotienting gauge/null directions, a nondegenerate phase form and the
 positive metric canonically determine a complex structure by polar
 decomposition. Thus a separate fitted phase source is unnecessary. The same
 argument does not force all polar mode scales to agree, so one universal
-action unit remains an explicit physical-selection condition.
+action unit remains an explicit physical-realization condition.
 
 That relative-scale condition is now closed under one additional, sharply
 typed hypothesis. If the occupied future-extension fibre is irreducible under
 a parent symmetry preserving both the metric and phase form, then the positive
 polar operator commutes with that symmetry. Its eigenspaces are invariant, so
 irreducibility forces it to be `kappa I`. Hence all relative mode scales agree.
-The absolute value and SI calibration of `kappa`, and Nature-level occupation
+The absolute value and SI calibration of `kappa`, and unrestricted physical occupation
 of the irreducible orbit, are not derived.
 
 The required irreducible carrier need not be new. The occupied logical ROOT
@@ -323,7 +348,8 @@ kinetic term. Its canonical momentum
 `pi_Phi=Z_Phi sqrt(h) n^mu partial_mu Phi` depends on the body metric. An
 occupied EBRP mode has nonzero momentum, and any non-gauge future mode changing
 the densitized normal metric therefore gives `delta_M pi_Phi != 0`. This proves
-conditional activation inside that working completion, not Nature-level
+conditional activation inside that working completion, not unrestricted
+parent-law
 selection of the completion.
 
 The future-fluidity intuition now has an exact rank theorem. At one observer
@@ -381,8 +407,8 @@ The general terminal-minimality audit sharpens this further. Once a complete
 logical `M_2(C)` code is required to have exact CPTP recovery through one
 qubit terminal, the channel restricted to that occupied code is necessarily
 unitary and therefore factor-pure. What remains open is which factor the
-typed observer-source context designates, and why Nature occupies the exact
-recovery standard-limit completion.
+typed observer-source context designates, and why the unrestricted physical
+parent law occupies the exact recovery standard-limit completion.
 
 The observer-context selector then identifies the designated factor without
 altering the body: when the complementary observer/noise algebra is the full
@@ -483,7 +509,8 @@ factorization. The known physical terminal families do not yet provide the
 global second-jet stack, and an equal-readout hidden-cross countermodel blocks
 universal identifiability without faithfulness.
 
-This paper does not prove that Nature selects the required enriched source
+This paper does not prove that the unrestricted physical parent law realizes
+and occupies the required enriched source
 packet or the adopted P3 handoff. It does not derive the numerical SI value of
 `hbar`, a unique tensor product from the minimal Tau core, physical collapse,
 nonperturbative QFT, quantized geometry, the Standard Model, or an observed
@@ -496,7 +523,8 @@ deviation from quantum mechanics.
 - Paper II: finite typed source support and joint-incidence discipline.
 - Paper III: complete/recovery-correctable record edges and Uhlmann-distance
   preservation bounds.
-- Paper IV: conditional common-source occupation and Nature-selection boundary.
+- Paper IV: conditional common-source occupation and unrestricted
+  parent-realization boundary.
 - Paper V: observer-relative stable quantization, common P3 handoff, and the
   calibrated clock needed to write unitary evolution in terminal time.
 
@@ -504,7 +532,7 @@ The manuscript also performs a corpus-wide hub reconciliation. It imports the
 existing operator-square/Clifford implication, finite P3 representation,
 graph-normal handoff, S4/S5 effect-instrument completion and current-source
 typed-incidence no-go at their original claim levels. The remaining
-Nature-level incidence gap is not presented as absence of the lower-level
+The unrestricted incidence gap is not presented as absence of the lower-level
 mathematical construction.
 
 ## Reproduce

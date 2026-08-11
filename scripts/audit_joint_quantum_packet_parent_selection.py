@@ -92,7 +92,8 @@ def main() -> None:
         },
         "claim_boundary": (
             "This audit proves non-entailment from the current reduct and a sufficient joint-source "
-            "criterion. It does not prove that Nature occupies the criterion."
+            "criterion. It does not prove that the unrestricted physical "
+            "parent law occupies the criterion."
         ),
     }
 

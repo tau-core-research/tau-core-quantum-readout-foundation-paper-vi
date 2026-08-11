@@ -241,7 +241,7 @@ def main() -> None:
         },
         "interpretation": {
             "what_is_tested": "Whether measured factorized step-kernel residuals carry path-descriptor information beyond scalar total standard action.",
-            "what_is_not_tested": "No independent Tau morphological-body action, carrier bridge or Nature-level Tau completion is measured.",
+            "what_is_not_tested": "No independent Tau morphological-body action, carrier bridge or unrestricted physical Tau completion is measured.",
             "independence_warning": "The generated paths are algebraic combinations of 17 shared measured kernel classes and are not independent observations.",
             "positive_result_boundary": "A positive score is standard propagator-structure information beyond scalar total action, not a Tau-specific signal.",
             "verdict": "The validated phase leg shows no kernel-level significant morphology increment. The larger apparent amplitude increment is excluded because the raw-image amplitude normalization fails FigS1C validation.",

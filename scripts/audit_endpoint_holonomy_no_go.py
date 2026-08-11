@@ -57,7 +57,7 @@ def main() -> None:
         },
         "claim_boundary": (
             "The example proves endpoint-distance incompleteness; it does not identify "
-            "which holonomy Nature selects."
+            "which holonomy the unrestricted physical parent law realizes."
         ),
     }
     OUT.write_text(json.dumps(result, indent=2) + "\n")

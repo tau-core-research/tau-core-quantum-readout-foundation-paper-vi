@@ -156,7 +156,7 @@ def main() -> None:
             "claim_boundary": (
                 "The same 17 published kernel classes generate all paths. The result is a "
                 "standard optical-kernel diagnostic and may contain ordinary calibration, "
-                "finite-sample or propagator structure. It is not a Nature-level Tau endpoint."
+                "finite-sample or propagator structure. It is not an unrestricted physical Tau endpoint."
             ),
         },
     }
