@@ -21,6 +21,14 @@ terminal readouts also cannot establish ambient-source exhaustivity. The
 current terminology is therefore **parent-law realization** and **physical
 occupation**.
 
+## Observer Co-Descent
+
+Finite observer-relative quantization participates in forming operational
+readout classes on an occupied carrier, but an observer exists only with
+regular local rank four and a nonzero record/effect. Observer and accessible
+4D context are co-readouts. This does not make finite loss sufficient for
+phase composition, Born statistics, tensor structure or no-signalling.
+
 
 The current physical MVP conditionally embeds density/POVM kinematics,
 Born probabilities and interference, unitary evolution, singlet/Tsirelson
@@ -41,6 +49,13 @@ The upstream finite-local support theorem adds one boundary: positive
 seed-unloaded split quantum candidates stabilize at zero, while stable loaded
 or cross-coupled candidates belong to generated body support. It does not
 supply the still-open physical source of the full quantum packet.
+
+Technical Paper VII-B now supplies a sharper conditional carrier result: a
+pointed exterior seed with faithful Hodge and source-fidelity/no-bypass
+structure jointly occupies the three pair directions and one top-form
+direction. This closes that finite support inside the enriched parent class,
+but does not by itself derive Born probabilities, tensor structure,
+no-signalling or unrestricted physical parent ownership.
 
 The main paper contains a compact public-data verdict. The complete census,
 countermodels and source-port audits are preserved in
