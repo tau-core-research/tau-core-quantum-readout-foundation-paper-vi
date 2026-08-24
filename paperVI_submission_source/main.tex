@@ -28,7 +28,7 @@
 \title{\textbf{Quantum Readout from Observer-Relative Lossy Descent}\\
 \large Tau Core Foundation Paper VI: A finite conditional quantum terminal}
 \author{Jozsef Olcsak}
-\date{Last revised: 14 August 2026}
+\date{Last revised: 24 August 2026}
 
 \begin{document}
 \maketitle
@@ -45,6 +45,18 @@ nondegenerate two-form construct a complex Hilbert carrier when the associated
 endomorphism has one common complex scale.  A commuting self-adjoint generator
 gives unitary transport; positive normalized effects give the trace Born rule;
 and an explicitly selected tensor product gives local-CPTP no-signalling.
+
+We further derive a local observer-resolution window: a nonzero continuous
+precursor becomes a distinct record only when its complete record jet exits a
+source-owned stable quantizer cell before the local geometric approximation
+fails.  On a constant-rank access stratum, an exhaustive complete
+effect--Choi instrument detects every nonzero outward Kato projector jet,
+although instantaneous probabilities and incomplete record families may
+remain blind.  Finally, simultaneous Parent record maps give nested
+observer-relative history fibres.  A common pre-choice preparation and a
+normalized later instrument preserve the earlier marginal, so delayed-choice
+conditioning refines histories without rewriting a Parent past or enabling
+retro-signalling.
 
 Inside an adopted enriched Tau completion, these structures are represented
 on one normalized complex matrix block with a common action unit.  We prove
@@ -65,7 +77,9 @@ the paper establishes a mathematically explicit conditional quantum terminal,
 not a quantum theory derived from the unrestricted physical parent law; it
 does not derive the SI value of
 $\hbar$, physical outcome selection, nonperturbative QFT, quantized geometry or
-the Standard Model.
+the Standard Model.  In particular, the quantum projective measure is not
+identified with body four-volume by rank equality alone; a full source-owned
+projective/body connector remains an independent premise.
 \end{abstract}
 
 \begin{center}
@@ -77,7 +91,9 @@ typed finite source support (Paper II), recovery-correctable record transport
 observer quantization plus a calibrated terminal clock (Paper V).  This paper
 owns the loss-only no-go, the finite metric--symplectic quantum completion,
 Born/interference and no-signalling terminals, and the quantum/classical
-status ledger. It also owns the recovery-based factor selector, its
+status ledger. It also owns the local quantizer-resolution window, the
+outward-access/exhaustive-Choi detection theorem, the atemporal
+history-refinement boundary, the recovery-based factor selector, its
 approximate error bound and the central-chirality terminal-blindness theorem.
 It neither re-proves nor silently strengthens its inputs.  The downstream
 scalar-15/type-II mass and RG specialization is owned by Paper VII-C; it does
@@ -156,6 +172,10 @@ Conditional standard recovery; interaction content and nonperturbative limit ope
 Physical source & The current narrow parent has no typed full-role incidence
 into the squared-Hodge carrier & Exact current-source no-entailment;
 unrestricted enriched-packet occupation open \\
+Separator handoff & One coherent $\mathfrak J_*=(\Pi_*,\varphi_*)$ fixes the
+mixed ideal, multiplicity pairing, relative $P3$--$P4$ gluing and faithful
+block occupation & Conditional joint-source compression; current narrow-source
+selection and global terminal completeness open \\
 \bottomrule
 \end{tabularx}
 \caption{Inherited proof hierarchy.  The open top-level source arrow does not
@@ -200,6 +220,14 @@ observerhood and an accessible four-dimensional world arise together only
 when the same solution has regular local rank four, a stable quantizer and a
 nonzero record/effect.  Hence information loss is not transmission toward a
 detached observer, and a 4D chart alone is not a measurement context.
+
+Paper VI inherits, rather than proves, the minimal formation factorization.
+The base is the protected zero-source response structure of one joint law, the
+universal seed is a response-distinct base-relative source class, and
+$M_\tau$ is a stable selected nonneutral response.  The split is separately
+identifiable only after a physical zero-source member is fixed.  Quantum
+effects, Born statistics and process tomography are downstream and cannot
+define that anchor or construct the seed backward from terminal data.
 Equality of classes, rather than a non-transitive distance threshold, defines
 the operational equivalence relation
 \begin{equation}
@@ -279,6 +307,189 @@ transition whose endpoints occupy distinct stable fibres.  It is not a
 universal atom of time unless independence from $O,S,c$ is proved.  Likewise,
 multiple parent configurations in one ordinary class are merely unresolved;
 they are not yet a coherent superposition.
+
+\section{Local transition resolvability and record-jet detection}
+
+The stable quantizer makes the smallest operational transition a derived
+observer--source scale, not an infinitesimal property of the continuous
+carrier.  Let $y(\sigma)$ be a source-frozen differentiable local ordered
+precursor and put
+\begin{equation}
+ v=y'(\sigma_0)\ne0,
+ \qquad
+ d_e(\delta)=y(\sigma_0+\delta)-y(\sigma_0).
+ \label{eq:local-ordered-chord}
+\end{equation}
+Continuity gives, for all sufficiently small $\delta>0$,
+\begin{equation}
+ \langle d_e(\delta),v\rangle
+ >{\delta\over2}\lVert v\rVert^2>0,
+ \qquad
+ {d_e(\delta)\over\delta}\longrightarrow v.
+ \label{eq:local-positive-overlap}
+\end{equation}
+Thus a short positive chord has positive tangent overlap and asymptotically
+unit alignment.  This statement is local: a long curved chord may be
+orthogonal to its initial tangent.
+
+Let $\mathcal R_{OS}$ be the complete source-frozen record descriptor and let
+$C_0$ be the stable $Q_{OS}$ cell containing
+$r_0=\mathcal R_{OS}(0)$.  Assume, in one inherited norm,
+\begin{equation}
+ B_{r_-}(r_0)\subseteq C_0\subseteq B_{r_+}(r_0),
+ \qquad 0<r_-\le r_+,
+ \label{eq:stable-cell-radii}
+\end{equation}
+and along Eq.~\eqref{eq:local-ordered-chord}
+\begin{equation}
+ \mathcal R_{OS}(d_e(\delta))-r_0
+ =\delta a+\eta(\delta),
+ \qquad
+ a=D\mathcal R_{OS}|_0(v),
+ \qquad
+ \lVert\eta(\delta)\rVert\le {C\over2}\delta^2.
+ \label{eq:record-jet-expansion}
+\end{equation}
+
+\begin{proposition}[Stable-cell resolution window]
+\label{prop:stable-cell-window}
+Under Eqs.~\eqref{eq:stable-cell-radii}--\eqref{eq:record-jet-expansion},
+\begin{align}
+ \delta\lVert a\rVert+{C\over2}\delta^2<r_-
+ &\Longrightarrow Q_{OS}(d_e(\delta))=Q_{OS}(0),
+ \label{eq:definitely-unresolved}\\
+ \delta\lVert a\rVert-{C\over2}\delta^2>r_+
+ &\Longrightarrow Q_{OS}(d_e(\delta))\ne Q_{OS}(0).
+ \label{eq:definitely-resolved}
+\end{align}
+For $C>0$ and $\lVert a\rVert^2>2Cr_+$, the smaller sufficient exit scale is
+\begin{equation}
+ \delta_Q^+
+ ={\lVert a\rVert-\sqrt{\lVert a\rVert^2-2Cr_+}\over C}.
+ \label{eq:quantizer-exit-scale}
+\end{equation}
+If the local geometric result holds to $\delta_{\rm loc}$, a nonempty
+resolved-local window exists when $\delta_Q^+<\delta_{\rm loc}$ and
+$\delta_Q^+<\delta<\delta_{\rm loc}$ is chosen on the increasing branch.
+\end{proposition}
+
+\begin{proof}
+The triangle inequalities applied to
+Eq.~\eqref{eq:record-jet-expansion} give
+\[
+ \delta\lVert a\rVert-{C\over2}\delta^2
+ \le\lVert\mathcal R_{OS}(d_e(\delta))-r_0\rVert
+ \le\delta\lVert a\rVert+{C\over2}\delta^2.
+\]
+The inner inclusion in Eq.~\eqref{eq:stable-cell-radii} proves
+Eq.~\eqref{eq:definitely-unresolved}; the outer inclusion proves
+Eq.~\eqref{eq:definitely-resolved}.  Solving equality in the latter lower
+bound gives Eq.~\eqref{eq:quantizer-exit-scale}.
+\end{proof}
+
+Consequently nonzero continuous change is not yet time or quantum
+quantization.  The physical chain must source both the record jet and the
+stable partition,
+\begin{equation}
+ (K_{\rm src},J_{OS}^{\rm acc})\longrightarrow P_O
+ \longrightarrow\{\mathcal I_a\}_a
+ \longrightarrow\mathcal R_{OS}\longrightarrow Q_{OS}^{\mathcal I}.
+ \label{eq:instrument-quantizer-chain}
+\end{equation}
+At constant rank define
+\begin{equation}
+ B(M)=J_{OS}^{\rm acc}(M)K_{\rm src}^{-1/2},
+ \quad
+ P_O=B^\dagger(BB^\dagger)^+B,
+ \quad W=B^\dagger.
+ \label{eq:access-projector}
+\end{equation}
+Its Kato projector jet in direction $v$ is
+\begin{equation}
+ D_vP_O=X_v+X_v^\dagger,
+ \qquad
+ X_v=(I-P_O)(D_vW)W^+.
+ \label{eq:kato-outward-jet}
+\end{equation}
+An internal basis change of the access image can have $D_vW\ne0$ but
+$X_v=0$; base incidence and its metric therefore do not determine outward
+motion.  If $W=SR$, the correctly typed nonstandard candidate is the
+standard-access-quotiented covariant second fundamental form
+\begin{equation}
+ \mathrm{II}_{OS}^{\perp}(v)
+ =(I-\Pi_{\rm std}^{\rm acc})(I-P_O)S\nabla_v^{(K)}R.
+ \label{eq:observer-second-fundamental-form}
+\end{equation}
+Its nonvanishing guarantees nonstandard outward access motion, not by itself
+finite-cell exit.
+
+\begin{theorem}[Exhaustive complete-Choi detection]
+\label{thm:exhaustive-choi-detection}
+Let $X_v\ne0$, $G_v=X_v-X_v^\dagger$, and let an owned finite instrument have
+effect roots $S_a=\sqrt{F_a}$ exhaustive on the accessible support,
+\begin{equation}
+ \sum_aF_a=\sum_aS_a^2=P_O.
+ \label{eq:exhaustive-effects}
+\end{equation}
+Under Kato transport, $\dot K_a=G_vS_a$ and
+$J_a=|K_a\rangle\!\rangle\langle\!\langle K_a|$.  Then
+\begin{equation}
+ X_v\ne0\quad\Longrightarrow\quad
+ \dot J_a\ne0\ \text{for at least one }a.
+ \label{eq:choi-detection}
+\end{equation}
+The immediate effects may nevertheless obey $\dot F_a=0$.
+\end{theorem}
+
+\begin{proof}
+The ranges of $S_a$ and $G_vS_a=X_vS_a$ are orthogonal, so
+$\dot J_a=0$ exactly when $X_vS_a=0$.  If all Choi derivatives vanished,
+exhaustivity would give
+\[
+ X_v=X_vP_O=X_v\sum_aS_a^2
+ =\sum_a(X_vS_a)S_a=0,
+\]
+a contradiction.  Orthogonality also gives
+$\dot F_a=(G_vS_a)^\dagger S_a+S_aG_vS_a=0$.
+\end{proof}
+
+\begin{corollary}[Full-support and scalar-phase controls]
+\label{cor:full-support-scalar-controls}
+If the direct access realization has \(P_O=I_n\), then
+\begin{equation}
+ X_v=(I-P_O)(D_vW)W^+=0,
+ \qquad G_v=X_v-X_v^\dagger=0,
+ \label{eq:full-support-kato-zero}
+\end{equation}
+so the Kato branch contains no outward access transport even when the terminal
+process varies.  If instead a Kraus amplitude is transported only by a scalar
+generator \(G_v=ia(v)I_n\), its normalized Choi projector is unchanged by the
+resulting global phase and
+\begin{equation}
+ q_{\rm pu}(G_v)
+ :=G_v-\frac{\operatorname{tr}G_v}{n}I_n=0.
+ \label{eq:scalar-choi-null}
+\end{equation}
+Therefore a non-scalar normalized-Choi orientation requires either the
+internal component of a fuller body connection or a genuinely varying access
+projector.
+\end{corollary}
+
+\begin{proof}
+The first statement follows directly from Eq.~\eqref{eq:kato-outward-jet}.
+For the second, scalar transport multiplies every Kraus vector by one phase;
+the outer product \(\lvert K\rangle\!\rangle\langle\!\langle K\rvert\) is
+phase invariant, and the displayed projective quotient vanishes identically.
+\end{proof}
+
+Probability-only observers and incomplete Choi families can therefore miss
+an outward access jet.  Conversely, exhaustive detection does not make the
+signal Tau-specific: the additional discriminator is a nonzero component
+after projection away from independently frozen standard apparatus Choi
+tangents.  Even that infinitesimal component must still satisfy
+Proposition~\ref{prop:stable-cell-window} to become a finite resolved record.
+Physical joint occupation of the front, incidence, complete instrument and
+stable cell remains open.
 
 \section{Loss-only no-go}
 
@@ -1136,6 +1347,68 @@ open is why the physical parent selects this tensor composition and its
 occupied entangled states.  The no-signalling theorem is conditional on that
 composition and cannot be used to derive it retrospectively.
 
+\subsection{Atemporal history refinement and no retro-signalling}
+
+Delayed-choice conditioning can be stated without a Parent history store.
+Let $(\mathcal P,\mu)$ be one source-frozen atemporal Parent dilation and
+pre-choice weight for the prepared ensemble.  For settings $a,b$, let
+\begin{equation}
+ X_a:\mathcal P\to\mathsf X,
+ \qquad D_b:\mathcal P\to\mathsf D
+ \label{eq:simultaneous-record-maps}
+\end{equation}
+be stable early and later record maps.  These are simultaneous typed maps,
+not a claim that every incompatible observable has a global noncontextual
+value.  The observer-compatible fibres obey
+\begin{equation}
+ \mathcal H_x^{(a)}=X_a^{-1}(x),
+ \qquad
+ \mathcal H_{x,d}^{(a,b)}
+ =X_a^{-1}(x)\cap D_b^{-1}(d)
+ \subseteq\mathcal H_x^{(a)}.
+ \label{eq:history-refinement-fibres}
+\end{equation}
+This is refinement of a conditional description, not rewriting an earlier
+Parent state.  Stable record invariance separately requires an unconditioned
+later operation $\Lambda_b$ to satisfy
+\begin{equation}
+ \Lambda_b^*[f(X_a)]=f(X_a)
+ \quad\text{for every }f\text{ in the early record algebra}.
+ \label{eq:stable-record-invariance}
+\end{equation}
+Record invariance alone does not imply no-signalling: a later-setting-
+dependent preparation weight $\mu_b$ can change early frequencies while
+leaving the record map fixed.
+
+With one common pre-choice $\mu$ and a normalized later-local kernel
+$K_b(d|p)$, the joint law is
+\begin{equation}
+ P(x,d|a,b)=\int_{\mathcal P}
+ {\bf1}_{X_a(p)=x}K_b(d|p)\,d\mu(p),
+ \qquad \sum_dK_b(d|p)=1.
+ \label{eq:parent-joint-record-law}
+\end{equation}
+Therefore
+\begin{equation}
+ \sum_dP(x,d|a,b)
+ =\int {\bf1}_{X_a(p)=x}\,d\mu(p)
+ =P(x|a),
+ \label{eq:no-retro-marginal}
+\end{equation}
+independently of $b$.  In the quantum terminal this is the standard identity
+\begin{equation}
+ \sum_d\Tr[(E_x^a\otimes F_d^b)\rho]
+ =\Tr[(E_x^a\otimes I)\rho].
+ \label{eq:quantum-no-retro-marginal}
+\end{equation}
+Conditioning on $d$ may still expose complementary interference patterns.
+For example, terms proportional to $+V\cos\phi_x$ and $-V\cos\phi_x$ can
+occur in two postselected subensembles while cancelling in their earlier
+marginal.  Thus later records refine the compatible fibre but do not change
+the locally accessible earlier statistics or open a future-to-past
+information channel.  Standard quantum mechanics already explains this
+structure; its compatibility is not evidence for Tau Core.
+
 \section{Measurement, decoherence and the classical limit}
 
 \subsection{Quantum instrument}
@@ -1296,6 +1569,54 @@ independent morphological action variable $x_A$ and therefore does not imply
 Eq.~\eqref{eq:tau-discriminator}.  This cross-domain identity, rather than a
 modification of the Born rule, is the primary conditional Tau discriminator.
 
+\subsection{Projective quantum measure versus body volume}
+
+The finite common-Gram identity above compares an action separation with an
+Uhlmann chord on one occupied record pair.  It must not be read as a global
+identification of quantum-state volume with body volume.  In the rank-four
+source/body prototype, CCOC supplies only
+\begin{equation}
+ A_M:V_{OS}^{\rm rel}\longrightarrow S_B,
+ \qquad \operatorname{rank}A_M=3,
+ \label{eq:quantum-imported-ccoc-map}
+\end{equation}
+while OGAS supplies a compatible signed common line.  Their combined rank is
+four, but no full source-owned map
+\begin{equation}
+ \Xi:T(\mathbb{CP}^{1}_{s}\times\mathbb{CP}^{1}_{b})|_U
+ \longrightarrow E_T\oplus E_S
+ \label{eq:quantum-projective-body-map}
+\end{equation}
+follows.  In particular, rank equality does not imply
+$\Xi^*d\mu_{h_*}=d\mu_{FS}$.
+
+If such a connector is independently supplied, preserves the declared
+splittings and has $|\det A_M|=g_{FFL}^{3}$ in the fixed oriented volume
+frames, then exact measure matching uniquely fixes its common-line Jacobian:
+\begin{equation}
+ \Xi_{\gamma_T}=\gamma_T\oplus A_M,
+ \qquad \gamma_T=g_{FFL}^{-3}.
+ \label{eq:quantum-conditional-measure-normalization}
+\end{equation}
+This conditional uniqueness removes a possible blockwise gain.  It neither
+constructs $\Xi$ nor identifies the body volume operationally, and it does not
+replace the independent finite-action/Uhlmann test
+Eq.~\eqref{eq:tau-discriminator}.  A common-line rescaling leaves the CCOC
+spatial/contact data invariant while changing four-volume, so physical
+connector ownership and projective/body measure identification remain
+upstream open questions. The absolute M4 unit frame is a different issue:
+Paper V proves that the common clock--gravity--action packet leaves only
+\begin{equation}
+ (L_H,T_H,\mathcal A_*)
+ \longmapsto
+ (\sigma L_H,\sigma T_H,\sigma^2\mathcal A_*),
+ \qquad \sigma>0,
+ \label{eq:quantum-inherited-m4-metrology}
+\end{equation}
+with all dimensionless clock--ruler terminals invariant. One measured anchor
+chooses an SI representative; this does not construct $\Xi$, fix the
+finite-action/Uhlmann bridge, or determine a dimensionless quantum coupling.
+
 The prediction remains quantitative under certified approximate recovery.
 If a record map $\mathcal C$ has a recovery $\mathcal R$ satisfying
 $\sup_\rho\|\mathcal R\mathcal C(\rho)-\rho\|_1\le\eta$ on the frozen state
@@ -1374,6 +1695,29 @@ validate part of the standard-recovery side but cannot confirm or falsify
 Eq.~\eqref{eq:tau-discriminator}.  The frozen points, provenance manifest and
 recalculation script are included in the reproducibility package.
 
+\subsection{Execution-to-process ledger audit}
+
+A second bounded census, inherited from Paper V's temporal laboratory route,
+asks a distinct question: does a public experimental package join an actually
+executed, signed and winding-resolved control waveform to physical boundary
+keys, same-run tomographic shots, a complete QPT/Choi reconstruction and a
+calibration/nuisance ledger? No package verified on 24 August 2026 passed all
+of these gates. The public quantum-memory repository is the strongest
+laboratory near-pass \citep{HsiangQMemRepo}; the NGQG and NMN releases are
+process-rich but lack the required execution join
+\citep{ZhangNGQGData,GiarmatziNMNRepo}. QDataSet supplies waveform-rich
+synthetic evolution, while the IBM pulse archive supplies hardware pulse
+programs and state-tomography workflows rather than the complete same-run
+process record \citep{PerrierQDataSetRepo,IBMOpenSciencePulse2021}.
+
+This does not weaken the complete-Choi detection theorem. It prevents a
+retrospective common-source test: without an immutable join key, permutations
+of waveform-to-process pairings preserve both released marginals. Combining
+separate public repositories therefore cannot manufacture the missing
+incidence. The minimum operational acquisition is one run-keyed
+execution--boundary--QPT ledger; independent physical ownership of the Tau
+source port remains an additional upstream condition.
+
 \subsection{Compact audit verdict}
 
 A frozen public-carrier census applied five hard gates: same carrier, an
@@ -1412,6 +1756,17 @@ and reveals a standard kernel-morphology amplitude dependence, but the
 source-frozen Tau curvature candidate is null and the optical action is not an
 independent Tau body action.  These results validate parts of the standard
 recovery pipeline without evaluating $x_A=x_Q$.
+
+The later multimode-fibre method control makes the access distinction exact.
+In the direct transfer-as-access realization all measured square maps are full
+rank, hence \(P_O=I_{110}\) and Corollary~\ref{cor:full-support-scalar-controls}
+gives zero Kato transport although the normalized Choi process changes.  The
+current scalar source-connection candidate is likewise projectively null for
+that non-scalar change.  A full independently sourced body connection or a
+varying, gapped source-owned access subspace would be sufficient in principle;
+neither is physically realized by the current source packet.  Fitting a local
+generator from the same terminal transfer path would test standard optical
+factorization, not derive a Tau source arrow.
 
 There is also a structural no-go.  Tomography, QGT and fidelity are circular as
 $x_A$ estimators; band curvature and state-space QGT are independent in a
@@ -1957,6 +2312,18 @@ Born and interference & Follows from positive trace effects and coherent
 composition & Conditional theorem \\
 No-signalling & Follows for local CPTP maps after tensor composition is fixed
 & Conditional theorem \\
+Local resolved transition & A nonzero record jet leaves a source-owned stable
+cell only inside the explicit window of
+Proposition~\ref{prop:stable-cell-window}; infinitesimal precursor survival is
+insufficient & Conditional theorem and quantizer nonselection boundary \\
+Outward access detectability & Every nonzero outward Kato jet changes at least
+one exhaustive complete Choi record, while probabilities and incomplete
+records may remain blind; standard-apparatus quotient and physical occupation
+remain open & Conditional theorem plus exact controls \\
+History refinement/no retro-signalling & Later records define nested Parent
+preimage fibres; a common pre-choice weight and normalized later-local
+instrument preserve the early marginal, whereas record invariance alone does
+not & Conditional theorem and countermodel boundary \\
 Measurement & Quantum instruments are consistent; physical single-outcome
 selection is not derived & Open physics \\
 Classical limit & Decohered commuting records give a controlled effective
@@ -1999,7 +2366,7 @@ but equal polar scales and one universal action unit do not follow &
 Conditional theorem plus finite no-go \\
 Irreducible mode-scale lock & A common parent symmetry preserving $g_+$ and
 $\omega_+$ forces $|g_+^{-1}\omega_+|=\kappa I$ on an irreducible occupied
-future fibre; physical orbit occupation and absolute calibration remain open
+future fibre; physical orbit occupation and relative mode normalization remain open
 & Conditional Schur-rigidity theorem \\
 Future--ROOT bridge & A bijective source-owned metric--phase intertwiner to the
 logical ROOT qubit transfers its real irreducibility and closes the relative
@@ -2111,6 +2478,16 @@ but does not prove that the unrestricted base--seed law supplies the source
 incidence, metric--symplectic lock, tensor factorization or record structure
 required by the physical quantum packet.
 
+The operational source-generated-completeness handoff fixes the domain of
+this statement. Under the enriched one-source premise, the quantum packet is
+defined on the seed-generated occupied physical quotient; inert ambient
+summands are true-null presentation surplus. For the complete joint
+relation/state packet this requires its selector to be constant on complete
+seed fibres, so that the ideal and faithful state factor through the seed
+key. The present narrow seed does not prove that factorization. A non-null
+quantum difference at fixed complete seed key is instead a second source or
+an incomplete seed descriptor and falsifies the one-source completion.
+
 \subsection*{Pointed-exterior support inherited from the parent packet}
 
 The later parent-packet analysis supplies a sharper support result.  On a
@@ -2162,6 +2539,17 @@ observer-event incidence and canonical conditional expectation jointly fix
 the contextual logical factor and its realization complement. Approximate
 recovery supplies a quantitative stability bound. The unselected central
 Clifford sign does not affect this even quantum terminal.
+
+The local interface is now sharper.  A differentiable oriented precursor can
+survive geometrically while remaining unresolved inside the observer's stable
+zero cell.  Complete record nonannihilation and the source-owned cell together
+fix the first sufficient exit scale.  A nonzero outward access-projector jet
+cannot be hidden from an exhaustive complete Choi instrument, although its
+instantaneous probabilities can remain unchanged.  Separately, later records
+intersect rather than overwrite observer-compatible Parent fibres; common
+preparation and normalized future-local instruments preserve the earlier
+marginal.  These results close consistency interfaces, not physical packet
+occupation or a Tau-specific delayed-choice signal.
 
 The paper's distinguishing proposal is not a modified Born rule or an
 unexplained timing delay.  It is the common-Gram identity $x_A=x_Q$, with a

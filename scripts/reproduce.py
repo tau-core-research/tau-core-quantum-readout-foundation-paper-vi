@@ -12,6 +12,7 @@ def run(*args):
 
 run(sys.executable, "scripts/build_figures.py")
 run(sys.executable, "scripts/check_quantum_readout.py")
+run(sys.executable, "scripts/audit_resolved_record_history_interface.py")
 run(sys.executable, "scripts/audit_tensor_factorization.py")
 run(sys.executable, "scripts/audit_standard_recovery_and_discriminator.py")
 run(sys.executable, "scripts/audit_public_qgt_evidence.py")

@@ -75,6 +75,10 @@ def test_claim_markers():
         "Quantum Readout from Observer-Relative Lossy Descent",
         "Inherited proof hierarchy",
         "Loss-only no-go",
+        "Local transition resolvability and record-jet detection",
+        "Stable-cell resolution window",
+        "Exhaustive complete-Choi detection",
+        "Atemporal history refinement and no retro-signalling",
         "Metric--symplectic quantum completion",
         "Existing Tau source realization",
         "Separating-record selector",
@@ -86,6 +90,7 @@ def test_claim_markers():
         "Measurement, decoherence and the classical limit",
         "Planck action scale",
         "Standard quantum recovery and Tau-specific discriminator",
+        "Projective quantum measure versus body volume",
         "Public-data audit",
         "What is proved and what remains open",
         "Disjoint-source valuation and the isolation theorem",
@@ -453,3 +458,11 @@ def test_arxiv_source_is_source_only():
     assert "refs.bib" in names
     assert "figures/fig_quantum_descent_spine.pdf" in names
     assert "main.pdf" not in names
+
+
+def test_inherited_m4_metrological_boundary():
+    text = (ROOT / "paperVI_submission_source/main.tex").read_text()
+    normalized = " ".join(text.split())
+    assert "eq:quantum-inherited-m4-metrology" in text
+    assert "One measured anchor" in normalized
+    assert "does not construct $\\Xi$" in normalized

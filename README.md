@@ -3,6 +3,12 @@
 **Title:** Quantum Readout from Observer-Relative Lossy Descent  
 **Status:** first finite proof packet; conditional foundations result
 
+The quantum separator handoff now uses one coherent joint source
+representation/state datum for the mixed ideal, multiplicity pairing, relative
+P3--P4 gluing and faithful block occupation. This is conditional compression,
+not a derivation of that datum from the narrow source or a proof that the
+globally incomplete terminal family is gauge-invariant.
+
 ## Atemporal Parent-Realization Terminology
 
 Because the Tau parent is atemporal, “Nature selects” does not mean an
@@ -29,6 +35,44 @@ regular local rank four and a nonzero record/effect. Observer and accessible
 4D context are co-readouts. This does not make finite loss sufficient for
 phase composition, Born statistics, tensor structure or no-signalling.
 
+## Resolved Record Interface
+
+A nonzero continuous precursor is not automatically an observer-resolved
+transition. The manuscript now derives an explicit stable-cell exit window
+from the complete record first jet, its quadratic remainder and source-owned
+inner/outer cell radii. On a constant-rank access stratum, every nonzero
+outward Kato projector jet changes at least one member of an exhaustive
+complete effect--Choi instrument, although the instantaneous probability
+vector and an incomplete record family may remain blind. Standard-apparatus
+projection, finite-cell exit and physical joint occupation remain separate
+tests.
+
+Two exact controls now delimit this result. Direct full-support access has
+`P_O=I_n` and therefore zero outward/Kato jet even if the terminal process
+changes. Pure scalar `U(1)` transport changes only a common Kraus phase and is
+null in normalized projective Choi orientation. Non-scalar process transport
+therefore requires an independently sourced internal body connection or a
+genuinely varying access subspace; neither is established by the current
+multimode-fibre packet.
+
+## History Refinement Boundary
+
+Early and later records are treated as simultaneous Parent maps. Later data
+intersect the compatible inverse-image fibre rather than rewrite a stored
+Parent past. A common pre-choice preparation and a normalized later-local
+instrument preserve the earlier marginal; stable-record invariance alone is
+insufficient. Complementary postselected interference patterns may therefore
+coexist with no retro-signalling. This is compatibility with standard quantum
+mechanics, not evidence for Tau Core.
+
+## Inherited Minimal Formation Basis
+
+Paper VI inherits the joint-law-first upstream definition: a physically fixed
+zero source defines the base response, a response-distinct base-relative
+class defines the seed, and a stable selected nonneutral response defines the
+body. Quantum readout results cannot provide the missing zero-source anchor or
+infer physical seed occupation backward from terminal statistics.
+
 
 The current physical MVP conditionally embeds density/POVM kinematics,
 Born probabilities and interference, unitary evolution, singlet/Tsirelson
@@ -45,10 +89,40 @@ Physical carrier identification, unrestricted physical occupation, a universal e
 size, nonperturbative QFT, Standard Model content, outcome selection and
 quantum geometry remain open.
 
+A separate execution-to-process census completed on 2026-08-24 found no
+verified public package joining an actually executed, winding-resolved control
+waveform to boundary keys, same-run shots, complete QPT/Choi reconstruction
+and nuisance metadata. The public quantum-memory repository is the strongest
+laboratory near-pass. This is an operational incidence-identifiability stop,
+not a negative Tau result and not a failure of the complete-Choi theorem.
+
 The upstream finite-local support theorem adds one boundary: positive
 seed-unloaded split quantum candidates stabilize at zero, while stable loaded
 or cross-coupled candidates belong to generated body support. It does not
 supply the still-open physical source of the full quantum packet.
+
+Paper IV's operational quotient and the joint-seed factorization theorem add
+the exact one-source condition: the complete relation/state selector must be
+constant on complete seed fibres. Then the quantum packet lives on the
+seed-generated physical quotient and inert ambient summands are irrelevant.
+The current narrow seed does not prove this condition; a non-null same-seed-key
+quantum difference would falsify the one-source completion.
+
+## Projective/body measure boundary
+
+The Fubini--Study/Uhlmann geometry used by the quantum terminal is not
+automatically the morphological body volume. CCOC supplies a rank-three
+relative map and OGAS a compatible signed line, but equal total rank does not
+construct the full projective/body connector. If a source-owned
+split-preserving connector is additionally required to match the two declared
+product measures, its common-line Jacobian is uniquely `g_FFL^-3`. This is a
+conditional normalization theorem, not evidence that the connector exists or
+that normalized morphology predicts the decimal SI value of `hbar` or any body
+length/time unit. The common M4 clock--gravity--action frame is inherited only
+up to `(L_H,T_H,A_*) -> (sigma L_H,sigma T_H,sigma^2 A_*)`; one measured
+dimension-bearing anchor chooses its SI representative. This metrological
+quotient does not construct the projective/body connector or fix a
+dimensionless quantum coupling.
 
 Technical Paper VII-B now supplies a sharper conditional carrier result: a
 pointed exterior seed with faithful Hodge and source-fidelity/no-bypass
