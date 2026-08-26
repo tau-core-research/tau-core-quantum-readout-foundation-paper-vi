@@ -12,39 +12,39 @@
   "shared_kernel_classes": 17,
   "single_descriptor_scores": {
     "path_length": {
-      "action_only_r2": 0.007152304055080383,
-      "action_plus_candidate_r2": 0.48978738072160843,
-      "delta_r2": 0.48263507666652805,
-      "candidate_coefficient": -0.003341994677754104,
-      "standardized_candidate_coefficient": -2.473924053982577
+      "action_only_r2": 0.0071523040554518635,
+      "action_plus_candidate_r2": 0.48978738072187944,
+      "delta_r2": 0.4826350766664276,
+      "candidate_coefficient": -0.0033419946777498914,
+      "standardized_candidate_coefficient": -2.4739240539794585
     },
     "increment_roughness": {
-      "action_only_r2": 0.007152304055080383,
-      "action_plus_candidate_r2": 0.007557556770008356,
-      "delta_r2": 0.00040525271492797277,
-      "candidate_coefficient": -1.8457923592558064e-06,
-      "standardized_candidate_coefficient": -0.06301358341427574
+      "action_only_r2": 0.0071523040554518635,
+      "action_plus_candidate_r2": 0.00755755677037917,
+      "delta_r2": 0.00040525271492730663,
+      "candidate_coefficient": -1.8457923592562445e-06,
+      "standardized_candidate_coefficient": -0.0630135834142907
     },
     "turn_count": {
-      "action_only_r2": 0.007152304055080383,
-      "action_plus_candidate_r2": 0.07868896634221434,
-      "delta_r2": 0.07153666228713396,
-      "candidate_coefficient": -0.0035409623323681776,
-      "standardized_candidate_coefficient": -0.2693541535173362
+      "action_only_r2": 0.0071523040554518635,
+      "action_plus_candidate_r2": 0.0786889663423791,
+      "delta_r2": 0.07153666228692723,
+      "candidate_coefficient": -0.0035409623323700546,
+      "standardized_candidate_coefficient": -0.269354153517479
     },
     "max_excursion": {
-      "action_only_r2": 0.007152304055080383,
-      "action_plus_candidate_r2": 0.009956647089420456,
-      "delta_r2": 0.0028043430343400733,
-      "candidate_coefficient": -0.0006418440828308689,
-      "standardized_candidate_coefficient": -0.060165927274809385
+      "action_only_r2": 0.0071523040554518635,
+      "action_plus_candidate_r2": 0.009956647089745307,
+      "delta_r2": 0.002804343034293444,
+      "candidate_coefficient": -0.0006418440828316834,
+      "standardized_candidate_coefficient": -0.060165927274885726
     },
     "occupied_step_classes": {
-      "action_only_r2": 0.007152304055080383,
-      "action_plus_candidate_r2": 0.00721500563192512,
-      "delta_r2": 6.270157684473698e-05,
-      "candidate_coefficient": -0.00014420821076248234,
-      "standardized_candidate_coefficient": -0.008204208232806928
+      "action_only_r2": 0.0071523040554518635,
+      "action_plus_candidate_r2": 0.007215005632347116,
+      "delta_r2": 6.270157689525213e-05,
+      "candidate_coefficient": -0.00014420821076233765,
+      "standardized_candidate_coefficient": -0.008204208232798696
     }
   },
   "wrong_family_ranking": [
@@ -59,10 +59,10 @@
     "permutation_unit": "17 shared radial kernel classes",
     "sampled_paths": 100000,
     "permutations": 999,
-    "full_path_observed_delta_r2": 0.00040525271492797277,
-    "sample_observed_delta_r2": 0.0002472978587065855,
-    "null_mean_delta_r2": 0.0005341626454263422,
-    "null_95_percentile_delta_r2": 0.0018954164477844367,
+    "full_path_observed_delta_r2": 0.00040525271492730663,
+    "sample_observed_delta_r2": 0.00024729785872024124,
+    "null_mean_delta_r2": 0.0005341626454259731,
+    "null_95_percentile_delta_r2": 0.0018954164477818056,
     "p_value": 0.543
   },
   "verdict": "A significant partial score would establish only that the conditional curvature descriptor tracks published optical-kernel structure beyond total action. Tau-specific interpretation additionally requires a sourced edge carrier and connector."

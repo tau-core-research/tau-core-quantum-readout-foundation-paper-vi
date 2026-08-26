@@ -14,20 +14,20 @@
       "constant_chi_square": 1.1030789662170506,
       "constant_reduced_chi_square": 0.011142211779970207,
       "weighted_linear_intercept": 1.0271559066102003,
-      "weighted_linear_slope": -0.02871081843743503,
+      "weighted_linear_slope": -0.02871081843743495,
       "slope_standard_error": 0.041743654729309645,
-      "slope_z": -0.6877888058343915,
-      "linear_chi_square": 0.6300255247859875
+      "slope_z": -0.6877888058343895,
+      "linear_chi_square": 0.6300255247859883
     },
     "action_phase": {
       "points": 100,
       "raw_rms_phase_pi_units": 0.02181479171230058,
       "raw_chi_square": 11.248556677263903,
       "raw_reduced_chi_square": 0.11248556677263903,
-      "affine_intercept": -0.03676953499450707,
-      "affine_slope": 1.0185753037666156,
-      "affine_intercept_standard_error": 0.012891241661004842,
-      "affine_slope_standard_error": 0.01174696822584642,
+      "affine_intercept": -0.03676953499450697,
+      "affine_slope": 1.018575303766616,
+      "affine_intercept_standard_error": 0.012891241661004844,
+      "affine_slope_standard_error": 0.011746968225846421,
       "affine_chi_square": 0.5291821607152227
     }
   },

@@ -9,6 +9,17 @@ P3--P4 gluing and faithful block occupation. This is conditional compression,
 not a derivation of that datum from the narrow source or a proof that the
 globally incomplete terminal family is gauge-invariant.
 
+## Quantum and Hybrid Descendants
+
+The quantum terminal is a typed descendant of the common preterminal
+descriptor, not an independently sourced channel. Its phase, effect,
+composition, tensor and resolution structures are retained by the quantum
+terminal and quantizer. Hybrid readouts jointly retain several typed legs of
+the same descriptor before final quantization. Common ancestry does not make a
+contextual quantum terminal operationally identical to a classical
+noncontextual gravity terminal, and Nature-wide terminal completeness remains
+open.
+
 ## Atemporal Parent-Realization Terminology
 
 Because the Tau parent is atemporal, “Nature selects” does not mean an
@@ -130,6 +141,31 @@ structure jointly occupies the three pair directions and one top-form
 direction. This closes that finite support inside the enriched parent class,
 but does not by itself derive Born probabilities, tensor structure,
 no-signalling or unrestricted physical parent ownership.
+
+## Braid holonomy and SMCF status
+
+The manuscript now separates an exact conditional anyon-readout criterion
+from source realization: a nontrivial braid-group holonomy must survive the
+observer quantizer and terminal null quotient on an independently established
+two-dimensional collision-free support. The current Tau source does not force
+those ingredients.
+
+The inherited rooted body quotient also defines a source-frozen observer
+compression target. A new seed metric-copy functor (SMCF) would transfer the
+body metric to every admissible observer--source module and conditionally
+gives a tangential-doublet/radial-singlet stiffness ratio of `0.725200588341`.
+The present packet has zero mixed body-observer Hessian and does not derive
+SMCF. Existing public anyon and topological-spectroscopy data do not measure
+the required calibrated 3x3 static susceptibility, so this is an untested
+conditional precursor rather than empirical support.
+
+The paper now also states the quantum-side boundary for observer-dependent
+terminal mixing. A shared parent mode may appear in different terminal blocks
+for different observers, but full role exchange must preserve effects,
+instruments, coherent composition, probabilities and no-signalling. A
+contextual quantum fragment cannot thereby become a classical noncontextual
+gravity fragment. Paper VII-A owns the general joint-access theorem; Paper VI
+owns the quantum operational obligations imported by that theorem.
 
 The main paper contains a compact public-data verdict. The complete census,
 countermodels and source-port audits are preserved in
@@ -623,6 +659,23 @@ graph-normal handoff, S4/S5 effect-instrument completion and current-source
 typed-incidence no-go at their original claim levels. The remaining
 The unrestricted incidence gap is not presented as absence of the lower-level
 mathematical construction.
+
+## Common-carrier quantum--gravity boundary
+
+The manuscript now derives the conditional principal-angle description of a
+quantum effect and a stress direction on one occupied Hermitian carrier.
+Observer coarse graining can reduce the quantum-visible stress component, but
+the complex structure alone selects no universal overlap angle. This is an
+observer-access theorem, not quantum--gravity detection or terminal identity.
+
+## Full-4D Scoring Compiler Boundary
+
+A shared or mixed parent Hessian is not yet a quantum--gravity excess. The
+later joint compiler requires the complete standard comparison
+`E_K = (K_HH - K_std) - C K_VV^-1 C^dagger`, one common coframe push, exact
+duplicate quotienting, and the full covariance of all remaining terminals.
+Paper VI supplies quantum operational obligations but no nonzero physically
+occupied full-4D score packet.
 
 ## Reproduce
 
