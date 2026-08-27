@@ -692,3 +692,12 @@ The package includes compact frozen public QGT extractions and the six Ness
 Figure 2 source tables needed for the QSL control, together with provenance and
 derived audit ledgers. No empirical quantum anomaly or Tau detection is
 claimed.
+
+## Product-Free P3 Boundary (2026-08-27)
+
+For independently reconstructed occupied P3 roles,
+`<C_a>^2 + <C_b>^2 <= 1` follows exactly from unit squares,
+anticommutation and state positivity. A violation falsifies the minimal P3
+completion; satisfaction does not confirm Tau because an apparatus-selected
+Pauli pair obeys the same standard-QM identity. The updated audit finds `0/31`
+eligible public pair packets.

@@ -65,98 +65,98 @@
     "coefficient_of_variation_across_class_means": 0.008629283293434077
   },
   "score": {
-    "action_only_r2": 0.0071523040554518635,
-    "action_plus_morphology_r2": 0.5033627412205961,
-    "delta_r2": 0.49621043716514424,
+    "action_only_r2": 0.007152304055080383,
+    "action_plus_morphology_r2": 0.5033627412204185,
+    "delta_r2": 0.4962104371653381,
     "shared_kernel_permutation": {
       "permutation_unit": "17 shared radial kernel classes",
       "sampled_paths_for_computation": 100000,
       "permutations": 499,
-      "full_path_observed_delta_r2": 0.49621043716514424,
-      "sample_observed_delta_r2": 0.4979520999670016,
-      "null_mean_delta_r2": 0.0857219258103573,
-      "null_95_percentile_delta_r2": 0.2559866995812524,
+      "full_path_observed_delta_r2": 0.4962104371653381,
+      "sample_observed_delta_r2": 0.4979520999669942,
+      "null_mean_delta_r2": 0.08572192581035722,
+      "null_95_percentile_delta_r2": 0.2559866995812473,
       "kernel_permutation_p": 0.004
     }
   },
   "constant_amplitude_uncertainty_null": {
     "weighted_constant": 1.0000585031047373,
     "draws": 9999,
-    "sample_observed_delta_r2": 0.4979520999671417,
-    "null_mean_delta_r2": 0.07281170621154966,
-    "null_95_percentile_delta_r2": 0.23260600818891336,
+    "sample_observed_delta_r2": 0.49795209996700207,
+    "null_mean_delta_r2": 0.07281170621152479,
+    "null_95_percentile_delta_r2": 0.23260600818881585,
     "uncertainty_null_p": 0.0009
   },
   "single_class_replacement": {
-    "minimum_delta_r2": 0.29356317384993885,
+    "minimum_delta_r2": 0.2935631738498315,
     "rows": [
       {
         "replaced_radial_class": 0,
-        "sample_delta_r2": 0.41000255914968947
+        "sample_delta_r2": 0.41000255914956146
       },
       {
         "replaced_radial_class": 1,
-        "sample_delta_r2": 0.29356317384993885
+        "sample_delta_r2": 0.2935631738498315
       },
       {
         "replaced_radial_class": 2,
-        "sample_delta_r2": 0.4675942168771319
+        "sample_delta_r2": 0.4675942168769919
       },
       {
         "replaced_radial_class": 3,
-        "sample_delta_r2": 0.5354324828539314
+        "sample_delta_r2": 0.5354324828537579
       },
       {
         "replaced_radial_class": 4,
-        "sample_delta_r2": 0.4871382409583446
+        "sample_delta_r2": 0.48713824095804525
       },
       {
         "replaced_radial_class": 5,
-        "sample_delta_r2": 0.4362036885654701
+        "sample_delta_r2": 0.43620368856538566
       },
       {
         "replaced_radial_class": 6,
-        "sample_delta_r2": 0.42688412296098066
+        "sample_delta_r2": 0.4268841229609262
       },
       {
         "replaced_radial_class": 7,
-        "sample_delta_r2": 0.4206515269716152
+        "sample_delta_r2": 0.42065152697154257
       },
       {
         "replaced_radial_class": 8,
-        "sample_delta_r2": 0.44900406226538436
+        "sample_delta_r2": 0.4490040622652377
       },
       {
         "replaced_radial_class": 9,
-        "sample_delta_r2": 0.45943730756489853
+        "sample_delta_r2": 0.4594373075647562
       },
       {
         "replaced_radial_class": 10,
-        "sample_delta_r2": 0.5091399911549598
+        "sample_delta_r2": 0.5091399911548126
       },
       {
         "replaced_radial_class": 11,
-        "sample_delta_r2": 0.5334136349631444
+        "sample_delta_r2": 0.5334136349629996
       },
       {
         "replaced_radial_class": 12,
-        "sample_delta_r2": 0.49738809204685164
+        "sample_delta_r2": 0.4973880920467098
       },
       {
         "replaced_radial_class": 13,
-        "sample_delta_r2": 0.4870075046915833
+        "sample_delta_r2": 0.4870075046914389
       },
       {
         "replaced_radial_class": 14,
-        "sample_delta_r2": 0.49935584933015437
+        "sample_delta_r2": 0.49935584933001453
       },
       {
         "replaced_radial_class": 15,
-        "sample_delta_r2": 0.417624602316843
+        "sample_delta_r2": 0.4176246023167838
       },
       {
         "replaced_radial_class": 16,
-        "sample_delta_r2": 0.5685457782453512
+        "sample_delta_r2": 0.5685457782452729
       }
     ]
   },
