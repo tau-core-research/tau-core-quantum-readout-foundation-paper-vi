@@ -54,9 +54,9 @@
       "phase_rms_rad_after_common_offset": 0.03784587741586913,
       "phase_rms_pi_units": 0.012046716932770997,
       "phase_reconstruction_eligible": true,
-      "amplitude_correlation": 0.19440298670564715,
+      "amplitude_correlation": 0.19440298670564712,
       "published_amplitude_cv": 0.05215479707929068,
-      "reconstructed_amplitude_cv": 0.20430471292210875,
+      "reconstructed_amplitude_cv": 0.20430471292210867,
       "amplitude_reconstruction_eligible": false
     }
   },
@@ -84,17 +84,17 @@
     }
   },
   "log_amplitude_residual_score": {
-    "action_only_r2": 0.0383076500413323,
-    "action_plus_morphology_r2": 0.6446358486645583,
-    "delta_r2": 0.606328198623226,
+    "action_only_r2": 0.03830765004133252,
+    "action_plus_morphology_r2": 0.6446358486645587,
+    "delta_r2": 0.6063281986232262,
     "shared_kernel_null": {
       "permutation_unit": "17 shared radial kernel classes",
       "sampled_paths_for_computation": 100000,
       "permutations": 499,
-      "full_path_observed_delta_r2": 0.606328198623226,
+      "full_path_observed_delta_r2": 0.6063281986232262,
       "sample_observed_delta_r2": 0.6066771546721909,
-      "null_mean_delta_r2": 0.07891082210662034,
-      "null_95_percentile_delta_r2": 0.2716281870258471,
+      "null_mean_delta_r2": 0.07891082210662037,
+      "null_95_percentile_delta_r2": 0.2716281870258459,
       "kernel_permutation_p": 0.002
     },
     "eligible_for_physical_interpretation": false,
