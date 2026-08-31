@@ -107,6 +107,18 @@ and nuisance metadata. The public quantum-memory repository is the strongest
 laboratory near-pass. This is an operational incidence-identifiability stop,
 not a negative Tau result and not a failure of the complete-Choi theorem.
 
+A complementary public IBM Lindbladian archive now closes the weaker
+complete-process/apparatus acquisition question. Four real device/date
+contexts each contain a fixed informationally complete `16 x 16` two-qubit
+process grid and a backend snapshot with geometry, coupling, calibration and
+partial Hamiltonian descriptors. The seven-clause `NATMICRO-C1` audit returns
+`0` pass, `3` partial and `4` fail: there is no independently measured smooth
+access-projector axis, common-shot source--process covariance, source-derived
+`Q_OS` partition or source-frozen Tau Choi derivative. Terminal process
+occupation is observed; Tau Kato micro-kernel Nature occupation remains open.
+The process record may not be used backward to manufacture its upstream
+morphology tangent.
+
 The upstream finite-local support theorem adds one boundary: positive
 seed-unloaded split quantum candidates stabilize at zero, while stable loaded
 or cross-coupled candidates belong to generated body support. It does not

@@ -65,6 +65,7 @@ def test_required_files_exist():
         "data/derived/wen_figs2b_phase_control_audit.json",
         "data/derived/published_optical_amplitude_morphology_score.json",
         "data/derived/tau_frozen_path_curvature_candidate_score.json",
+        "data/derived/natmicro_public_packet_eligibility_v01.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -458,6 +459,19 @@ def test_arxiv_source_is_source_only():
     assert "refs.bib" in names
     assert "figures/fig_quantum_descent_spine.pdf" in names
     assert "main.pdf" not in names
+
+
+def test_natmicro_public_packet_claim_boundary():
+    audit = json.loads(
+        (ROOT / "data/derived/natmicro_public_packet_eligibility_v01.json").read_text()
+    )
+    assert audit["clause_counts"] == {"pass": 0, "partial": 3, "fail": 4}
+    assert len(audit["physical_contexts"]) == 4
+    assert all(context["grid"] == [16, 16] for context in audit["physical_contexts"])
+    assert audit["observed"]["real_complete_terminal_process_family"] is True
+    assert audit["missing"]["independent_smooth_access_projector_axis"] is True
+    assert audit["claim_boundary"]["tau_kato_micro_kernel_nature_occupation"] == "open"
+    assert audit["claim_boundary"]["terminal_variation_may_define_upstream_tau_tangent_backward"] is False
 
 
 def test_inherited_m4_metrological_boundary():

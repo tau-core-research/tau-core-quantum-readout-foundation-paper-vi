@@ -1,0 +1,35 @@
+{
+  "audit": "NATMICRO-C1 public packet eligibility v0.1",
+  "status": "acquired_strong_method_control_not_natmicro_certificate",
+  "provenance": {
+    "article": "https://arxiv.org/abs/2507.07912",
+    "data_doi": "10.5281/zenodo.18759706",
+    "license": "CC-BY-4.0",
+    "archive_size_bytes": 5358349,
+    "archive_md5": "b597e4092b2fc830028a35c7b925a89d",
+    "archive_sha256": "e865d4209dc36fb9f2053b4d19e418b0005f620bc1d0f918cd6a7275797461e9"
+  },
+  "physical_contexts": [
+    {"id": "ibm_perth_2023_11_23_q0q1", "process_records": 12, "hardware_edge": true, "grid": [16, 16]},
+    {"id": "ibm_perth_2023_11_23_q0q5", "process_records": 12, "hardware_edge": false, "grid": [16, 16]},
+    {"id": "ibm_perth_2023_11_24_q3q5", "process_records": 12, "hardware_edge": true, "grid": [16, 16]},
+    {"id": "ibm_cairo_2024_08_03_q13q14", "process_records": 7, "hardware_edge": true, "grid": [16, 16]}
+  ],
+  "clause_counts": {"pass": 0, "partial": 3, "fail": 4},
+  "observed": {
+    "real_complete_terminal_process_family": true,
+    "same_context_standard_apparatus_descriptor": true,
+    "edge_nonedge_and_gate_idle_controls": true
+  },
+  "missing": {
+    "independent_smooth_access_projector_axis": true,
+    "repeat_level_joint_source_process_covariance": true,
+    "source_derived_stable_Q_OS_cells": true,
+    "source_frozen_tau_choi_derivative": true
+  },
+  "claim_boundary": {
+    "terminal_process_occupation": "observed",
+    "tau_kato_micro_kernel_nature_occupation": "open",
+    "terminal_variation_may_define_upstream_tau_tangent_backward": false
+  }
+}
