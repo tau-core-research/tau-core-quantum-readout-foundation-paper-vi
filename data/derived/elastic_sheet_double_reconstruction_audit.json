@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "claim_level": "standard-physics method control",
+  "parameters": {
+    "cos_theta": 0.75,
+    "low_frequency": 1.0,
+    "high_frequency": 6.0,
+    "solid_angle": 1.5707963267948966
+  },
+  "body_error": 1.143464758530076e-06,
+  "duration_scan": [
+    {
+      "duration": 10.0,
+      "mismatch": 0.24976827021380865,
+      "leakage": 0.12056527600438426
+    },
+    {
+      "duration": 20.0,
+      "mismatch": 0.12475926674127813,
+      "leakage": 0.058285541269826976
+    },
+    {
+      "duration": 40.0,
+      "mismatch": 0.06237740376339849,
+      "leakage": 0.028945603037105194
+    },
+    {
+      "duration": 80.0,
+      "mismatch": 0.031201129824093177,
+      "leakage": 0.014569393819305896
+    },
+    {
+      "duration": 160.0,
+      "mismatch": 0.015610031603017828,
+      "leakage": 0.007377249711766175
+    }
+  ],
+  "gap_scan": [
+    {
+      "gap": 1.0,
+      "mismatch": 0.1558231710915268,
+      "leakage": 0.07007910909013967
+    },
+    {
+      "gap": 2.0,
+      "mismatch": 0.07809688316536567,
+      "leakage": 0.036766033970630385
+    },
+    {
+      "gap": 3.0,
+      "mismatch": 0.05206947043008647,
+      "leakage": 0.024866409009761215
+    },
+    {
+      "gap": 5.0,
+      "mismatch": 0.031201129824093177,
+      "leakage": 0.014569393819305896
+    },
+    {
+      "gap": 8.0,
+      "mismatch": 0.019503208244953774,
+      "leakage": 0.009142915968596323
+    }
+  ],
+  "fast_mismatch": 1.1705304057246584,
+  "fast_leakage": 0.6238219658347951,
+  "checks": {
+    "body_matches_solid_angle": true,
+    "duration_scan_converges": true,
+    "leakage_decreases": true,
+    "gap_scan_improves": true,
+    "slow_route_matches_body": true,
+    "reverse_loop_approaches_inverse": true,
+    "fast_loop_fails": true,
+    "gapless_process_is_identity": true,
+    "gapless_breaks_artificial_projector_route": true,
+    "benchmark_contains_no_tau_residual": true
+  },
+  "physical_plate_experiment": "open",
+  "tau_specific_residual": null,
+  "nature_occupation": "not established"
+}

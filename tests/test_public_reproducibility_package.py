@@ -66,6 +66,12 @@ def test_required_files_exist():
         "data/derived/published_optical_amplitude_morphology_score.json",
         "data/derived/tau_frozen_path_curvature_candidate_score.json",
         "data/derived/natmicro_public_packet_eligibility_v01.json",
+        "data/derived/elastic_sheet_double_reconstruction_audit.json",
+        "data/derived/elastic_sheet_internal_dynamics_audit.json",
+        "data/derived/atemporal_body_terminal_loss_audit.json",
+        "data/derived/common_instrument_time_source_packet_audit.json",
+        "data/derived/enriched_instrument_source_action_audit.json",
+        "data/derived/instrument_nature_occupation_identifiability_audit.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -96,9 +102,103 @@ def test_claim_markers():
         "What is proved and what remains open",
         "Disjoint-source valuation and the isolation theorem",
         "Operational-to-parent two-jet lifting theorem and no-go",
+        "Elastic-sheet body/process double reconstruction",
+        "General isolated band and internal dynamics",
+        "Atemporal body efficacy and terminal loss",
+        "Common instrument--time source packet",
+        "Enriched action--form origin of the instrument packet",
+        "Operational Nature-class identifiability and representative no-go",
     ]:
         assert marker in tex
     assert "observed Tau quantum anomaly" not in tex
+
+
+def test_elastic_sheet_control_ledger():
+    data = json.loads(
+        (ROOT / "data/derived/elastic_sheet_double_reconstruction_audit.json").read_text()
+    )
+    assert data["status"] == "PASS"
+    assert all(data["checks"].values())
+    assert data["duration_scan"][-1]["mismatch"] < 0.02
+    assert data["physical_plate_experiment"] == "open"
+    assert data["tau_specific_residual"] is None
+
+
+def test_elastic_sheet_internal_dynamics_ledger():
+    data = json.loads(
+        (ROOT / "data/derived/elastic_sheet_internal_dynamics_audit.json").read_text()
+    )
+    assert data["status"] == "PASS"
+    assert all(data["checks"].values())
+    assert data["checks"]["same_projector_path"]
+    assert data["checks"]["different_complete_occurrence_transport"]
+    assert data["checks"]["scalar_only_correction_fails_for_split_band"]
+    assert data["tau_specific_residual"] is None
+
+
+def test_atemporal_body_terminal_loss_ledger():
+    data = json.loads(
+        (ROOT / "data/derived/atemporal_body_terminal_loss_audit.json").read_text()
+    )
+    assert data["status"] == "PASS"
+    assert all(data["checks"].values())
+    assert data["checks"]["full_occurrence_transport_is_unitary"]
+    assert data["checks"]["single_terminal_loss_identity"]
+    assert data["checks"]["hidden_mode_schur_resolvent_is_exact"]
+    assert data["parent_meta_time_required"] is False
+    assert data["physical_m_tau_constructed"] is False
+    assert data["tau_specific_residual"] is None
+
+
+def test_common_instrument_time_source_packet_ledger():
+    data = json.loads(
+        (
+            ROOT
+            / "data/derived/common_instrument_time_source_packet_audit.json"
+        ).read_text()
+    )
+    assert data["status"] == "PASS"
+    assert all(data["checks"].values())
+    assert data["checks"]["common_interface_hessian_is_positive"]
+    assert data["checks"]["complete_instrument_network_is_unitary"]
+    assert data["checks"]["measured_transfer_is_exact_network_compression"]
+    assert data["physical_source_packet_selected"] is False
+    assert data["physical_m_tau_constructed"] is False
+    assert data["nature_occupation"] == "not established"
+
+
+def test_enriched_instrument_source_action_ledger():
+    data = json.loads(
+        (
+            ROOT
+            / "data/derived/enriched_instrument_source_action_audit.json"
+        ).read_text()
+    )
+    assert data["status"] == "PASS"
+    assert all(data["checks"].values())
+    assert data["checks"]["t28_hessian_reconstructed"]
+    assert data["checks"]["generator_self_adjoint"]
+    assert data["checks"]["environment_stationary"]
+    assert data["checks"]["pointer_minima_nondegenerate"]
+    assert data["physical_source_complex_selected"] is False
+    assert data["nature_occupation"] == "not established"
+
+
+def test_instrument_nature_occupation_identifiability_ledger():
+    data = json.loads(
+        (
+            ROOT
+            / "data/derived/instrument_nature_occupation_identifiability_audit.json"
+        ).read_text()
+    )
+    assert data["status"] == "PASS"
+    assert all(data["checks"].values())
+    assert data["terminal_rank"] == 3
+    assert data["terminal_nullity"] == 3
+    assert data["augmented_rank"] == 6
+    assert data["certificate_complete_gate_count"] == 0
+    assert data["certificate_total_gate_count"] == 7
+    assert data["nature_occupation"] == "not established"
 
 def test_ledger():
     data = json.loads((ROOT / "data/derived/quantum_readout_ledger.json").read_text())
@@ -480,3 +580,30 @@ def test_inherited_m4_metrological_boundary():
     assert "eq:quantum-inherited-m4-metrology" in text
     assert "One measured anchor" in normalized
     assert "does not construct $\\Xi$" in normalized
+
+
+def test_generalized_internal_measurement_backaction_boundary():
+    text = (ROOT / "paperVI_submission_source/main.tex").read_text()
+    normalized = " ".join(text.split())
+    assert "Internal measurement backaction and the Parent boundary" in text
+    assert "eq:papervi-generalized-backaction" in text
+    assert "eq:papervi-quantum-backaction-split" in text
+    assert "same-context, clamped-target record" in text
+    assert "this conditional identity is not Tau evidence" in normalized
+
+
+def test_quantum_descriptor_migration_ledger():
+    data = json.loads(
+        (ROOT / "data/derived/quantum_descriptor_migration_ledger.json").read_text()
+    )
+    assert data["continuous_descriptor"] == "Xi_OS^cont"
+    assert data["operational_record"] == "D_OS^op=Q_OS(Xi_OS^cont)"
+    assert data["real_linear_migration_sufficient_for_quantum_terminal"] is False
+    assert "complex_intertwining" in data["additional_structure"]
+    assert "CPTP_transport_with_recovery_for_equivalence" in data["additional_structure"]
+    assert data["physical_quantum_intertwiner"] == "open"
+    assert data["nature_occupation"] == "open"
+    tex = (ROOT / "paperVI_submission_source/main.tex").read_text()
+    assert "eq:papervi-mopr-migration" in tex
+    assert "eq:papervi-quantum-structure-migration" in tex
+    assert "eq:papervi-mixed-hessian-solder" in tex

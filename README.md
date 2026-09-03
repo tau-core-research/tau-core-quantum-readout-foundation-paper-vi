@@ -1,5 +1,12 @@
 # Tau Core Quantum Readout Foundation Paper VI
 
+**Morphology convention:** the upstream (M_\tau^\star) is the complete
+stabilized morphological response configuration, not the bare base or a lone
+mode amplitude. Its selection is atemporal; quantum occurrence and observer
+time are post-body structures.
+MRC-DEF2 treats parent-side objects as typed pregeometric relational
+candidates, not particles or apparatuses already in recovered spacetime.
+
 **Title:** Quantum Readout from Observer-Relative Lossy Descent  
 **Status:** first finite proof packet; conditional foundations result
 
@@ -8,6 +15,58 @@ representation/state datum for the mixed ideal, multiplicity pairing, relative
 P3--P4 gluing and faithful block occupation. This is conditional compression,
 not a derivation of that datum from the narrow source or a proof that the
 globally incomplete terminal family is gauge-invariant.
+
+## Elastic-Sheet Double-Reconstruction Control
+
+The manuscript now records an executable reduced elastic model in which a
+gapped stiffness selects a rank-two projector, a body route reconstructs its
+Kato holonomy, and an algorithmically separate route propagates the complete
+wave process. Their mismatch and leakage decrease in the adiabatic and
+large-gap limits, while fast and gapless controls fail. The model is a
+standard-mechanics control for projector transport and complete-process
+tomography. The general isolated-band audit further proves that the same
+projector path can support different internal spectra and therefore different
+complete occurrence transports. The earlier scalar phase removal is valid
+only for its exactly degenerate band; generic bands require an independently
+reconstructed matrix-valued internal propagator. It is not a quantum result, a Tau-specific micro-kernel or a
+Nature-occupation certificate; a physical plate implementation remains open.
+
+The companion atemporal-body audit proves the exact dynamic-loss boundary. A
+self-adjoint full-body generator gives unitary internal transport, while
+contractive source/access maps give a positive observer-loss defect and
+hidden-mode Schur elimination gives passive effective damping. The same
+static body stiffness still does not select a temporal law or clock rate.
+This supports conditional physical efficacy without introducing parent
+meta-time or claiming that physical \(M_\tau\) has been constructed.
+
+The common instrument--time audit now derives the source incidence and
+observer access contractions from the normalized mixed blocks of one positive
+source-frozen interface Hessian. A separately typed phase form and one
+stiffness/inertia reference ratio derive a self-adjoint occurrence generator,
+and Julia defect completion embeds the lossy transfer in a conservative full
+instrument. The environment state and calibrated pointer action remain
+separate physical inputs: deterministic transfer alone selects neither its
+noise kernel nor its stable readout cells.
+
+The enriched source-action audit moves this packet one step upstream. A
+two-edge relation Gram action now derives the full interface Hessian and its
+complete-mediation zero; a seed-odd action form paired with one positive
+energy form derives the inverse-time generator; a strictly convex environment
+functional derives \(\Gamma_E=\Theta_EK_E^{-1}\); and a finite source-role
+orbit derives isolated pointer minima and stable cells. All 22 controls pass.
+The action form, energy/action unit bridge, occupation strength, pointer orbit,
+physical calibration and Nature occupation remain source-level open inputs,
+not consequences of the symmetric Hessian or of old-bare Tau.
+
+The Nature-identifiability audit now separates terminal equivalence from
+physical gauge. Common energy/action scale, seed-sign/clock reversal,
+occupation/stiffness scale, environment frame and pointer/calibration
+congruence give identical terminal laws. The lawful target is the physical
+source class after independent source standards, with local criterion
+`ker D I_joint = T(G_phys s_*)`. The seven-gate `CIT-NOC7` protocol freezes
+the common-carrier, relation, action, unit, environment, pointer and held-out
+control requirements. All 13 mathematical checks pass; the current corpus
+completes `0/7` co-registered physical gates. Nature occupation remains open.
 
 ## Quantum and Hybrid Descendants
 
@@ -45,6 +104,18 @@ readout classes on an occupied carrier, but an observer exists only with
 regular local rank four and a nonzero record/effect. Observer and accessible
 4D context are co-readouts. This does not make finite loss sufficient for
 phase composition, Born statistics, tensor structure or no-signalling.
+
+## Internal Measurement Backaction
+
+The quantum instrument records outcomes, but target disturbance is a distinct
+post-body response problem. With the frozen body held fixed, a regular common
+functional gives `D_o x_*=-H_X^-1 C_XO` and splits every smooth quantum record
+change into direct apparatus-context dependence plus the target-mediated term
+`-D_x Pi_Q H_X^-1 C_XO`. Hard outcomes require a same-context,
+clamped-target control. An unchanged cell may hide continuous disturbance,
+while a changed record alone does not prove coupling. Standard quantum theory
+already contains measurement disturbance, so the identity is not Tau-specific
+evidence and does not authorize backward reselection of the body.
 
 ## Resolved Record Interface
 
@@ -637,6 +708,22 @@ undefined on the current common domain, rather than measured to be zero.
 
 ## Does Not Claim
 
+The shared smooth descriptor `Xi_OS^cont` is now kept distinct from the
+resolved record `D_OS^op=Q_OS(Xi_OS^cont)`.  Fibre inclusion gives the exact
+criterion for transporting an ordinary legacy terminal, but a real-linear
+descriptor migration is not enough for a quantum terminal.  The transport
+must additionally intertwine the complex structure and preserve the relevant
+star-algebra, positivity and normalization; at the operational-channel level
+it must be CPTP-compatible, with a CPTP recovery on the occupied code when
+exact equivalence is claimed.  These are extra physical structures, not
+consequences of matching real ranks or fibres.
+
+The regular action response `Gamma_resp=-H^-1 B` and its SBTCL106 reduction
+`Gamma_resp=J_OS` remove a free solder parameter.  Positivity and zero Schur
+remainder nevertheless do not select the vertical source jet.  The physical
+quantum intertwiner, complete-positive realization, source ownership,
+calibration and Nature occupation remain open.
+
 Observed subsystem factorization is not claimed to prove exact finite parent
 additivity. A typed stacked second-jet descent that is faithful on parent
 cross-forms can lift vanishing terminal mixed responses only to a zero parent
@@ -699,6 +786,8 @@ The command regenerates the figures and quantum/factorization audit ledgers, bui
 and source-only arXiv archive, and runs the public tests.
 
 ## Included Data
+
+- `data/derived/quantum_descriptor_migration_ledger.json`
 
 The package includes compact frozen public QGT extractions and the six Ness
 Figure 2 source tables needed for the QSL control, together with provenance and

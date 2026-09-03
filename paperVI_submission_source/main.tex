@@ -28,7 +28,7 @@
 \title{\textbf{Quantum Readout from Observer-Relative Lossy Descent}\\
 \large Tau Core Foundation Paper VI: A finite conditional quantum terminal}
 \author{Jozsef Olcsak}
-\date{Last revised: 29 August 2026}
+\date{Last revised: 3 September 2026}
 
 \begin{document}
 \maketitle
@@ -88,6 +88,17 @@ paper supplies the quantum operational obligations for observer-dependent
 cross-terminal mixing: information-level role exchange does not identify a
 contextual quantum packet with a classical noncontextual gravity terminal.
 \end{abstract}
+
+\paragraph{Inherited morphology terminology.}
+The input body is the complete \emph{stabilized morphological response
+configuration} $M_\tau^\star$ selected upstream from a base carrier and its
+base-readable seed/load pattern; ``morphological body'' is shorthand.  This
+paper neither identifies the body with the bare base nor assumes a literal
+formation trajectory.  Its occurrence and quantum instruments are post-body
+readouts and do not retrospectively supply parent time.
+Under MRC-DEF2, parent-side objects are typed pregeometric relational
+candidates, not particles or apparatuses already embedded in recovered
+spacetime; those ordinary objects occur only in downstream body/readout roles.
 
 \begin{center}
 \fbox{\begin{minipage}{0.92\linewidth}
@@ -1583,6 +1594,36 @@ This is a consistent terminal record law.  It is not yet a proof of a physical
 parent collapse.  The unconditioned state follows the deterministic channel;
 the conditioned state records the selected outcome.
 
+\subsection{Internal measurement backaction and the Parent boundary}
+
+The instrument formalism describes terminal records, while a separate regular
+post-body response calculation identifies physical disturbance of an internal
+target.  With the stabilized body held fixed, let $o$ denote an apparatus or
+observer coordinate and $x$ a post-body target coordinate in one supplied
+$C^2$ functional.  Then
+\begin{equation}
+ D_o x_*=-H_X^{-1}C_{XO},\qquad
+ H_X=D_x^2\mathcal A_{\rm post},\quad
+ C_{XO}=D_xD_o\mathcal A_{\rm post},
+ \label{eq:papervi-generalized-backaction}
+\end{equation}
+and every smooth quantum record precursor obeys
+\begin{equation}
+ D_o\Pi_Q^{\rm occ}
+ =D_o\Pi_Q-D_x\Pi_Q\,H_X^{-1}C_{XO}.
+ \label{eq:papervi-quantum-backaction-split}
+\end{equation}
+The direct term can change under apparatus context even at $C_{XO}=0$; only
+the second term is target-mediated backaction.  For a hard outcome map, the
+exact control is the same-context, clamped-target record, not a comparison
+with a different apparatus setting.  Hence an unchanged outcome cell does not
+exclude continuous disturbance, and a changed outcome does not by itself
+identify a nonzero target coupling.  Standard quantum mechanics already
+contains measurement disturbance and instrument conditioning, so this
+conditional identity is not Tau evidence.  It also does not let the observer
+reselect the frozen body; physical source ownership of $C_{XO}$, Nature
+occupation and a Tau-specific component remain open.
+
 \subsection{Decoherence is not outcome selection}
 For a preferred pointer algebra, a dephasing map removes off-diagonal phase
 witnesses while preserving populations.  Markovian semigroups may be written
@@ -1925,6 +1966,421 @@ static coupling graph cannot be silently promoted to the outward projector
 jet of Eq.~\eqref{eq:kato-outward-jet}. This strengthens the empirical handoff
 while leaving the complete-Choi theorem conditional and Nature occupation
 open.
+
+\subsection{Elastic-sheet body/process double reconstruction}
+
+A reduced elastic-sheet model provides a non-quantum standard control for the
+projector-transport logic used above.  Two support coordinates
+\(s=(\theta,\phi)\) define
+
+\begin{equation}
+ n(s)=(\sin\theta\cos\phi,\sin\theta\sin\phi,\cos\theta)^{\mathsf T},
+ \qquad P(s)=I-n(s)n(s)^{\mathsf T},
+ \label{eq:elastic-sheet-projector}
+\end{equation}
+
+and a positive mass-normalized elastic family
+
+\begin{equation}
+ K_e(s)=\omega_l^2P(s)+\omega_h^2[I-P(s)],
+ \qquad
+ H_e(s)=K_e(s)^{1/2}=\omega_lP(s)+\omega_h[I-P(s)],
+ \label{eq:elastic-sheet-operators}
+\end{equation}
+
+with nonzero gap \(\delta=\omega_h-\omega_l\).  The body route reconstructs
+the closed-loop Kato transport from the instantaneous spectral projectors,
+
+\begin{equation}
+ \frac{dU_B}{d\phi}=[\partial_\phi P,P]U_B.
+ \label{eq:elastic-sheet-body-route}
+\end{equation}
+
+For the latitude loop \(\phi:0\to2\pi\), its restriction to the low-mode
+plane is a rotation through the enclosed solid angle
+\(2\pi(1-\cos\theta)\).  The occurrence route does not use
+\(\partial_\phi P\) or the body holonomy.  It instead integrates the complete
+analytic-signal wave process
+
+\begin{equation}
+ i\frac{dU_{\rm occ}}{dt}=H_e(s(t))U_{\rm occ},
+ \label{eq:elastic-sheet-occurrence-route}
+\end{equation}
+
+removes only the known common phase \(e^{-i\omega_lT}\) after the loop, and
+takes the polar factor of the restricted map.  Standard adiabatic transport
+then gives
+
+\begin{equation}
+ \lim_{T\delta\to\infty}\mathcal H_{\rm occ}(T)=\mathcal H_B,
+ \qquad
+ \lim_{T\delta\to\infty}
+ \lVert(I-P_0)U_{\rm occ}(T)P_0\rVert=0.
+ \label{eq:elastic-sheet-adiabatic-limit}
+\end{equation}
+
+An executable finite audit fixes \(\cos\theta=0.75\), hence body holonomy
+angle \(\pi/2\).  Its projector-only discretization has matrix error
+\(1.14\times10^{-6}\).  Increasing the loop duration from \(10\) to \(160\)
+in the declared units reduces the independently propagated occurrence
+mismatch from \(0.2498\) to \(0.01561\) and leakage from \(0.1206\) to
+\(0.00738\).  At fixed duration, increasing the gap from \(1\) to \(8\)
+reduces the mismatch from \(0.1558\) to \(0.01950\).  Reverse-loop,
+zero-area, fast-loop, gauge-covariance and solver-tolerance controls behave as
+expected.  In the exact gapless control \(K_e=\omega_l^2I\), so the physical
+process is independent of \(s\) and its holonomy is identity even though an
+artificially retained projector path would remain nontrivial.
+
+\subsubsection{General isolated band and internal dynamics}
+
+The preceding scalar-phase removal uses the exact degeneracy in
+Eq.~\eqref{eq:elastic-sheet-operators}; it is not valid for a generic isolated
+band. Let \(P(t)\) be any smooth constant-rank spectral projector of
+\(H(t)=H(t)^\dagger\), separated from its complement by
+\(g_{\min}>0\). Define the Kato transport and the internal band dynamics by
+
+\begin{equation}
+ \dot W_K=[\dot P,P]W_K,\qquad
+ i\dot U_{\rm dyn}
+ =P_0W_K^\dagger H W_KP_0U_{\rm dyn}.
+ \label{eq:elastic-sheet-kato-internal}
+\end{equation}
+
+The standard finite-dimensional adiabatic theorem gives
+
+\begin{equation}
+ U_{\rm occ}(T)P_0
+ =W_K(T)U_{\rm dyn}(T)P_0+O(\varepsilon_{\rm ad}),
+ \qquad
+ \varepsilon_{\rm ad}\sim
+ \sup_t\frac{\|\dot H(t)\|}{g_{\min}^2},
+ \label{eq:elastic-sheet-factorization}
+\end{equation}
+
+up to the usual smoothness-dependent constants. For a fixed path traversed in
+duration \(T\), the controlled error is \(O(T^{-1})\). The context derivative
+uses calibrated laboratory time; it is not an external time assigned to the
+atemporal Tau parent. When \(PHP=\omega_lP\),
+\(U_{\rm dyn}=e^{-i\omega_lT}P_0\), recovering the earlier scalar formula.
+Otherwise the physical comparison must independently reconstruct and remove
+the full matrix \(U_{\rm dyn}\), then compare the polar factor of
+\(P_0U_{\rm occ}P_0U_{\rm dyn}^\dagger\) with \(P_0W_KP_0\).
+
+An exact countercontrol holds the projector path fixed. In an oriented frame
+\(B=(e_\theta,e_\phi)\) of \({\rm ran}\,P\), compare
+
+\begin{equation}
+ H_0=\omega_lP+\omega_h(I-P),\qquad
+ H_\mu=B\,{\rm diag}(\omega_l+\mu,\omega_l-\mu)B^\dagger
+       +\omega_h(I-P).
+ \label{eq:elastic-sheet-same-projector-control}
+\end{equation}
+
+These families have identical \(P(s)\), Kato transport and body holonomy but
+different in-band spectra and complete occurrence propagators for
+\(\mu\ne0\). Thus the body projector does not determine the full process.
+The executable audit uses \(\omega_l=1\,{\rm s}^{-1}\),
+\(\omega_h=6\,{\rm s}^{-1}\) and \(\mu=0.17\,{\rm s}^{-1}\). The two
+spectral projectors agree to \(9.43\times10^{-16}\), whereas their complete
+band transports at \(T=160\,{\rm s}\) differ by \(2.103\). For the split band,
+the full factorization error falls from \(0.2656\) at \(10\,{\rm s}\) to
+\(0.02210\) at \(160\,{\rm s}\), and the matrix-corrected geometric error
+falls from \(0.2499\) to \(0.02074\). Scalar-only correction retains error
+\(2.102\); the exactly degenerate internal propagator recovers the scalar
+phase to \(6.38\times10^{-13}\).
+
+\subsubsection{Atemporal body efficacy and terminal loss}
+
+The physical-body interpretation does not require a body trajectory in a
+parent meta-time. Conditional on a source-selected body action, let
+\(M_*\) be its stationary quotient point and
+\(K_M=D_M^2\mathcal A_{\rm body}^{\rm phys}[M_*]>0\). A faithful body
+descriptor makes this point locally non-gauge inside the frozen source model.
+A body-conditioned temporal generator still requires a positive comparison
+form, a typed occurrence representation and a calibrated terminal clock:
+
+\begin{equation}
+ \widehat K_M=G_M^{-1/2}K_MG_M^{-1/2},\qquad
+ H_{M,O}=\tau_O^{-1}\rho_\Xi(\Lambda_M,\widehat K_M)
+        =H_{M,O}^\dagger.
+ \label{eq:atemporal-body-generator}
+\end{equation}
+
+The same positive \(\widehat K_M\) admits both
+\(\dot u=-\tau_O^{-1}\widehat K_Mu\) and
+\(i\dot u=\tau_O^{-1}\widehat K_M^{1/2}u\). Thus static body structure
+does not select one temporal law or absolute rate. Once the self-adjoint exit
+is independently supplied, \(U_M(t_O)=e^{-it_OH_{M,O}}\) is unitary. For
+contractive source incidence \(J_S\) and terminal access \(R_O\), the complete
+prequantizer transfer \(A_{OS}=R_OU_MJ_S\) obeys the exact identity
+
+\begin{equation}
+\begin{split}
+ I-A_{OS}^\dagger A_{OS}
+={}&I-J_S^\dagger J_S\\
+ &+J_S^\dagger U_M^\dagger
+ (I-R_O^\dagger R_O)U_MJ_S\succeq0.
+\end{split}
+\label{eq:atemporal-body-loss-identity}
+\end{equation}
+
+Observer attenuation can therefore coexist with lossless full-body
+transport. Stable cell identification supplies a further resolution loss,
+not a violation of this identity. For a retained/hidden split
+\[
+H_{M,O}=\begin{bmatrix}H_v&V\\V^\dagger&H_h\end{bmatrix},
+\]
+exact block inversion gives
+
+\begin{equation}
+ P_v(zI-H_{M,O})^{-1}P_v
+ =\left[zI-H_v-V(zI-H_h)^{-1}V^\dagger\right]^{-1}.
+\label{eq:atemporal-body-schur-loss}
+\end{equation}
+
+For \(z=\omega+i\eta\), \(\eta>0\), the hidden self-energy satisfies
+\(-{\rm Im}\,\Sigma_h(z)\succeq0\). Hence an effectively damped retained
+subsystem may simply redistribute amplitude into unobserved body modes. A
+monotone clock change \(t'_O=f(t_O)\) sends
+\(H'=(dt_O/dt'_O)H\) and leaves \(U_M\) unchanged, so no parent meta-time is
+introduced.
+
+The executable four-mode audit gives full unitarity residual
+\(1.35\times10^{-15}\), source/access loss-identity residuals below
+\(1.6\times10^{-16}\), Schur-resolvent residual
+\(1.31\times10^{-15}\), and clock-reparameterization residual
+\(9.23\times10^{-16}\). One nonzero body variation is invisible to one
+terminal at \(2.40\times10^{-16}\) but changes the stacked transfer by
+\(0.3599\). Thus one-observer invisibility does not imply a gauge direction.
+Operational detection still requires stable-cell crossing, and terminal
+agreement cannot prove unrestricted body ontology because a direct bypass
+can reproduce the same records.
+
+\subsubsection{Common instrument--time source packet}
+
+The incidence, access and conservative apparatus completion need not be
+independent assumptions. After the body has been stabilized and frozen, let
+one endpoint-blind post-body action supply the positive interface Hessian
+\begin{equation}
+ \mathbb H_I=
+ \begin{bmatrix}
+ G_S&-B_{MS}^\dagger&0\\
+ -B_{MS}&G_M&-B_{OM}^\dagger\\
+ 0&-B_{OM}&G_O
+ \end{bmatrix}\succeq0.
+ \label{eq:common-interface-hessian}
+\end{equation}
+Its normalized mixed blocks
+\begin{equation}
+ J_S=G_M^{-1/2}B_{MS}G_S^{-1/2},\qquad
+ R_O=G_O^{-1/2}B_{OM}G_M^{-1/2}
+ \label{eq:common-interface-contractions}
+\end{equation}
+are contractions by principal Schur positivity. Thus their relative sign,
+units and magnitude are owned by one source-frozen action two-jet rather than
+inserted as terminal gains.
+
+A symmetric Hessian does not select phase orientation. If the same ordered
+packet additionally carries a nondegenerate skew form \(\Omega_M\), its polar
+factor
+\[
+ S_M=G_M^{-1/2}\Omega_MG_M^{-1/2},\qquad
+ \mathbb J_M=S_M(-S_M^2)^{-1/2}
+\]
+obeys \(\mathbb J_M^\dagger=-\mathbb J_M\) and
+\(\mathbb J_M^2=-I\). A source reference stiffness/inertia ratio gives
+\(\omega_*=\sqrt{\kappa_*/\mu_*}\), and hence the explicit self-adjoint
+occurrence generator
+\begin{equation}
+ H_{M,O}=i\omega_*\widehat K_M^{1/2}
+ \mathbb J_M\widehat K_M^{1/2}=H_{M,O}^\dagger.
+ \label{eq:common-source-occurrence-generator}
+\end{equation}
+
+For any contraction \(C\), the Julia operator
+\[
+ \mathcal U_C=
+ \begin{bmatrix}
+ C&(I-CC^\dagger)^{1/2}\\
+ (I-C^\dagger C)^{1/2}&-C^\dagger
+ \end{bmatrix}
+\]
+is unitary. Applying it to both maps in
+Eq.~\eqref{eq:common-interface-contractions} and inserting the body
+propagator gives one conservative complete instrument whose observed corner
+is exactly \(R_OU_MJ_S\). The stochastic kernel still requires the
+environment state: if \(y=A_{OS}s+B_E\xi_E\) and
+\(\mathbb E\xi_E\xi_E^\dagger=\Gamma_E\), then
+\(N_O=B_E\Gamma_EB_E^\dagger\succeq0\). Stable resolution likewise requires
+a source-owned pointer action: calibrated isolated minima \(p_a\) define the
+Voronoi partition
+\[
+ Q_{OS}(r)=\operatorname*{argmin}_a
+ \lVert C_Or-p_a\rVert_{K_P}^2
+\]
+away from tie surfaces.
+
+The finite audit passes nineteen checks. The interface-Hessian minimum
+eigenvalue is \(0.4468\), complete-network unitarity holds to
+\(4.59\times10^{-16}\), the measured compression is exact at machine
+precision and the loss identity holds to \(2.48\times10^{-17}\). Same-reduct
+countermodels reverse the phase form, rescale the reference inertia, replace
+the environment state or replace the pointer minima. Therefore the common
+Hessian derives \(J_S\) and \(R_O\), but does not by itself select phase
+orientation, absolute rate, stochastic state, stable quantizer or Nature
+occupation.
+
+\subsubsection{Enriched action--form origin of the instrument packet}
+
+The common packet can be moved one layer further upstream.  Let the
+source--body and body--observer defects be
+\[
+ \rho_{SM}=L_Mm-L_Ss,\qquad
+ \rho_{MO}=L_Oo-T_Mm,
+\]
+and let one endpoint-blind post-body action contain their weighted norms plus
+positive base susceptibilities.  Direct expansion gives
+\begin{align}
+ G_S&=K_S^0+L_S^\dagger W_{SM}L_S,\nonumber\\
+ G_M&=K_M^0+L_M^\dagger W_{SM}L_M
+             +T_M^\dagger W_{MO}T_M,\nonumber\\
+ G_O&=K_O^0+L_O^\dagger W_{MO}L_O,\nonumber\\
+ B_{MS}&=L_M^\dagger W_{SM}L_S,\qquad
+ B_{OM}=L_O^\dagger W_{MO}T_M.
+ \label{eq:enriched-relation-hessian-blocks}
+\end{align}
+The resulting Hessian is a positive Gram matrix with the exact form of
+Eq.~\eqref{eq:common-interface-hessian}.  Its direct source--observer block
+vanishes by construction.  Hence complete mediation, the mixed-block signs
+and both contractions in
+Eq.~\eqref{eq:common-interface-contractions} share one relation-law origin.
+
+A symmetric scalar Hessian still cannot produce phase orientation.  Suppose
+the enriched universal seed owns a seed-odd action potential
+\(\vartheta_U=\nu_U\vartheta_0\), with
+\(\Omega_U=d\vartheta_U\) nondegenerate, and the same source owns a positive
+energy form \(E_M\).  Then
+\begin{equation}
+ L_U=E_M^{1/2}\Omega_U^{-1}E_M^{1/2},\qquad
+ H_U=iL_U=H_U^\dagger.
+ \label{eq:energy-action-occurrence-generator}
+\end{equation}
+Energy divided by action has inverse-time units, so this derives the
+occurrence rate without the separate stiffness/inertia ratio in
+Eq.~\eqref{eq:common-source-occurrence-generator}.  Reversing the seed
+orientation reverses \(H_U\) while leaving the positive interface action
+unchanged.  The orientation and physical energy/action unit bridge therefore
+remain source inputs rather than consequences of the Hessian.
+
+The environment covariance can be selected uniquely after a source
+occupation law is supplied:
+\begin{equation}
+ {\cal F}_E(\Gamma)
+ =\frac12{\rm Tr}(K_E\Gamma)
+ -\frac{\Theta_E}{2}
+  \log\det(\Gamma\Gamma_{\rm ref}^{-1})
+ \quad\Longrightarrow\quad
+ \Gamma_E=\Theta_EK_E^{-1}.
+ \label{eq:environment-covariance-functional}
+\end{equation}
+The functional is strictly convex on the positive covariance cone because
+its second variation is
+\(\frac{\Theta_E}{2}{\rm Tr}
+(\Gamma^{-1}\Delta\Gamma^{-1}\Delta)>0\).
+This is simultaneous state selection, not memory or parent-time evolution.
+Changing \(\Theta_E\) changes the noise kernel without changing the
+deterministic transfer.
+
+Finally, if distinct prototypes form one finite seed-role orbit
+\(\{p_a\}=G_P\cdot p_0\), the single potential
+\begin{equation}
+ {\cal V}_P(p)=\lambda_P\prod_a
+ \lVert p-p_a\rVert_{G_O}^2
+ \label{eq:pointer-orbit-potential}
+\end{equation}
+has exactly those orbit points as global minima.  Their local Hessians are
+\(2\lambda_P\prod_{b\ne a}
+\lVert p_a-p_b\rVert_{G_O}^2G_O>0\), so the minima and resulting Voronoi
+cells are stable.  This derives the prototypes from one orbit law, but does
+not derive which orbit or calibration Nature occupies.
+
+The finite audit passes all 22 checks.  The relation-Gram reconstruction
+residual is \(3.20\times10^{-16}\), the direct source--observer block is
+exactly zero, generator self-adjointness holds to
+\(3.15\times10^{-16}\), occurrence unitarity to
+\(3.73\times10^{-16}\), and environment stationarity to
+\(2.25\times10^{-16}\).  The result conditionally derives the complete T28
+instrument from a smaller enriched action--form complex.  It does not derive
+that complex, source exhaustivity, physical calibration or Nature occupation
+from the minimal Tau base.
+
+\subsubsection{Operational Nature-class identifiability and representative no-go}
+
+The remaining source symbols are not separately identifiable from the
+terminal law.  For every \(c>0\),
+\begin{equation}
+ (E_M,\Omega_U)\mapsto(cE_M,c\Omega_U)
+ \quad\Longrightarrow\quad
+ i(cE_M)^{1/2}(c\Omega_U)^{-1}(cE_M)^{1/2}=H_U,
+ \label{eq:cit-common-unit-invariance}
+\end{equation}
+while simultaneous reversal of \(\Omega_U\) and terminal-clock orientation
+leaves \(e^{-it_OH_U}\) unchanged.  Likewise
+\((\Theta_E,K_E)\mapsto(c\Theta_E,cK_E)\) leaves
+\(\Gamma_E=\Theta_EK_E^{-1}\) unchanged.  Environment-frame changes leave
+\(B_E\Gamma_EB_E^\dagger\) invariant, and the congruence
+\begin{equation}
+ C_O\mapsto TC_O,\qquad p_a\mapsto Tp_a,\qquad
+ G_O\mapsto T^{-\dagger}G_OT^{-1}
+ \label{eq:cit-pointer-congruence}
+\end{equation}
+preserves every pointer distance and stable cell, up to cell relabelling.
+Terminal evidence therefore identifies only a terminal-equivalence class,
+not a literal energy/action, environment or pointer-coordinate
+representative.
+
+Independent source measurements may split terminally equivalent but
+physically distinct members.  Let \({\cal I}_{\rm joint}\) stack the complete
+terminal law with independently reconstructed source records, and let
+\({\cal G}_{\rm phys}\) retain only genuine coordinate, frame, label and
+proved-null gauges after calibration.  On a regular frozen candidate family,
+the exact local criterion is
+\begin{equation}
+ \ker D{\cal I}_{\rm joint}(\mathfrak s_*)
+ =T_{\mathfrak s_*}({\cal G}_{\rm phys}\mathfrak s_*).
+ \label{eq:cit-quotient-rank}
+\end{equation}
+The constant-rank theorem then identifies the physical class locally inside
+that declared family.
+
+The corresponding \({\rm CIT\mbox{-}NOC7}\) certificate requires one
+co-registered physical carrier and complete raw record; an independently
+perturbed nonzero two-edge relation two-jet; a reconstructed seed-odd action
+form; independent energy, action and clock standards; at least two controlled
+environment occupations separating \(K_E\) from \(\Theta_E\); independent
+pointer-orbit and calibration reconstruction; and the quotient-rank,
+held-out joint-prediction, wrong-family and spectator controls.  The finite
+audit verifies 13 mathematical identities: the terminal witness has rank
+three with three equivalence directions, while independent source anchors
+raise the coordinate-fixed rank to six.  The current corpus completes none
+of the seven gates as one co-registered physical packet.  Thus the
+representative no-go and a noncircular declared-class test are proved, but
+physical class occupation, ambient source exhaustivity and unrestricted
+Nature uniqueness remain open.  A terminal-invisible positive spectator is
+an exact countermodel to the last implication.
+
+This establishes algorithmic independence and convergence inside one frozen
+standard model.  It does not establish a quantum terminal, a Tau-specific
+micro-kernel or Nature occupation.  A physical plate implementation should
+therefore freeze the modal projector from independent static spectral maps,
+drive preregistered slow and fast support/tension loops, reconstruct the full
+sensor-to-sensor process without importing the Kato generator, reconstruct
+the matrix-valued in-band dynamics independently unless exact degeneracy is
+measured, and include
+reverse, zero-area, gap-closing, path-off and redundant-sensor controls.  Only
+a residual predicted before the run and not absorbed by standard elasticity,
+damping, actuator response, propagation or sensor calibration could promote
+the exercise beyond a method control.
 
 \subsection{Compact audit verdict}
 
@@ -2499,6 +2955,60 @@ that the realized body is nonneutral, or that every future-fibre direction is
 metric-visible. The unrestricted physical statement therefore remains conditional,
 while the internal completion question is closed.
 
+\section{Descriptor migration is weaker than quantum migration}
+
+The smooth common descriptor and its resolved operational record are distinct
+typed objects:
+\begin{equation}
+ \Xi^{\rm cont}_{OS}:X_{OS}\longrightarrow Z,
+ \qquad
+ D^{\rm op}_{OS}=Q_{OS}\!\left(\Xi^{\rm cont}_{OS}\right).
+ \label{eq:papervi-continuous-operational-readout}
+\end{equation}
+For a legacy smooth descriptor \(L:X_{OS}\to Y\), an ordinary terminal
+migration \(L=U\circ\Xi^{\rm cont}_{OS}\) exists exactly when
+\begin{equation}
+ \Xi^{\rm cont}_{OS}(x)=\Xi^{\rm cont}_{OS}(x')
+ \Longrightarrow L(x)=L(x'),
+ \qquad
+ \ker D\Xi^{\rm cont}_{OS}\subseteq\ker DL
+ \label{eq:papervi-mopr-migration}
+\end{equation}
+on a regular smooth stratum.  Equality of global fibre relations is required
+for descriptor equivalence.  Neither equal real rank nor a real-linear
+isomorphism supplies a quantum equivalence.
+
+Let \(J\) denote the complex structure and let \(\mathfrak A\) denote the
+relevant observable algebra.  A quantum migration must in addition satisfy
+the appropriate typed conditions, for example
+\begin{equation}
+ UJ_{\Xi}=J_LU,\qquad
+ U(a^*)=U(a)^*,\qquad
+ a\geq0\Longrightarrow U(a)\geq0,
+ \label{eq:papervi-quantum-structure-migration}
+\end{equation}
+together with normalization.  When \(U\) represents an operational quantum
+channel, complete positivity and trace preservation are required.  Exact
+operational equivalence additionally requires a CPTP recovery on the occupied
+code, not merely an inverse real-linear map.  These conditions preserve the
+complex phase, effects and ancilla-stable positivity needed by the quantum
+terminal.  They are not implied by Eq.~\eqref{eq:papervi-mopr-migration} or by
+the hard-cell partition alone.
+
+For a regular post-body action the active response is fixed by the action
+two-jet,
+\begin{equation}
+ \Gamma_{\rm resp}=-H^{-1}B.
+ \label{eq:papervi-mixed-hessian-solder}
+\end{equation}
+The SBTCL106 Bregman packet gives
+\(\Gamma_{\rm resp}=J_{OS}\) and \(C-B^*H^{-1}B=0\).  This removes an
+independent gain but does not select the physical quantum intertwiner.  A
+positive same-reduct counterfamily can retain zero Schur remainder while
+adding a source-vertical response that does not factor through the declared
+source.  Hence positivity, common mediation and Schur neutrality do not prove
+complex/\(*\)-algebraic ownership, CPTP realization or Nature occupation.
+
 \section{What is proved and what remains open}
 
 \begingroup
@@ -2525,6 +3035,12 @@ Claim & Status and condition & Class \\
 \endlastfoot
 Loss alone implies quantum mechanics & False; classical and quantum
 completions share one finite quotient & No-go theorem \\
+Real-linear descriptor migration gives quantum equivalence & False; complex,
+\(*\)-algebraic, positive/normalized or CPTP-compatible structure is an
+additional obligation & Exact claim boundary \\
+Regular post-body active response & \(\Gamma_{\rm resp}=-H^{-1}B\), reducing
+to \(J_{OS}\) in SBTCL106; positivity and Schur neutrality do not select the
+vertical jet & Conditional identity plus same-reduct no-go \\
 Complex carrier & Follows from positive $g$, nondegenerate $\omega$ and
 $A^2=-\kappa^2I$ & Conditional theorem \\
 Unitary transport & Follows from Paper-V time, one action unit and commuting

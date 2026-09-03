@@ -1,0 +1,20 @@
+{
+  "schema": "tau-core-quantum-descriptor-migration-ledger-v1",
+  "continuous_descriptor": "Xi_OS^cont",
+  "operational_record": "D_OS^op=Q_OS(Xi_OS^cont)",
+  "smooth_migration": "ker(D Xi_OS^cont) subseteq ker(D L)",
+  "exact_descriptor_equivalence": "fiber(Xi_OS^cont)=fiber(L)",
+  "real_linear_migration_sufficient_for_quantum_terminal": false,
+  "additional_structure": [
+    "complex_intertwining",
+    "star_algebra_compatibility",
+    "positivity_and_normalization",
+    "CPTP_transport_with_recovery_for_equivalence"
+  ],
+  "mixed_hessian_response": "Gamma=-H^{-1}B",
+  "sbtcl106_specialization": "Gamma=J_OS",
+  "physical_quantum_intertwiner": "open",
+  "nature_occupation": "open",
+  "physical_calibration": "open",
+  "q_R_derivation": "not_claimed"
+}

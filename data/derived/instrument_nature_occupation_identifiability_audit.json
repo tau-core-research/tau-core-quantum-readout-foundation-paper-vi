@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "residuals": {
+    "common_scale": 2.5382461942043504e-16,
+    "orientation_clock": 0.0,
+    "rate_clock": 5.324442579404919e-16,
+    "occupation_stiffness": 5.561946577567963e-17,
+    "environment_frame": 3.1460737409283246e-17,
+    "pointer_congruence": 1.6809067677820347e-15,
+    "pointer_permutation": 0.0,
+    "terminal_equivalence": 0.0
+  },
+  "terminal_rank": 3,
+  "terminal_nullity": 3,
+  "augmented_rank": 6,
+  "checks": {
+    "common_energy_action_scale_invariant": true,
+    "seed_sign_clock_reversal_invariant": true,
+    "rate_clock_calibration_degenerate": true,
+    "theta_stiffness_scale_invariant": true,
+    "environment_frame_invariant": true,
+    "pointer_congruence_invariant": true,
+    "pointer_labels_are_gauge": true,
+    "terminal_equivalence_nullity_exact": true,
+    "source_anchors_restore_rank": true,
+    "target_is_operational_class": true,
+    "stationarity_not_nature_certificate": true,
+    "spectator_blocks_unrestricted_exhaustivity": true,
+    "current_cit_noc7_incomplete": true
+  },
+  "certificate": "CIT-NOC7",
+  "certificate_gates": {
+    "common_carrier_complete_raw_records": false,
+    "nonzero_two_edge_relation_two_jet": false,
+    "seed_odd_oriented_action_form": false,
+    "energy_action_clock_unit_bridge": false,
+    "multi_load_environment_reconstruction": false,
+    "pointer_orbit_calibration_reconstruction": false,
+    "held_out_joint_controls_and_exhaustivity": false
+  },
+  "certificate_complete_gate_count": 0,
+  "certificate_total_gate_count": 7,
+  "nature_occupation": "not established"
+}

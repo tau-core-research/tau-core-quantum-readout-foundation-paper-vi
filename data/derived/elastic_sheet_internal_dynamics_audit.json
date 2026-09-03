@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "claim_level": "standard-physics adiabatic method/no-go control",
+  "parameters": {
+    "cos_theta": 0.75,
+    "low_frequency_s^-1": 1.0,
+    "high_frequency_s^-1": 6.0,
+    "internal_split_s^-1": 0.17,
+    "external_gap_s^-1": 4.83
+  },
+  "maximum_projector_error": 1.2130170969577669e-15,
+  "minimum_internal_spectrum_difference": 0.24041630560342403,
+  "same_projector_occurrence_difference": 2.103137263568387,
+  "split_duration_scan": [
+    {
+      "duration": 10.0,
+      "factorization_error": 0.26558958826802087,
+      "geometric_recovery_error": 0.24989469059018504,
+      "scalar_only_error": 0.742636510187556,
+      "leakage": 0.09074907256109255,
+      "internal_non_scalarity": 0.6343302075630242
+    },
+    {
+      "duration": 20.0,
+      "factorization_error": 0.13791293944249275,
+      "geometric_recovery_error": 0.1357595076338767,
+      "scalar_only_error": 1.635824909865583,
+      "leakage": 0.02437814238052845,
+      "internal_non_scalarity": 1.5888119618803205
+    },
+    {
+      "duration": 40.0,
+      "factorization_error": 0.07929336282201602,
+      "geometric_recovery_error": 0.07573769758169788,
+      "scalar_only_error": 2.4571983606990324,
+      "leakage": 0.023499107425805025,
+      "internal_non_scalarity": 1.385264947499234
+    },
+    {
+      "duration": 80.0,
+      "factorization_error": 0.040761582796602525,
+      "geometric_recovery_error": 0.04057142581045999,
+      "scalar_only_error": 2.2930337543216175,
+      "leakage": 0.003933169634488681,
+      "internal_non_scalarity": 1.6532121052387143
+    },
+    {
+      "duration": 160.0,
+      "factorization_error": 0.02209959164185827,
+      "geometric_recovery_error": 0.020741048942134813,
+      "scalar_only_error": 2.101870086973084,
+      "leakage": 0.0076297119172881725,
+      "internal_non_scalarity": 1.8911461092645907
+    }
+  ],
+  "degenerate_scalar_internal_error": 6.3809313149553e-13,
+  "final_body_holonomy": {
+    "real": [
+      [
+        7.849211080373421e-17,
+        -1.0000000000000007
+      ],
+      [
+        1.0000000000000018,
+        -7.569340431422834e-16
+      ]
+    ],
+    "imag": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "final_split_internal_propagator": {
+    "real": [
+      [
+        0.1033109473322655,
+        0.899353383925985
+      ],
+      [
+        -0.6311242853625931,
+        0.10331094733227277
+      ]
+    ],
+    "imag": [
+      [
+        0.02323529132884841,
+        -0.4242056815025563
+      ],
+      [
+        -0.7684198759947095,
+        0.023235291328823005
+      ]
+    ]
+  },
+  "checks": {
+    "same_projector_path": true,
+    "different_internal_spectra": true,
+    "same_kato_body_geometry": true,
+    "different_complete_occurrence_transport": true,
+    "degenerate_internal_dynamics_is_scalar": true,
+    "split_internal_dynamics_is_not_scalar": true,
+    "factorization_improves_with_duration": true,
+    "matrix_corrected_geometry_improves": true,
+    "slow_factorization_matches": true,
+    "matrix_correction_recovers_body": true,
+    "scalar_only_correction_fails_for_split_band": true,
+    "benchmark_contains_no_tau_residual": true
+  },
+  "physical_plate_experiment": "open",
+  "tau_specific_residual": null,
+  "nature_occupation": "not established"
+}
