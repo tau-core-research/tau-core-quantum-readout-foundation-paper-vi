@@ -706,6 +706,25 @@ current source ledger does not yet provide its body-first, source-frozen
 restriction matrix `R_plus`. The numerical mixed-block rank is therefore
 undefined on the current common domain, rather than measured to be zero.
 
+## Common-Spectrum Q-Filter Inheritance
+
+The ECTR completion supplies a precise conditional origin for one
+observer-dependent Q filter. A normalized Legendre--Riesz source action gives
+`G=K_src/(2A_*)=k_(c,O)^2 A_(0,M)^-1` and hence
+`F_Q(a)=(I+a^2G)^-1/2`. The same operator is a positive mixture of the CSSR
+heat semigroup, so the Q filter and metric coframe can share one source
+spectrum without being the same terminal.
+
+This is not a derivation of quantum mechanics from expansion. The phase,
+effect, instrument, tensor and stable observer quantizer required by Paper VI
+remain separate. The source has not been shown to select the coevaluation or
+occupy the common Q--metric lock, and a fixed-geometry filter remains a
+resolution effect rather than metric expansion.
+
+The claim-safe causal reading is that metric scale and terminal weighting are
+co-descendants of one frozen source packet. Expansion can modulate the Q/G
+balance only after the law and terminal types have been selected.
+
 ## Does Not Claim
 
 The shared smooth descriptor `Xi_OS^cont` is now kept distinct from the
@@ -802,3 +821,23 @@ anticommutation and state positivity. A violation falsifies the minimal P3
 completion; satisfaction does not confirm Tau because an apparatus-selected
 Pauli pair obeys the same standard-QM identity. The updated audit finds `0/31`
 eligible public pair packets.
+
+<!-- BEGIN OBSERVER UPDATE 20260914 -->
+## Observer realization update (2026-09-14)
+
+The occupied observer--source context is relational instance data, not a uniquely selected observer identity inferred from the universal seed alone. Physical source realization and record preparation remain separate from conditional closure.
+
+The manuscript distinguishes inherited BRAC contact, conditional coherent-state
+selection and interacting local covariance from physical observer identification,
+preparation and stable resolution. Those physical claims remain open. No
+empirical score was changed. The [dependency and source-result ledger](data/derived/observer_update_2026_09_14.json) records the assumptions and controls.
+<!-- END OBSERVER UPDATE 20260914 -->
+
+<!-- BEGIN LAB UPDATE 20260915 -->
+## Finite lab integration (2026-09-15)
+
+The manuscript imports the scope-specific source, body, observer or terminal
+result from the current lab. Supplied priors, conditional recovery and physical
+selection remain separate. No SI constant, viable universe or Tau-specific
+signal is newly established. See the [source and ownership ledger](data/derived/lab_update_2026_09_15.json).
+<!-- END LAB UPDATE 20260915 -->

@@ -607,3 +607,11 @@ def test_quantum_descriptor_migration_ledger():
     assert "eq:papervi-mopr-migration" in tex
     assert "eq:papervi-quantum-structure-migration" in tex
     assert "eq:papervi-mixed-hessian-solder" in tex
+
+
+def test_ectr_q_filter_inheritance_is_typed_and_conditional():
+    tex = (ROOT / "paperVI_submission_source/main.tex").read_text()
+    assert "Common-spectrum origin of the expansion-conditioned Q filter" in tex
+    assert "eq:papervi-ectr-lock" in tex
+    assert "eq:papervi-ectr-subordination" in tex
+    assert "continuous filter is not itself the operational quantization" in tex
