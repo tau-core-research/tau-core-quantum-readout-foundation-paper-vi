@@ -849,3 +849,23 @@ The manuscript now imports [Foundation VI OIR1 v1.0](https://github.com/tau-core
 
 Positive work does not select a bilinear mass pairing, and output effects do not identify a complete measurement operation. The existing mass-compatible candidate is retained, including its historical calibration. The finite optical/QND exclusions are completion-specific, not Tau falsification or Nature validation. Native source incidence, operational Q_OS and units remain open; no endpoint scores were changed. See the [dependency packet](data/derived/publication_state_20261009.json). These revised PDF locators refer to local working copies until a requested publication push.
 <!-- END PUBLICATION STATE 20261009 -->
+## Finite unequal-time source response (2026-11-10)
+
+The manuscript incorporates HSL: the common three-source retarded bulk kernel
+on the existing finite homogeneous HSF background, with original preparation
+and endpoint/contact terms retained in the response formula. Foundation VII
+contains the detailed derivation; VI and Paper 10 import only its bounded status.
+Eight internal checks pass, with refinement ratio 16.4278. This is not physical
+state selection, particle creation, general stability, spatial/renormalized
+quantum gravity or cosmological validation. Contact/pulse numerical assembly
+and the common metric Volterra solution remain open. No endpoint score changed.
+These are local manuscript updates, not a published release.
+## Full finite source-state chain import (2026-11-10)
+
+The manuscript now records the HRZ/HSA constraint construction, HSD/HSE
+consistent initial jets, HSF/HSG coupled evolution and independent guard,
+HSH nodewise regularity, HSI/HSJ qualified covariance and HSL retarded response.
+Foundation VII-A retains the detailed response derivation and compact receipts.
+Negative controls, numerical warning qualifications and physical-selection,
+particle, spatial/renormalized, stability and cosmology gaps remain explicit.
+This is a local manuscript/PDF update, not a publication or new empirical score.
