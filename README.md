@@ -841,3 +841,11 @@ result from the current lab. Supplied priors, conditional recovery and physical
 selection remain separate. No SI constant, viable universe or Tau-specific
 signal is newly established. See the [source and ownership ledger](data/derived/lab_update_2026_09_15.json).
 <!-- END LAB UPDATE 20260915 -->
+
+<!-- BEGIN PUBLICATION STATE 20261009 -->
+## Source and instrument reconciliation (2026-10-09)
+
+The manuscript now imports [Foundation VI OIR1 v1.0](https://github.com/tau-core-research/tau-core-quantum-readout-foundation-paper-vi/blob/main/paperVI_submission_source/main.pdf#nameddest=oir1) and [the full mathematical derivation MSI1 v1.0](https://github.com/tau-core-research/tau-core-higgs-module-paper4/blob/main/paper4_full_derivation/full_derivation.pdf#nameddest=msi1). Only those two manuscripts contain the new proofs; CPR1 ownership is unchanged.
+
+Positive work does not select a bilinear mass pairing, and output effects do not identify a complete measurement operation. The existing mass-compatible candidate is retained, including its historical calibration. The finite optical/QND exclusions are completion-specific, not Tau falsification or Nature validation. Native source incidence, operational Q_OS and units remain open; no endpoint scores were changed. See the [dependency packet](data/derived/publication_state_20261009.json). These revised PDF locators refer to local working copies until a requested publication push.
+<!-- END PUBLICATION STATE 20261009 -->

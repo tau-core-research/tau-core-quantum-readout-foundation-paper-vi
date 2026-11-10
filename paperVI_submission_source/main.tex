@@ -28,7 +28,7 @@
 \title{\textbf{Quantum Readout from Observer-Relative Lossy Descent}\\
 \large Tau Core Foundation Paper VI: A finite conditional quantum terminal}
 \author{Jozsef Olcsak}
-\date{Last revised: 18 September 2026}
+\date{Last revised: 9 October 2026}
 
 \begin{document}
 \maketitle
@@ -3788,104 +3788,162 @@ Foundation VI and the body--readout technical companion own the finite instrumen
 % END STATE UPDATE 20260918
 
 % BEGIN PAIR READOUT UPDATE 20260927
-\section{Conditional source preparation and time-resolved access}
-The common-operator scalar--Dirac completion now supports an explicit
-conditional chain from interaction vertices to pair transfer and joint
-readout. Nonzero vertices do not select occupation. Relational coherence
-can be generated from an occupied number-diagonal pair even while both
-local mean fields vanish. In a declared resonant rotating-wave and Markov
-loss model, finite-window emission retains this coherence information,
-whereas an all-time count discards it. This is standard-compatible quantum
-recovery, not a Tau-specific observational residual.
-The occupied observer--source context is relational instance data, not a uniquely selected observer identity inferred from the universal seed alone. Physical source realization and record preparation remain separate from conditional closure.
-\paragraph{Frozen model and preparation boundary.}
-The conditional completion uses a constant scalar kinetic metric $K$, a
-stationary potential Hessian $H_*$, and a common Dirac mass operator $gD_*$.
-Scalar masses obey $H_*u=M^2Ku$ and fermion masses are $g|d_i|$.
-The signed masses are retained in the transformed Yukawa spin factors.
-For the four selected pump directions, the inclusive fermionic partial
-widths at the stipulated $g=1$ benchmark are
-$0.10031707,0.12080077,0.15789991,0.14826014$ in model mass units.
-Their ratios to scalar mass range from $0.09459$ to $0.11929$; these are
-not measured lifetimes or a parametrically narrow-resonance proof.
-Single-fermion emission into these pumps is kinematically closed at this
-point; inverse fermion--antifermion preparation has allowed on-shell
-momenta, but no incoming population is thereby selected.
-
-For a canonical homogeneous mode in a declared volume, a displacement
-$A\sqrt{w_C}$ with zero mean velocity has minimum coherent density
-$n_C=M_CA^2w_C/2$. Positivity gives
-$\langle N\rangle\geq|\langle a\rangle|^2$; a displaced thermal state
-has the same mean and larger occupation. This is a conditional bound,
-not selection of a coherent initial state.
-
-\paragraph{Existing interaction and relational information.}
-On an isolated resonant pair/scalar sector let
-$B=|\mathrm{empty}\rangle\langle\mathrm{pair}|$ and
-$H_I=G a^\dagger B+G^*B^\dagger a$. Choose a real positive $G$ convention
-and $\theta=Gt$. An initially occupied pair probability $p$ with no
-local phase coherence evolves to
-\[
- \langle N_\phi\rangle=p\sin^2\theta,\qquad
- \langle a\rangle=0,\qquad
- \langle a^\dagger B\rangle=ip\sin\theta\cos\theta.
-\]
-The last quantity is invariant under common total-number phase rotation.
-It requires occupation, not an external absolute phase reference.
-A single pair nevertheless cannot prepare a nonzero exact coherent
-oscillator state. With ideal number detection after a continuation angle
-$\delta$, on the basis $|P\rangle,|S\rangle$,
-\[
- E_\delta=\tfrac12[I-\cos(2\delta)Z-\sin(2\delta)Y].
-\]
-Three settings determine both populations and the imaginary joint
-coherence, but the real coherence is an exact null of this measurement
-family. This does not permit deleting that direction from other readouts.
-
-\paragraph{Simultaneous exchange and loss.}
-For a separately justified constant-rate Markov reservoir, distinct from
-the coherent pair, the no-emission operator and finite-window effect are
-\[
- H_{\mathrm{eff}}=\begin{pmatrix}0&G\\G&-i\Gamma/2\end{pmatrix},
- \qquad K_0(T)=e^{-iH_{\mathrm{eff}}T},\qquad
- E_{\mathrm{em}}(T)=I-K_0(T)^\dagger K_0(T).
-\]
-Differentiation gives
-\[
- E_{\mathrm{em}}(T)=\int_0^T\Gamma K_0(t)^\dagger
- |S\rangle\langle S|K_0(t)\,dt,\qquad 0\leq E_{\mathrm{em}}\leq I.
-\]
-At the declared control $\Gamma/G=GT=1$, the joint state with diagonal
-entries $1/2$ and off-diagonal entry $i/2$ has emission probability
-$0.5581543931$; its dephased control has $0.3385743227$. Independent
-quadrature and matrix exponentiation agree to below $6\times10^{-16}$
-over twenty tested windows. These are internal controls, not measurements.
-For $G\ne0$ and $\Gamma>0$, $E_{\mathrm{em}}(\infty)=I$ on the occupied
-sector: all-time counting discards the distinguishing coherence.
-Finite timing resolution is therefore essential for this particular signal.
-
-\paragraph{What is not closed.}
-Emission is not a registered or amplified record. A collection fraction
-multiplies the effect; unknown efficiency and occupation remain degenerate.
-The normalized coherent coupling $G$ is not the inclusive continuum width
-$\Gamma$, and neither fixes SI seconds. Physical preparation, mode
-normalization, reservoir approximation, gauge completion, detector and
-clock calibration, and stable $Q_{OS}$ remain unselected. Standard quantum
-exchange reproduces these conditional results; no new empirical score or
-Tau-exclusive prediction follows.
-\paragraph{Dependency ownership and limits.}
-The P4 common-source assembly owns the scalar/Yukawa benchmark and finite
-preparation calculations; Foundation VI and the body--readout companion
-inherit the joint-access mathematics. Foundation IV and TD-0 retain
-physical source selection, and Foundation V retains clock descent.
-The parent remains atemporal: the evolution above is a conditional
-downstream 4D model, not parent memory or a derived morphogenetic time.
-Physical initial occupation, a gauge-complete realization, detector
-amplification, absolute calibration and stable observer-relative $Q_{OS}$
-remain unselected. No empirical endpoint or score is changed.
-The canonical derivation and reproducible numerical sources are linked at
-\url{https://github.com/tau-core-research/tau-core-theory/blob/main/docs/tau_core_p4_nonabelian_particle_common_source_assembly_001.md}.
+\paragraph{Imported result (CPR1).}
+\href{https://github.com/tau-core-research/tau-core-higgs-module-paper4/blob/main/paper4_full_derivation/full_derivation.pdf#nameddest=cpr1}{Paper 4, \emph{Full Derivation Ledger for the Branch A Higgs Module}}, section ``Conditional source preparation and time-resolved access, Theorem CPR1(a--c), v1.0 (2026-09-28), is the sole proof owner.
+In the stipulated resonant pair model, joint coherence survives vanishing local means and can affect finite-window emission. The ideal access family leaves real coherence unresolved; it is not a full-channel quotient. This supplies a conditional access example, not a selected apparatus.
+Physical preparation, detector/clock calibration and stable $Q_{OS}$ remain assumptions; no Tau-exclusive observation follows.
 % END PAIR READOUT UPDATE 20260927
+
+% BEGIN SOURCE INSTRUMENT RECONCILIATION 20261009
+\section{Output statistics, surviving-source instruments and apparatus scope}
+\label{sec:oir1}\hypertarget{oir1}{}
+\paragraph{Proposition OIR1 (version 1.0, 9 October 2026).}
+\label{prop:oir1}
+This is the normative manuscript proof of OIR1(a)--(c). It imports the frozen
+post-body pointer of the source-identification audit, not a new seed law.
+The variables below are dimensionless canonical coordinates with
+$[q_a,p_b]=[Y_i,P_j]=i\delta_{ab}$ and all cross commutators zero.
+Operational units, occupied preparation, contact strength, complete physical
+incidence and stable observer--source resolution $Q_{OS}$ are additional
+premises. These standard quantum constructions neither select them nor turn
+the atemporal body into a trajectory or memory process.
+
+\paragraph{OIR1(a): a nonlinear pointer is not unconditional Gaussian optics.}
+For real symmetric $B_i$, fixed real $W,K$, define
+\[
+ g(q)=Wq-\tfrac12K\bigl(q^TB_iq\bigr)_i,
+ \qquad U_\theta=\exp[-i\theta P^Tg(q)].
+\]
+The unitary is defined by joint spectral calculus of the commuting $q,P$;
+the following operator identities hold on their common invariant test domain.
+On the common canonical domain the exact Heisenberg map is
+\[
+ q'=q,\quad P'=P,\quad Y'=Y+\theta g(q),\quad
+ p'=p-\theta Dg(q)^TP.                                      \tag{OIR1a}
+\]
+\emph{Proof.} The commuting $q,P$ make each first commutator commute
+with the generator, so higher commutators vanish. If the quadratic tensor
+$\theta\sum_i K_{ji}B_i$ is nonzero for some $j$, the map has a nonzero
+second derivative. Vanishing of that tensorial derivative is invariant
+under fixed invertible affine input/output charts. An unconditional Gaussian
+channel, including independent Gaussian ancillas and loss, has affine
+first-moment transport; coherent probes with fixed covariance also leave a
+quadratic dependence in the pointer mean. Consequently it cannot be this
+complete map on all inputs in that incidence class. At $\theta=0$ or zero
+quadratic tensor this obstruction disappears. Non-Gaussian detection,
+conditioning, nonlinear incidence and other readout completions are not
+excluded.\hfill$\square$
+
+\paragraph{OIR1(b): equal output effects do not identify the operation.}
+For a supplied pure unchirped Gaussian ready meter with covariance $N=N^T>0$,
+the continuous pointer Kraus density is
+\[
+ A_y=(2\pi)^{-m/4}(\det N)^{-1/4}
+ \exp[-\tfrac14(y-\theta g(q))^TN^{-1}(y-\theta g(q))].
+\]
+Its effects $E_y=A_y^\dagger A_y$ integrate to identity and depend only
+on the spectral distribution of commuting $q$. Ideal calibrated joint
+quadrature access followed by the same Gaussian kernel therefore reproduces
+the \emph{entire output POVM}, not automatically the source state update.
+On a separately declared finite two-label code, put $g_0,g_1$ for the pointer
+values. The unrecorded QND operation multiplies the off-diagonal entry by
+\[
+ k=\exp[-\tfrac{\theta^2}{8}
+               (g_0-g_1)^TN^{-1}(g_0-g_1)]>0.                \tag{OIR1b}
+\]
+The same effects also admit the measure/prepare operation
+$\mathcal J_y(\rho)=\operatorname{tr}(E_y\rho)\sigma_y$ for any supplied
+normalized output states $\sigma_y$.
+\emph{Proof.} Normalization and the overlap $\int A_y(0)A_y(1)dy=k$
+follow by completing the Gaussian square. Both operations have outcome
+probability $\operatorname{tr}(E_y\rho)$. For a trusted half-Bell code input,
+the QND reference/source partial-transpose spectrum is
+$\{1/2,1/2,k/2,-k/2\}$, hence negativity $k/2$; the measure/prepare
+operation is entanglement breaking (EB) and yields a separable state.
+Thus equal probabilities need not imply equal instruments. A single later
+phase expectation can also be reproduced by an EB output state, so it is
+not an instrument-identification theorem.\hfill$\square$
+The finite code is not an identified continuous native encoding or an exact
+finite-dimensional representation of the canonical commutators. Repeating
+only the same diagonal records with no noncommuting intervention cannot
+replace independent surviving-source access.
+
+\paragraph{OIR1(c): transfer, noise and final records concern different cuts.}
+Assume a passive transfer $T$ with independently vacuum loss, and keep the
+entire output mode $u_j=Te_j/\sqrt{\eta_j}$, where
+$0<\eta_j=\|Te_j\|^2\leq1$. A hypothetical vacuum/single-photon half-Bell
+input gives
+\[
+ \rho_{RS}=\tfrac12\begin{pmatrix}
+ 1&0&0&\sqrt{\eta_j}\\0&0&0&0\\
+ 0&0&1-\eta_j&0\\\sqrt{\eta_j}&0&0&\eta_j
+ \end{pmatrix},\qquad
+ \operatorname{spec}(\rho_{RS}^{T_S})
+ =\{1/2,1/2,\eta_j/2,-\eta_j/2\}.                         \tag{OIR1c}
+\]
+\emph{Proof.} Trace the vacuum environment in
+$|1\rangle\mapsto\sqrt{\eta_j}|1,0\rangle+
+\sqrt{1-\eta_j}|0,1\rangle$ and diagonalize the nontrivial two-by-two
+partial-transpose block. Negativity is $\eta_j/2$; the $T=0$ limit is
+vacuum replacement. This is a conditional standard loss calculation.
+In the vacuum covariance convention $I/2$, the same real mean transfer
+$X=\operatorname{realify}(T)$ admits both
+\[
+ Y_{\rm vac}=(I-XX^T)/2,\qquad Y_{\rm EB}=(I+XX^T)/2.
+\]
+The second follows by heterodyne measurement and coherent re-preparation
+with amplitude transformed by $T$; it is EB. Thus $T$ alone does not
+identify noise or entanglement preservation.
+Finally, keeping only a classical record after any POVM gives
+\[
+ \rho_{RC}=\sum_n\operatorname{tr}_S[(I_R\otimes E_n)\rho_{RS}]
+                 \otimes|n\rangle\langle n|_C.
+\]
+Each nonzero positive reference block can be normalized; this is a convex
+product decomposition and hence EB on this input/reference-to-record cut.
+It does not identify an earlier interaction, which could have been coherent
+or QND before the source was discarded.\hfill$\square$
+These are standard quantum-channel alternatives\cite{Horodecki2003EB}, not
+evidence of a Tau-exclusive effect or destruction of the whole Parent.
+
+\paragraph{Finite apparatus decision, not Nature selection.}
+Borealis uses squeezed inputs, programmable Gaussian optical gates and
+absorptive TES photon-number detection\cite{Madsen2022Borealis}; its
+publisher supplement, section 2.4, describes photon absorption.
+Its loss-effective $T$ includes
+demultiplexing/detection loss before \emph{ideal} photon counting, not a
+literal measured transfer immediately before the TES film. Four consistent
+public $T/r$ packets have 736 positive physical input-column transfers,
+$0.230105396635\leq\eta_j\leq0.415603913624$. OIR1(c)'s Bell input
+was not performed: these are hypothetical model diagnostics, not measured
+entanglement or joint calibration confidence intervals. The figure-3b
+72/216 dimension mismatch remains unresolved, without cropping or repair.
+
+The fixed nonlinear surviving-source QND realization cannot be identified
+with the complete unconditional Gaussian premeasurement operation under
+OIR1(a)'s affine-incidence assumptions. The recorded optical photons are
+absorbed, not retained for the later access of OIR1(b). Neither observation
+excludes standard-compatible Tau count readouts, alternative incidence or
+Tau Core itself. Centered parity-invariant optical preparation and photon
+counting also leave sign partners indistinguishable, whereas a nonzero odd
+$Wq$ pointer separates them; the archived squeezed inputs supply no measured
+sign-probe contradiction. A coherent-reference count construction recovers
+a specified mean/noise under new phase and preparation premises, not this
+full QND instrument. The corresponding quantum count law must not be
+replaced by a classical independent-Poisson law for squeezed inputs.
+
+\paragraph{Source and evidence boundary.}
+The frozen native body/mass candidate and the 68 native plus 24 calibration
+artifacts are preserved. The Burgwal--Verhagen optomechanical attribution
+also remains \emph{not identified}; optical energy/force recovery does not
+select the native operator, coordinates and excitation jointly.
+Native source incidence, preparation, excess noise, detector calibration,
+stable $Q_{OS}$, SI units and Nature occupation remain open. No photon,
+galaxy or cosmological endpoint is scored here. A positive continuous
+carrier is not an operational quantizer. The detailed reproducible PC1--52
+audit, including applicability exclusions and countercontrols, is in the
+\href{https://github.com/tau-core-research/tau-core-theory/blob/main/docs/tau_core_seed_base_inverse_identifiability_and_constant_provenance_001.md#signed-photon-readout-and-a-common-resource-noise-identification}{signed-photon source-identification section}.
+% END SOURCE INSTRUMENT RECONCILIATION 20261009
 
 \section{Conclusion}
 
