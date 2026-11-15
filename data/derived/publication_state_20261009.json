@@ -5,9 +5,14 @@
       "source": "paperVI_submission_source/main.tex",
       "role": "OIR1-owner",
       "source_sha256_before_hsl_20261110": "7f9ad3afb7c1d61751006dc02546224f2ea9fe6bae96b5ae5a87d1b6c51cb5ad",
-      "source_sha256": "07c7441deaf0f0fb287cb863a41da3c731e8acb978e6e101f5c921d3a28968e1",
-      "current_source_update": "2026-11-10 full HRZ-HSL bounded chain import",
-      "source_sha256_before_full_chain_20261110": "7a08399643f379c7d0575b4f3eec47a928bd2a7ef0c2de0593f41b00f6305da7"
+      "source_sha256": "345b75116c472c024d35edce52f879e21e8a8cdc6ea857df27e72f0617c9727b",
+      "current_source_update": "Three-pillar mathematical optimization & single-postulate reduction (U1-U4, F1-F4, COV-DIR, HOMOG-K4, V19 lock; 2026-11-14)",
+      "source_sha256_before_full_chain_20261110": "7a08399643f379c7d0575b4f3eec47a928bd2a7ef0c2de0593f41b00f6305da7",
+      "source_sha256_before_f33_f40_20261113": "07c7441deaf0f0fb287cb863a41da3c731e8acb978e6e101f5c921d3a28968e1",
+      "source_sha256_before_f41_f43_20261113": "dfb0593c956b548c7b9868c453f87719de2899d7f1a98ccf53c10f43b1c2dfcc",
+      "source_sha256_before_f46_20261113": "e8b60dec297ea6d23afd41a19eca74fb57bf0931878052f6dea11bc4179ccb5b",
+      "source_sha256_before_f49_20261113": "a5b65413d8f78beb5896326b078193ae2ca1c0e4d8da8a77bea6a0f018e717b1",
+      "source_sha256_before_20261114": "bade4c7b069fb6bec2409c18d9f4875d3005598030f338172367e4507b108294"
     }
   ],
   "empirical_scores_changed": false,

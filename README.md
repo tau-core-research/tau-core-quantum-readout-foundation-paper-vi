@@ -869,3 +869,7 @@ Foundation VII-A retains the detailed response derivation and compact receipts.
 Negative controls, numerical warning qualifications and physical-selection,
 particle, spatial/renormalized, stability and cosmology gaps remain explicit.
 This is a local manuscript/PDF update, not a publication or new empirical score.
+
+## Three-pillar closure and postulate-reduction update (2026-11-14)
+
+Foundation Paper VI (`paperVI_submission_source/main.tex` and `public_data_audit_supplement.tex`, revised 14 November 2026) expands first-use acronyms (`BRAC`, `ACT-PCLOSE1`, `ECTR`, `CSSR`), consolidates all post-Conclusion material before `Conclusion`, and records the 14 November 2026 `U1`/`U2`/`F1` spinor-projector normalcy (`Pi^2 = Pi`, `J_PB = 1/27`) and intensive KMS UV-invariance (`0.00e+00`) interface (`POST-OCC-NU1`; `NATURE_LEVEL_CLOSURE = false`).
