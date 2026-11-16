@@ -29,7 +29,7 @@
 
 \title{\textbf{Quantum Readout from Observer-Relative Lossy Descent}\\
 \large Tau Core Foundation Paper VI: A finite conditional quantum terminal}
-\author{Jozsef Olcsak}
+\author{Jozsef Olcsak\\{\small ORCID: \href{https://orcid.org/0009-0003-7311-6522}{0009-0003-7311-6522}}}
 \date{Last revised: 14 November 2026}
 
 \begin{document}
@@ -3253,16 +3253,35 @@ $W_Q^\dagger h_QW_Q=W_G^\dagger h_GW_G=K_*$, it is also an isometry:
 $T_{G\leftarrow Q}^\dagger h_GT_{G\leftarrow Q}=h_Q$.
 
 The quantum phase normalization in the declared common-action completion
-fixes that shared unit as
+fixes that shared unit across all four quantum readout terminals simultaneously
+(\texttt{SHR-QGPLANCKPARENT1}, \texttt{SHR-QGPLANCKXTERM1}, \texttt{SHR-QGPLANCKQUOT1}):
+because the rooted rank-4 body carries a primitive phase circle
+$\mathcal F_{\rm phase}\cong S^1$ with $H_1(\mathcal F_{\rm phase};\mathbb Z)\cong\mathbb Z$
+and period $\oint_{\gamma_*}\alpha_A=2\pi U_A=S_0>0$ ($n=+1$), quantizing the
+single prequantum line forces a rank-1 calibration Jacobian
+$\mathcal J_A=(1,1,1,1)^T\ell_A$ ($\operatorname{rank}\mathcal J_A=1$) across
+interference phase $\exp(iS/U_A)$, canonical commutation $[\hat q,\hat p]=iU_A$,
+Schr\"odinger clock evolution $iU_A\partial_t\psi=H_*\psi$, and minimum pure seed
+covariance $\Sigma_s=(U_A/2)\operatorname{diag}(\Omega_s^{-1},\Omega_s)$ with
+unit gains $(g_\phi,g_{\rm CCR},g_{\rm clk},g_\Sigma)=(1,1,1,1)$:
 \begin{equation}
  \mathcal A_*=\frac{S_0}{2\pi}=U_A=\hbar.
  \label{eq:papervi-common-action-lock}
 \end{equation}
 This strengthens the interpretation of $U_A$: it is not an independently
 attached quantum constant once the common completion and standard phase limit
-are fixed.  It remains a conditional calibration.  The narrow physical
-base--seed reduct has not been shown to own $W_Q,W_G$ or to select the
-SHR--PSAL--QPHASE completion, and the SI value of $\hbar$ is not predicted.
+are fixed.  Combined with the gravity terminal (\texttt{SHR-QGGRAVLOCK1}), the
+two-orientation ($\nu=\pm 1$) Hodge scale $\ell_H^2=48\pi\ell_P^2$
+($\mathcal I_{\hbar G}=G\hbar/(c^3\ell_H^2)=1/(48\pi)$) and the single-orientation
+($|\nu|=1$) $K_4$ simplicial plaquette scale $\ell_*^2=\frac{1}{2}\ell_H^2=N!\,\pi\,\ell_P^2=24\pi\ell_P^2$
+define the unit-free geometric Planck invariant
+$\tilde\hbar_{\rm geom}:=\hbar G/(c^3\ell_*^2)=2\mathcal I_{\hbar G}=1/(24\pi)$
+(alongside the internal projector weight $\tilde\hbar_{\rm alg}=r_{\rm seed}=1/N=1/4$).
+Within Paper~VI's narrow scope, Eq.~\eqref{eq:papervi-common-action-lock}
+remains a conditional calibration: the narrow physical base--seed reduct alone
+has not been shown to own $W_Q,W_G$ without the $K_4$ Clifford-projector
+closure (\texttt{Theorem U1}), and the decimal SI value of $\hbar$ merely
+parametrizes the human metrological orbit (\texttt{Paper V}).
 
 Within an occupied absolutely irreducible common source sector, this inherited
 transport is no longer merely a formula between supplied maps.  Multiplicity-one
@@ -3967,7 +3986,7 @@ The chosen Slater lift supplies the covariance, not an arbitrary Fock state reco
 
 \subsection{Three-pillar spinor-projector normalcy and intensive KMS UV-invariance (14 November 2026)}
 \label{sec:three-pillar-papervi-20261114}
-In the 14 November 2026 upstream derivations (\texttt{U1}, \texttt{U2}, \texttt{F1}), Chung's normalized Laplacian on the minimal $K_4$ simplex coincides identically with the Clifford Gram matrix, $\widehat{\Delta}_{K_4}=D^{-1/2}L_{K_4}D^{-1/2}=\frac{4}{3}P_\perp=G_{\mathrm{Cl}}$, unifying raw spectral projection (\texttt{C2}) with unit-Clifford normalization (\texttt{C1}) at $r_{\mathrm{seed}}=\omega(p_i)=1/4$ without entropic barrier tuning. Because the GNS state space on $M_2(\mathbb{C})$ consists of rank-1 pure spinor projectors satisfying $\Pi^2=\Pi$ ($\dot{r}\equiv 0$), the radial slope $\Gamma'_{1\text{-loop}}(1/4)<0$ is strictly normal to $\mathcal{P}_1(M_2(\mathbb{C}))$, while the tangential $S^2$ Hessian at $+v_{\mathrm{root}}$ is $+4I_2\succ 0$ and the conditional projective-to-body Jacobian equals $J_{PB}=g_{FFL}^{-3}=1/27$ (\texttt{PBC-J1}). Furthermore, extensive $a_{\mathrm{UV}}^{-2}$ vacuum entanglement divergences on spherical causal balls renormalize $1/(4G_{\mathrm{ren}})$ symmetrically (\texttt{U2}), leaving intensive KMS horizon ratios ($\eta_{\mathrm{hor}}\equiv 1$) UV-invariant to \texttt{0.00e+00} under one remaining ontic axiom (\texttt{POST-OCC-NU1}; \texttt{NATURE\_LEVEL\_CLOSURE = false}). None of these upstream results alters the public-data identifiability boundary of \texttt{OIR1} or claims an observed quantum deviation.
+In the 14 November 2026 upstream derivations (\texttt{U1}, \texttt{U2}, \texttt{F1}), Chung's normalized Laplacian on the minimal $K_4$ simplex coincides identically with the Clifford Gram matrix, $\widehat{\Delta}_{K_4}=D^{-1/2}L_{K_4}D^{-1/2}=\frac{4}{3}P_\perp=G_{\mathrm{Cl}}$, unifying raw spectral projection (\texttt{C2}) with unit-Clifford normalization (\texttt{C1}) at $r_{\mathrm{seed}}=\omega(p_i)=1/4$ without entropic barrier tuning. Because the GNS state space on $M_2(\mathbb{C})$ consists of rank-1 pure spinor projectors satisfying $\Pi^2=\Pi$ ($\dot{r}\equiv 0$), the radial slope $\Gamma'_{1\text{-loop}}(1/4)<0$ is strictly normal to $\mathcal{P}_1(M_2(\mathbb{C}))$, while the tangential $S^2$ Hessian at $+v_{\mathrm{root}}$ is $+4I_2\succ 0$ and the conditional projective-to-body Jacobian equals $J_{PB}=g_{FFL}^{-3}=1/27$ (\texttt{PBC-J1}). Furthermore, extensive $a_{\mathrm{UV}}^{-2}$ vacuum entanglement divergences on spherical causal balls renormalize $1/(4G_{\mathrm{ren}})$ symmetrically (\texttt{U2}), leaving intensive KMS horizon ratios ($\eta_{\mathrm{hor}}\equiv 1$) UV-invariant to \texttt{0.00e+00} under one remaining ontic axiom (\texttt{POST-OCC-NU1}; \texttt{NATURE\_LEVEL\_CLOSURE = false}). While the decimal SI value $\hbar_{\mathrm{SI}} = 1.054571817\times 10^{-34}\;\mathrm{J\cdot s}$ belongs to the human metrological quotient (\texttt{Paper~V M4}), in natural simplicial-geometric units ($G=c=\ell_*=1$, \texttt{Theorems~D5, M1}, \texttt{F54 / Gate E30}) the unit-free Planck action constant is locked algebraically by the $N!=4!=24$ permutations of $K_4$ to $\tilde{\hbar}_{\mathrm{geom}} := \hbar G/(c^3\ell_*^2) = \frac{1}{N!\pi} = \frac{1}{24\pi} = \frac{u}{\sqrt{3}\pi} \approx 0.0132629$ (with internal projector norm $\tilde{\hbar}_{\mathrm{alg}} = r_{\mathrm{seed}} = \frac{1}{N} = \frac{1}{4}$, $u = \frac{\sqrt{3}}{24}$). None of these upstream results alters the public-data identifiability boundary of \texttt{OIR1} or claims an observed quantum deviation.
 
 \section{Conclusion}
 
